@@ -1,0 +1,27 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 85vh;
+
+    font-family: 'Neuton', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0 0.5rem #000;
+
+    color: #fff;
+    background-color: #186e90;
+
+    user-select: none;
+    cursor: default;
+    transition: all 0.3s;
+    z-index: 5;
+    // &:hover {
+    //     transform: scale(1.05);
+    // }
+}

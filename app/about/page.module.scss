@@ -1,0 +1,44 @@
+.aboutSection {
+    padding: 1vmin 2cqmin;
+
+    font-family: 'Cabin', sans-serif;
+    font-size: clamp(1.3rem, 2vw, 2rem);
+
+    &__title {
+        font-size: clamp(2rem, 2.5vw, 3rem);
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        text-align: center;
+
+        color: #186e90;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 1.5vmin 0 1vmin 0;
+    }
+
+    &__link {
+
+        font-family: 'Neuton', sans-serif;
+        font-size: clamp(1.3rem, 2vw, 2rem);
+        font-weight: 700;
+        text-align: center;
+
+        color: #186e90;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .aboutSection {
+        padding: 1vmin 5vmin;
+    }
+      
+    
+}

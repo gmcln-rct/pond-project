@@ -1,0 +1,85 @@
+.selectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 3vmin 0 1vmin 0;
+}
+
+.formLabel {
+  margin: 0 2vmin;
+  padding: 0 1vmin 1vmin 0;
+
+  font-family: "Cabin", sans-serif;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  font-weight: 600;
+  text-align: center;
+
+  color: #186e90;
+}
+
+.selectDropdown {
+  /* styling */
+  background-color: white;
+  border: thin solid #186e90;
+  border-radius: 4px;
+  display: inline-block;
+
+  margin: 0 0 2vmin 0;
+  padding: 0.4em 3.5em 0.4em 1em;
+
+  font-family: "Cabin", sans-serif;
+  font-size: clamp(1.2rem, 1.5vw, 2rem);
+  font-weight: 600;
+  line-height: 1.5em;
+
+  color: hsl(197, 41%, 33%);
+
+  /* reset */
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-image: linear-gradient(45deg, transparent 50%, #186e90 50%),
+    linear-gradient(135deg, #186e90 50%, transparent 50%),
+    linear-gradient(to bottom, hsl(197, 71%, 93%), hsl(197, 71%, 83%));
+  background-position: calc(100% - 15px) calc(1em ),
+    calc(100% - 10px) calc(1em), 100% 0;
+  background-size: 8px 8px, 8px 8px, 1.8em 3em;
+  background-repeat: no-repeat;
+}
+
+.selectDropdown:focus {
+  background-image: linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    linear-gradient(to right, gray, gray);
+  background-position: calc(100% - 10px) 1em, calc(100% - 15px) 1em, 100% 0;
+  background-size: 8px 8px, 8px 8px, 1.8em 3em;
+  background-repeat: no-repeat;
+  border-color: grey;
+  outline: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .selectContainer {
+    margin: 2vmin 0 2vmin 0;
+  }
+
+  .selectDropdown {
+    padding: 0.3em 3.5em 0.3em 1em;
+    // background-size: 5px 5px, 5px 5px, 1.8em 2.2em;
+    background-position: calc(100% - 20px) calc(1em - 2px),
+      calc(100% - 15px) calc(1em - 2px), 100% 0;
+  }
+
+  .selectDropdown:focus {
+    background-position: calc(100% - 15px) calc(1em - 2px), calc(100% - 20px) calc(1em - 2px), 100% 0;
+
+  }
+  
+}
+

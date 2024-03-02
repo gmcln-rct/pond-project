@@ -1,0 +1,56 @@
+.controlsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  margin: 10vmin 0 0 0;
+
+  font-family: "Neuton", sans-serif;
+
+  &__button {
+    //  width: 50vw;
+    margin-right: 4vmin;
+    padding: 0.7vmin 2.5vmin;
+
+    font-size: clamp(1.5rem, 2vw, 1.8rem);
+
+    color: white;
+    background-color: #009de6;
+
+    border: 2px solid #009de6;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: white;
+      color: #009de6;
+    }
+
+    &:active {
+      transform: scale(1.1);
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// Landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .controlsContainer {
+    margin: 2vmin 0;
+  }
+}
+
+// Desktop
+@media screen and (min-width: 768px) {
+  .controlsContainer {
+    margin: 2vmin 0 2vmin 0;
+  }
+}
