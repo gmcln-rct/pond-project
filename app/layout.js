@@ -9,9 +9,10 @@ import Footer from "./components/footer";
 import Script from "next/script";
 
 // Fonts
-import { Syne } from "next/font/google";
-import { Cabin } from "next/font/google";
-import { Neuton } from "next/font/google";
+
+import { WorkSans } from "next/font/google";
+import { ProximaNova } from "next/font/google";
+import { MinionPro } from "next/font/google";
 
 export const metadata = {
   title: "Ponder | Pond Management and Monitoring",

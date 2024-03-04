@@ -1,51 +1,37 @@
-
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 
 import styles from "./header.module.scss";
 
-import InfoRoundedIcon from '@mui/icons-material/InfoRounded';
+import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
 
 export default function Header() {
   return (
-    <nav className={styles.navBar} >
-        <Link className={styles.navBrandContainer} href="/">
-          <Image src="/images/pond-test.png" alt="Verbing Logo" className={styles.brandLogoLg} width={75} height={75} />
+    <nav className={styles.navBar}>
+      <div className={styles.navBar__linkscontainer}>
+        <Link className={styles.navBar__brandcontainer} href="/">
+          <Image
+            src="/images/pond-test.png"
+            alt="Verbing Logo"
+            className={styles.navBar__brandlogo}
+            width={75}
+            height={75}
+          />
 
-          <span  className={styles.navBrand}>Ponder</span>
+          <span className={styles.navBrand}>Ponder</span>
         </Link>
-        <div className={styles.navLinks}>
-          {/* <Link href="/services">
-            Services
-          </Link> */}
-              {/* <Dropdown>
-      <DropdownTrigger>
-        <Button 
-          variant="bordered" 
-        >
-          Open Menu
-        </Button>
-      </DropdownTrigger>
-      <DropdownMenu aria-label="Dynamic Actions" items={items}>
-        {(item) => (
-          <DropdownItem
-            key={item.key}
-            color={item.key === "delete" ? "danger" : "default"}
-            className={item.key === "delete" ? "text-danger" : ""}
-          >
-            {item.label}
-          </DropdownItem>
-        )}
-      </DropdownMenu>
-    </Dropdown> */}
-          <Link href="/quiz">
-            Success Stories
-          </Link>
-          <Link href="/about">
-            <InfoRoundedIcon className={styles.navIcon} sx={{ fontSize: 40}} />
-          </Link>
-        </div>
-    </nav>
-  )
-}
+        <div className={styles.navBar__links}>
+          <Link href="/quiz">Services</Link>
 
+          <Link href="/quiz">Success Stories</Link>
+          <Link href="/about">About Us</Link>
+        </div>
+      </div>
+      <div className={styles.navBar__ctacontainer}>
+        <Link href="/quiz">
+          <button className={styles.navBar__cta}>Schedule A Free Visit</button>
+        </Link>
+      </div>
+    </nav>
+  );
+}

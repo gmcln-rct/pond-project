@@ -10,33 +10,86 @@
   background-color: #274b3d;
 
   z-index: 100;
-}
 
-.navBrandContainer {
+  &__linkscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navBrand {
+    font-family: "Syne", sans-serif;
+    // font-family: 'Josefin Sans', sans-serif; // 'Syne', sans-serif;
+    font-size: clamp(2rem, 2.5vw, 3rem);
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+  
+    color: #fff;
+  }
+  &__brandcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // text-decoration: none;
+  }
+  
+  &__brandcontainer:hover {
+    color: #f4f4f4;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    margin-left: auto;
+    padding: 0 1vw;
+    
+  }
+
+  &__links a {
+    margin: 0 1vw;
+
+    font-family: "Proxima Nova", sans-serif;
+    font-size: clamp(1.2rem, 1.4vw, 1.5rem);
+    font-weight: 400;
+  
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s ease-in-out;
+  }
+
+  &__links a:hover {
+    color: hsl(284, 33%, 72%);
+    font-weight: 600;
+  }
+&__ctacontainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   // text-decoration: none;
 }
+  &__cta {
+    padding: 2vmin 4vmin;
 
-.navBrandContainer:hover {
-  color: #f4f4f4;
+    background-color: aqua;
+  }
+
+
 }
 
-.navBrand {
-  font-family: "Syne", sans-serif;
-  // font-family: 'Josefin Sans', sans-serif; // 'Syne', sans-serif;
-  font-size: clamp(2rem, 2.5vw, 3rem);
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
 
-  text-decoration: none;
-  letter-spacing: 0.1rem;
 
-  color: #fff;
-}
+
 
 // .brandLogoSm {
 //   // width: 55px;
@@ -63,15 +116,7 @@
     color: hsl(284, 33%, 72%);
   }
 }
-.navLinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 
-  margin-left: auto;
-  padding: 0 1vw;
-}
 
 .navLinks a {
   margin: 0 1vw;
