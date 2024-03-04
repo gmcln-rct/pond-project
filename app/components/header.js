@@ -18,7 +18,7 @@ export default function Header() {
             height={75}
           />
 
-          <span className={styles.navBrand}>Ponder</span>
+          <span className={styles.navBar__brandtext}>Ponder</span>
         </Link>
         <div className={styles.navBar__links}>
           <Link href="/quiz">Services</Link>

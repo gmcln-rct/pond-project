@@ -2,7 +2,7 @@ import styles from "./infounit.module.scss";
 
 import Image from "next/image";
 
-export default function infounit() {
+export default function InfoUnit() {
   return (
     <section className={styles.infounit}>
         <div className={styles.infounit__section}>
