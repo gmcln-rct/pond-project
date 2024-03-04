@@ -29,7 +29,7 @@ export default function Header() {
       </div>
       <div className={styles.navBar__ctacontainer}>
         <Link href="/quiz">
-          <button className={styles.navBar__cta}>Schedule A Free Visit</button>
+          <button className={styles.navBar__cta}>Schedule Free Visit</button>
         </Link>
       </div>
     </nav>

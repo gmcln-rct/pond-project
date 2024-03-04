@@ -63,7 +63,7 @@
     font-size: clamp(1.2rem, 1.4vw, 1.5rem);
     font-weight: 400;
 
-    color:#155634;
+    color: #155634;
     text-decoration: none;
 
     transition: 0.3s ease-in-out;
@@ -71,7 +71,6 @@
 
   &__links a:hover {
     color: #29aef2;
-
   }
   &__ctacontainer {
     display: flex;
@@ -81,11 +80,13 @@
     // text-decoration: none;
   }
   &__cta {
+    margin: 0 4vmin 0 0;
     padding: 1.2vmin 3vmin;
 
     font-size: clamp(1.2rem, 1.4vw, 1.5rem);
     font-family: "Work Sans", sans-serif;
     font-weight: 600;
+
     color: #fff;
     background-color: hsl(200, 89%, 55%);
     border: 2px solid #fff;
@@ -103,8 +104,6 @@
     }
   }
 }
-
-
 
 // Landscape
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
