@@ -1,0 +1,32 @@
+.hero {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/pond-hero.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: fit-content;
+  color: #fafafc;
+  padding: 8vmin 0 2vmin 0;
+//   padding: 15rem 3rem 6rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 3vmin;
+    text-align: center;
+    // gap: 1rem;
+  }
+
+  &__title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+
+  &__subtitle {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+  }
+}

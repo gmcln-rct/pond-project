@@ -1,13 +1,17 @@
 import styles from "./page.module.scss";
 
-import VerbList from "./components/verb-list";
+import Hero from "./components/hero";
+import SuccessStories from "./success/page";
+import InfoUnit from "./components/infounit";
 
 export default function Home() {
 
   return (
     <>
       <section className={styles.main}>
-        <VerbList />
+        <Hero />
+        <SuccessStories />
+        <InfoUnit />
       </section>
     </>
   );

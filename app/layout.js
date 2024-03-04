@@ -14,10 +14,10 @@ import { Cabin } from "next/font/google";
 import { Neuton } from "next/font/google";
 
 export const metadata = {
-  title: "Verbing | Verb Conjugation Flashcards",
+  title: "Ponder | Pond Management and Monitoring",
   template: "%s | Verbing",
   description:
-    "Verb conjugation flashcards for Brazilian Portuguese language learners, and ninjas.",
+    "Little Bear Environmental Consulting LLC provides a variety of natural resource services for municipalities, non-profit organizations, and private landowners.",
 };
 
 export default function RootLayout({ children }) {

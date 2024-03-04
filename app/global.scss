@@ -67,27 +67,15 @@ h6 {
 // START GLOBAL STYLES ********
 
 main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: flex-start;
+  // align-items: center;
 
   // padding: 1rem 2rem;
 
-  min-height: 85vh;
+  // min-height: 85vh;
   // min-height: 100vh;
 
-  background-image: linear-gradient(
-    0deg,
-    hsl(286deg 38% 91%) 0%,
-    hsl(267deg 44% 93%) 21%,
-    hsl(250deg 50% 94%) 30%,
-    hsl(235deg 57% 95%) 39%,
-    hsl(224deg 65% 95%) 46%,
-    hsl(216deg 70% 96%) 54%,
-    hsl(210deg 73% 96%) 61%,
-    hsl(205deg 75% 97%) 69%,
-    hsl(200deg 78% 98%) 79%,
-    hsl(195deg 100% 99%) 100%
-  );
+
 }
