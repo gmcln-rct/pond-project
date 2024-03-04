@@ -88,7 +88,7 @@
     font-weight: 600;
 
     color: #fff;
-    background-color: hsl(200, 89%, 55%);
+    background-color: hsl(200, 89%, 35%);
     border: 2px solid #fff;
     border-radius: 15px;
 
@@ -98,8 +98,8 @@
     transition: 0.3s ease-in-out;
 
     &:hover {
-      background-color: #fff;
-      color: #29aef2;
+      background-color: hsl(200, 89%, 75%);
+      color: hsl(200, 89%, 25%);
       border: 2px solid #29aef2;
     }
   }
