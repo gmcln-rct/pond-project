@@ -90,9 +90,9 @@ export default function RootLayout({ children }) {
         <Header />
         <main>{children}</main>
         {/* <Share /> */}
-        <Footer />
+        {/* <Footer /> */}
         {/* <GoogleAnalytics gaId="G-PLTQ0Q1S3Z" /> */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-PLTQ0Q1S3Z" />
+        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=G-PLTQ0Q1S3Z" /> */}
       </body>
     </html>
   );

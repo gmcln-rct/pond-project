@@ -1,10 +1,12 @@
 import styles from "./page.module.scss";
 
-export default function ContactUs() {
+import ContactForm from "../components/contactform";
+
+export default function ContactPage() {
   return (
     <section className={styles.contact}>
-      {/* <ContactForm /> */}
-    <form className={styles.contact__form}>
+      <ContactForm />
+    {/* <form className={styles.contact__form}>
       <h1>Contact Us</h1>
       <label className={styles.contact__label}>
         Name:
@@ -24,7 +26,7 @@ export default function ContactUs() {
         <textarea name="message" />
         </label>
         <input className={styles.contact__button}type="submit" value="Submit" />
-    </form>
+    </form> */}
     </section>
   )
 }

@@ -1,5 +1,6 @@
 .aboutSection {
-    padding: 1vmin 2cqmin;
+    height: fit-content;
+    padding: 1vmin 5vmin;
 
     font-family: 'Cabin', sans-serif;
     font-size: clamp(1.3rem, 2vw, 2rem);
@@ -17,10 +18,12 @@
     &__content {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
 
         margin: 1.5vmin 0 1vmin 0;
+
+        font-size: clamp(1.2rem, 1.5vw, 1.5rem);
     }
 
     &__link {
@@ -33,12 +36,18 @@
         color: #186e90;
         text-decoration: none;
     }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        margin: 1.5vmin 0 1vmin 0;
+
+        font-size: clamp(1.2rem, 1.5vw, 1.5rem);
+    }
 }
 
-@media screen and (min-width: 768px) {
-    .aboutSection {
-        padding: 1vmin 5vmin;
-    }
-      
+
     
-}

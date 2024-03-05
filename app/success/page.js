@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./page.module.scss";
 
-export default function SuccessStories() {
+export default function SuccessPage() {
 
 
   return (

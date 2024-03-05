@@ -1,24 +1,30 @@
-// Quiz base on brazil-verbs
-"use client";
-import { useState, useEffect } from "react";
+
 import styles from "./page.module.scss";
 
-import QuizSelector from "../components/quiz-selector";
 
-import createRandomQuestionsArray from "../_utils/randomArray";
 
-export default function QuizPage() {
-  const [verbTense, setVerbTense] = useState("present");
-  const [currentQuestionNumber, setCurrentQuestionNumber] = useState(1);
-  const [questions, setQuestions] = useState([]);
-  const randomArray = createRandomQuestionsArray(verbTense);
-  // console.log("Randoma array ", randomArray);
+export default function ServicesPage() {
+
+  const services = [
+    "Pond & Lake Management",
+    "Invasive Species Management & Restoration",
+    "Environmental Project Management",
+    "Ecological Surveys & Mapping",
+    "Environmental Permits",
+    "Water Quality & Ecosystem Health Monitoring",
+    "Educational Outreach & Community Engagement",
+    "Grant Writing & Environmental Compliance"
+  ];
 
   return (
     <section>
-      <h1>Quiz</h1>
-      <p>Test your language ninja skills</p>
-      <QuizSelector verbTense={verbTense} setVerbTense={setVerbTense} />
+      <h1>Our Services</h1>
+      <p>What we do?</p>
+      <ul>
+        {services.map((service, index) => (
+          <li key={index}>{service}</li>
+        ))}
+      </ul>
     </section>
   );
 }

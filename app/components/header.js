@@ -21,14 +21,14 @@ export default function Header() {
           <span className={styles.navBar__brandtext}>Ponder</span>
         </Link>
         <div className={styles.navBar__links}>
-          <Link href="/quiz">Services</Link>
+          <Link href="/services">Services</Link>
 
-          <Link href="/quiz">Success Stories</Link>
+          <Link href="/success">Success Stories</Link>
           <Link href="/about">About Us</Link>
         </div>
       </div>
       <div className={styles.navBar__ctacontainer}>
-        <Link href="/quiz">
+        <Link href="/contact">
           <button className={styles.navBar__cta}>Schedule Free Visit</button>
         </Link>
       </div>
