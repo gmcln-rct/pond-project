@@ -4,12 +4,13 @@
   justify-content: space-between;
   align-items: center;
 
-  width: 100vw;
-  padding: 2vh 3vw;
+  width: 100%;
+  padding: 1vh 3vw;
 
   // background-color: #274b3d;
   // background-color: #155634;
-  background-color: white;
+  // background-color: white;
+  background-color: hsl(157, 22%, 82%);
 
   // z-index: 100;
 
@@ -117,21 +118,21 @@
 
 // Desktop
 @media screen and (min-width: 768px) {
-  .navBar {
-    padding: 0.5vh 1vw;
-  }
+  // .navBar {
+  //   padding: 0.5vh 1vw;
+  // }
 
-  .brandLogoSm {
-    display: none;
-  }
-  .brandLogoLg {
-    display: block;
-  }
+  // .brandLogoSm {
+  //   display: none;
+  // }
+  // .brandLogoLg {
+  //   display: block;
+  // }
 
-  .brandTextSm {
-    display: none;
-  }
-  .brandTextLg {
-    display: block;
-  }
+  // .brandTextSm {
+  //   display: none;
+  // }
+  // .brandTextLg {
+  //   display: block;
+  // }
 }

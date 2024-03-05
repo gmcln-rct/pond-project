@@ -7,10 +7,10 @@ export default function ServicesPage() {
 
   const services = [
     "Pond & Lake Management",
+    "Environmental Permits",
     "Invasive Species Management & Restoration",
     "Environmental Project Management",
     "Ecological Surveys & Mapping",
-    "Environmental Permits",
     "Water Quality & Ecosystem Health Monitoring",
     "Educational Outreach & Community Engagement",
     "Grant Writing & Environmental Compliance"
