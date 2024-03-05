@@ -1,12 +1,30 @@
-import React from 'react'
+import styles from "./page.module.scss";
 
 export default function ContactUs() {
   return (
-    <form>
-      <label>
+    <section className={styles.contact}>
+      {/* <ContactForm /> */}
+    <form className={styles.contact__form}>
+      <h1>Contact Us</h1>
+      <label className={styles.contact__label}>
         Name:
-        <input type="text" name="name" />
+        <input className={styles.contact__input}type="text" name="name" />
       </label>
-      <input type="submit" value="Submit" />
+      <label className={styles.contact__label}>
+        Email:
+        <input className={styles.contact__input}type="text" name="email" />
+      </label>
+      <label className={styles.contact__label}>
+        Phone:
+        <input className={styles.contact__input}type="number" name="phone" />
+      </label>
+
+      <label className={styles.contact__label}>
+        Message:
+        <textarea name="message" />
+        </label>
+        <input className={styles.contact__button}type="submit" value="Submit" />
     </form>
+    </section>
+  )
 }
