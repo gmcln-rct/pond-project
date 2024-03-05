@@ -11,13 +11,7 @@ export default function Home() {
       <section className={styles.main}>
         <Hero />
         <InfoContainer />
-        {/* <SuccessStories /> */}
-        {/* <div className={styles.homepage__container}>
-          <InfoUnit />
-          <InfoUnit />
-          <InfoUnit />
-          <InfoUnit />
-        </div> */}
+
       </section>
     </>
   );

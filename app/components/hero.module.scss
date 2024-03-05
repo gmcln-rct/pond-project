@@ -26,6 +26,7 @@
 
   &__subtitle {
     font-size: clamp(1rem, 2.5vw, 2rem);
+    line-height: clamp(1.5rem, 2.5vw, 2.5rem);
     font-weight: 400;
     letter-spacing: 0.1rem;
   }
