@@ -14,12 +14,12 @@
 
         width: 50vw;
         margin: 1dvh 0;
-        padding: 1vh 3vw;
+        padding: 1vh 2vw;
 
         font-size: clamp(1.5rem, 2vw, 2.5rem);
 
         color: #fff;
-        background-color: hsl(157, 82%, 22%);
+        background-color: #0a6643;
 
         border-radius: 10px;
 
@@ -40,7 +40,7 @@
 
         &::marker {
 
-            color: red;
+            color: hsl(104, 45%, 69%);
         }
     }
 
