@@ -24,7 +24,7 @@ export default function InfoContainer() {
         imagePlacement="left"
       />
       <InfoUnit
-        title="Permits & Grants"
+        title="Environmental Permits & Grants"
         description="Preparing environmental permits and grant applications for pond and lake management projects."
         image="/images/pond-temp-7.jpg"
         imagePlacement="right"

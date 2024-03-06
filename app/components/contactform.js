@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <section className={styles.contact}>
     <form className={styles.contact__form}>
-      {/* <h1>Contact Us</h1> */}
+      <h1 className={styles.contact__title}>Contact us to learn more about our services.</h1>
       <label className={styles.contact__label}>
         Name:
         <input className={styles.contact__input}type="text" name="name" />

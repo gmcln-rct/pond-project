@@ -57,24 +57,20 @@ export default function ServicesPage() {
 
   return (
     <section className={styles.services}>
-      <h1>Our Services</h1>
-      <p>What we do?</p>
+      <h1 className={styles.services__header}>Our Services</h1>
+      <p className={styles.services__subheader}>
+        We provide a variety of enviornmental services:
+      </p>
       {/* <details className={styles.services__details}>
         <summary>Certifications</summary>
         <p>Our services include:</p> */}
 
-{services.map((service, index) => (
-  <details key={index} className={styles.services__details}>
-    <summary className={styles.services__title}>{service.title}</summary>
-    <p className={styles.services__description}>{service.description}</p>
-
-      </details>
-    ))}
-      {/* <ul>
-        {services.map((service, index) => (
-          <li key={index}>{service}</li>
-        ))}
-      </ul> */}
+      {services.map((service, index) => (
+        <details key={index} className={styles.services__details}>
+          <summary className={styles.services__title}>{service.title}</summary>
+          <p className={styles.services__description}>{service.description}</p>
+        </details>
+      ))}
     </section>
   );
 }

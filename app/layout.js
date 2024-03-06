@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="Glenn McClanan, Rio Create LLC" />
-        <meta
+        <meta name="robots" content="noindex, nofollow" />
+        {/* <meta name="author" content="Glenn McClanan, Rio Create LLC" /> */}
+        {/* <meta
           name="keywords"
           content="brazilian portuguese, verb conjugation, flashcards, language learning, verbs, flashcards, education, Brazil"
         />
@@ -60,7 +60,7 @@ export default function RootLayout({ children }) {
         />
 
         <link rel="canonical" href="https://verbing.ninja" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" /> */}
         {/* <link
           rel="apple-touch-icon"
           sizes="180x180"

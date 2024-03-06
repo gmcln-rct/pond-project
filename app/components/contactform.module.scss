@@ -19,7 +19,7 @@
       align-items: center;
       justify-content: center;
   
-      width: 30vw;
+      width: 40vw;
       margin: 4dvh 0;
       padding: 3vmin 0;
   
@@ -39,6 +39,7 @@
     }
   
     &__input {
+      min-width: 350px;
       margin: 0 0 2vmin 2vmin;
       padding: 1vmin 2vmin;
   
@@ -76,6 +77,14 @@
         color: #29aef2;
         background-color: #fff;
       }
+    }
+
+    &__title {
+      margin: 0 0 2dvh 0;
+      padding: 0 2dvw;
+  
+      font-size: 1.8rem;
+      font-weight: 700;
     }
   }
   
