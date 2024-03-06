@@ -17,9 +17,15 @@ export default function ServicesPage() {
   ];
 
   return (
-    <section>
+    <section className={styles.services}>
       <h1>Our Services</h1>
       <p>What we do?</p>
+      <details className={styles.services__details}>
+      <summary>Certifications</summary>
+      <p>Our services include:</p>
+      <p>Our services include:</p>
+      <p>Our services include:</p>
+      </details>
       <ul>
         {services.map((service, index) => (
           <li key={index}>{service}</li>
