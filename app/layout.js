@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
         <meta
           property="og:image"
           content="https://site-social-images.s3.amazonaws.com/verbing-ogimage.jpg"
-        />
+        />`
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@glennmcclanan" />

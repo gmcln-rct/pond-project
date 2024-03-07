@@ -22,9 +22,10 @@ export default function Header() {
         </Link>
         <div className={styles.navBar__links}>
           <Link href="/services">Services</Link>
+          <Link href="/certifications">Certifications</Link>
 
           <Link href="/success">Success Stories</Link>
-          <Link href="/about">About Us</Link>
+          {/* <Link href="/about">About Us</Link> */}
         </div>
       </div>
       <div className={styles.navBar__ctacontainer}>
