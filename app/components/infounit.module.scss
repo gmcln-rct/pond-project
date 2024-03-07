@@ -5,12 +5,14 @@
   // width: 60vw;
   // height: 250px;
   width: 50vw;
-  height: 300px;
+  min-height: 300px;
 
   margin: 0 0 4vmin 0;
+  padding: 2vmin 0;
 
 //   background-color: #ece9d0;
-background-color: #2d2c2d;
+// background-color: #2d2c2d;
+background-color: hsl(104, 45%, 39%);
 
   border-radius: 20px;
   overflow: hidden;

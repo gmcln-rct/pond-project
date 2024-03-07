@@ -27,19 +27,18 @@ export default function InfoUnit(props) {
         ) : null}
       </div>
       <div className={styles.infounit__imagesection} style={styleTest2}>
-
-          {imageStyle === "circle" ? (
-                    <div className={styles.infounit__sealcontainer}>
+        {imageStyle === "circle" ? (
+          <div className={styles.infounit__sealcontainer}>
             <Image
               src={image}
               alt="Pond Hero"
               className={styles.infounit__image}
-              width={250}
-              height={250}
+              width={300}
+              height={300}
             />
-            </div>
-          ) : (
-            <div className={styles.infounit__imagecontainer}>
+          </div>
+        ) : (
+          <div className={styles.infounit__imagecontainer}>
             <Image
               src={image}
               alt="Pond Hero"
@@ -47,8 +46,8 @@ export default function InfoUnit(props) {
               width={200}
               height={200}
             />
-        </div>
-          )}
+          </div>
+        )}
       </div>
     </section>
   );

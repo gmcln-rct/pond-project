@@ -15,9 +15,11 @@ const certificationData = [
     imagePlacement: "right",
   },
   {
-    title: "Pest Control",
-    description: "Pest control is the regulation or management of a species defined as a pest, a member of the animal kingdom that impacts adversely on human activities.",
-    image: "/images/pond-temp-6.jpg",
+    title: "New York Women Business Enterprise (WBE)",
+    description: "Little Bear Environmental Consulting LLC. is certified by The New York State Department of Economic Development, Divison of Minority and Women &#8217;s Business Development (DMWBD) as a Women Business Enterprise (WBE) in New York State.",
+    subdescription: "FileID #: 70703",
+    image: "/images/certifications/wbe-3.png",
+    imageStyle: "circle",
     imagePlacement: "right",
   },
   {
