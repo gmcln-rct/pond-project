@@ -28,6 +28,20 @@ const certificationData = [
     image: "/images/certifications/sepro.png",
     imageStyle: "certification",
     imagePlacement: "right",
+  },
+  {
+    title: "Steward of Water",
+    description: "Little Bear Environmental is a SePRO Steward of Water partner. These individuals and their companies are dedicated to serving the aquatics industry and the environment using the latest advances in training, technology, and products.",
+    image: "/images/certifications/stewards.png",
+    imageStyle: "certification",
+    imagePlacement: "right",
+  },
+  {
+    title: "Lower Hudson Partnership for Regional Invasive Species Management (LHPRISM) Partner",
+    description: "Little Bear Environmental is an LHPRISM Partner.",
+    image: "/images/certifications/lhprism.jpeg",
+    imageStyle: "certification",
+    imagePlacement: "right",
   }
 ];
 
