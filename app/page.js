@@ -42,12 +42,11 @@ const homePageInfoData = [
 export default function Home() {
   return (
     <>
-      <section className={styles.main}>
+      <main className={styles.main}>
         <Hero />
         <InfoContainer infoUnitsData={homePageInfoData}/>
         <ContactForm />
-
-      </section>
+      </main>
     </>
   );
 }

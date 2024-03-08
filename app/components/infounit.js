@@ -11,23 +11,24 @@ export default function InfoUnit(props) {
     imageStyle,
     imagePlacement,
   } = props;
-  const styleTest1 = {
+  const circleStyle = imageStyle === "certification" ? true : false;
+  const alignImage1 = {
     order: imagePlacement === "left" ? 1 : 2,
   };
-  const styleTest2 = {
+  const alignImage2 = {
     order: imagePlacement === "left" ? 2 : 1,
   };
   return (
-    <section className={styles.infounit}>
-      <div className={styles.infounit__contentsection} style={styleTest1}>
+    <section className={circleStyle ? `${styles.infounit2}` : `${styles.infounit}`}>
+      <div className={styles.infounit__contentsection} style={alignImage1}>
         <h2 className={styles.infounit__title}>{title}</h2>
         <p className={styles.infounit__description}>{description}</p>
-        {imageStyle === "circle" ? (
+        {imageStyle === "certification" ? (
           <p className={styles.infounit__description}>{subdescription}</p>
         ) : null}
       </div>
-      <div className={styles.infounit__imagesection} style={styleTest2}>
-        {imageStyle === "circle" ? (
+      <div className={styles.infounit__imagesection} style={alignImage2}>
+        {imageStyle === "certification" ? (
           <div className={styles.infounit__sealcontainer}>
             <Image
               src={image}
