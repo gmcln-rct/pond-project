@@ -25,12 +25,13 @@ export default function Header() {
           <Link href="/certifications">Certifications</Link>
 
           <Link href="/success">Success Stories</Link>
+          <Link href="/labels">Labels</Link>
           {/* <Link href="/about">About Us</Link> */}
         </div>
       </div>
       <div className={styles.navBar__ctacontainer}>
         <Link href="/contact">
-          <button className={styles.navBar__cta}>Schedule Free Visit</button>
+          <button className={styles.navBar__cta}>Contact Us</button>
         </Link>
       </div>
     </nav>
