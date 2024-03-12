@@ -74,6 +74,7 @@
 
   &__links a:hover {
     color: #29aef2;
+    transform: scale(1.1);
   }
   &__ctacontainer {
     display: flex;
@@ -104,6 +105,7 @@
       background-color: hsl(200, 89%, 75%);
       color: hsl(200, 89%, 25%);
       border: 2px solid #29aef2;
+      transform: scale(1.05);
     }
   }
 }
