@@ -1,5 +1,7 @@
 import styles from "./page.module.scss";
 
+import Cards from "../components/cards";
+
 export default function ServicesPage() {
   // const services = [
   //   "Pond & Lake Management",
@@ -65,12 +67,13 @@ export default function ServicesPage() {
         <summary>Certifications</summary>
         <p>Our services include:</p> */}
 
-      {services.map((service, index) => (
+      {/* {services.map((service, index) => (
         <details key={index} className={styles.services__details}>
           <summary className={styles.services__title}>{service.title}</summary>
           <p className={styles.services__description}>{service.description}</p>
         </details>
-      ))}
+      ))} */}
+      <Cards />
     </section>
   );
 }
