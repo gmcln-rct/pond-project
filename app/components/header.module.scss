@@ -12,7 +12,8 @@
   // background-color: white;
   // background-color: hsl(157, 22%, 82%);
   // background-color: #d7ddca;
-  background-color: beige;
+  // background-color: beige;
+  background-color: #C5E1A5;
 
   // z-index: 100;
 
@@ -25,7 +26,10 @@
 
   &__brandtext {
     margin: 0 0 0 1vw;
-    font-family: "Minion Pro", serif;
+
+    font-family: "Playfair Display";
+    // font-family: "Martel", serif;
+    // font-family: "Minion Pro", serif;
     // font-family: 'Josefin Sans', sans-serif; // 'Syne', sans-serif;
     font-size: clamp(2rem, 2.5vw, 3rem);
     font-style: normal;
@@ -62,9 +66,14 @@
   &__links a {
     margin: 0 1vw;
 
-    font-family: "Proxima Nova", sans-serif;
+    font-family: "Noto Sans", sans-serif;
+    // font-family: "Oxygen", sans-serif;
+    // font-family: "Karla", sans-serif;
+    // font-family: "Martel Sans", sans-serif;
+    // font-family: "Proxima Nova", sans-serif;
     font-size: clamp(1.2rem, 1.4vw, 1.5rem);
-    font-weight: 600;
+    font-weight: 400;
+    letter-spacing: 1px;
     // color: #fff;
     color: #155634;
     text-decoration: none;
