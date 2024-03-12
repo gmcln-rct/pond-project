@@ -1,15 +1,49 @@
 // components/Cards.js
 import Card from './card';
 
+import styles from './cards.module.scss';
+
 const cards = [
   {
     photo: '/images/pond-temp-1.jpg',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
+    title: "Pond & Lake Management",
+    description:
+      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
     slug: 'card-1',
   },
   {
     photo: '/images/pond-temp-2.jpg',
-    text: 'Sed do eiusmod tempor incididunt ut labore et dolore...',
+    title: "Pond & Lake Management",
+    description:
+      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
+    slug: 'card-2',
+  },
+  {
+    photo: '/images/pond-temp-3.jpg',
+    title: "Pond & Lake Management",
+    description:
+      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
+    slug: 'card-2',
+  },
+  {
+    photo: '/images/pond-temp-4.jpg',
+    title: "Pond & Lake Management",
+    description:
+      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
+    slug: 'card-2',
+  },
+  {
+    photo: '/images/pond-temp-5.jpg',
+    title: "Pond & Lake Management",
+    description:
+      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
+    slug: 'card-2',
+  },
+  {
+    photo: '/images/pond-temp-6.jpg',
+    title: "Pond & Lake Management",
+    description:
+      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
     slug: 'card-2',
   },
   // Add more card objects as needed
@@ -17,12 +51,13 @@ const cards = [
 
 export default function Cards() {
   return (
-    <div className="cards-container">
+    <div className={styles.cards}>
       {cards.map((card, index) => (
         <Card
           key={index}
           photo={card.photo}
-          text={card.text}
+          title={card.title}
+          text={card.description}
           slug={card.slug}
         />
       ))}

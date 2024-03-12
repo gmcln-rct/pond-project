@@ -1,5 +1,7 @@
 import styles from "../services/page.module.scss";
 
+import Cards from "../components/cards";
+
 import Image from "next/image";
 
 export default function SuccessPage() {
@@ -39,11 +41,13 @@ export default function SuccessPage() {
         We have achieved successful results on a variety of projects throughout
         New York and New Jersey.
       </p>
+
+      <Cards />
       {/* <details className={styles.services__details}>
         <summary>Certifications</summary>
         <p>Our services include:</p> */}
 
-      {services.map((service, index) => (
+      {/* {services.map((service, index) => (
         <details key={index} className={styles.services__details}>
           <summary className={styles.services__title}>{service.title}</summary>
           <div className={styles.services__headSection}>
@@ -62,7 +66,7 @@ export default function SuccessPage() {
           </div>
           <p className={styles.services__description}>{service.description}</p>
         </details>
-      ))}
+      ))} */}
       {/* <ul>
         {services.map((service, index) => (
           <li key={index}>{service}</li>
