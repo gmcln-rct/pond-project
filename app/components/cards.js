@@ -13,9 +13,9 @@ const cards = [
   },
   {
     photo: '/images/pond-temp-2.jpg',
-    title: "Pond & Lake Management",
+    title: "Environmental Permits",
     description:
-      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
+      "Preparing environmental permits and grant applications for pond and lake management projects.",
     slug: 'card-2',
   },
   {
