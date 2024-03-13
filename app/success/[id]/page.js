@@ -11,11 +11,8 @@ export default function IndividualStory({ params }) {
 
   return (
     <section className={styles.successStory}>
-      <div>IndividualStory</div>
-      <div>{params.id}</div>
-      <h2>{story.title}</h2>
-      <p>{story.description}</p>
-      <div>{story.longTextRte}</div>
+      <h2 className={styles.successStory__title}>{story.title}</h2>
+      <div className={styles.successStory__content}>{story.longTextRte}</div>
     </section>
   );
 }

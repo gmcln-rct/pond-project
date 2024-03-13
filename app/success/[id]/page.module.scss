@@ -3,4 +3,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    margin: 2vmin;
+    padding: 3vmin;
+
+    color: white;
+    background-color: darkgreen;
+
+    &__title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__content {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
 }
