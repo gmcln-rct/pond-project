@@ -11,8 +11,10 @@ export default function IndividualStory({ params }) {
 
   return (
     <section className={styles.successStory}>
-      <h2 className={styles.successStory__title}>{story.title}</h2>
-      <div className={styles.successStory__content}>{story.longTextRte}</div>
+      <div className={styles.successStory__wrapper}>
+        <h2 className={styles.successStory__title}>{story.title}</h2>
+        <div className={styles.successStory__content}>{story.longTextRte}</div>
+      </div>
     </section>
   );
 }
