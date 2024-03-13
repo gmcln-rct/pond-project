@@ -1,3 +1,5 @@
+@use '../_variables.scss' as *;
+
 .card {
     width: 300px;
     // height: 400px;
@@ -6,8 +8,8 @@
     margin: 2dvh 1dvw;
     padding: 0 0 3vmin 0;
 
-
-    background-color: green;
+    background-color: $primary-color-grey;
+    // background-color: green;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5%;
 

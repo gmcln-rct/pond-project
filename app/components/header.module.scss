@@ -1,3 +1,7 @@
+
+
+@use '../_variables.scss' as *;
+
 .navBar {
   display: flex;
   flex-direction: row;
@@ -13,7 +17,8 @@
   // background-color: hsl(157, 22%, 82%);
   // background-color: #d7ddca;
   // background-color: beige;
-  background-color: #C5E1A5;
+  // background-color: #C5E1A5;
+  background-color: $primary-color;
 
   // z-index: 100;
 
@@ -39,7 +44,7 @@
     text-decoration: none;
     letter-spacing: 0.1rem;
     // color: #fff;
-    color: #155634;
+    color: $text-color-light;
   }
   &__brandcontainer {
     display: flex;
@@ -75,7 +80,8 @@
     font-weight: 400;
     letter-spacing: 1px;
     // color: #fff;
-    color: #155634;
+    color: $text-color-light;
+    // color: #155634;
     text-decoration: none;
 
     transition: 0.3s ease-in-out;
@@ -101,7 +107,8 @@
     font-weight: 600;
 
     color: #fff;
-    background-color: hsl(200, 89%, 35%);
+    background-color: $accent-color;
+    // background-color: hsl(200, 89%, 35%);
     border: 2px solid #fff;
     border-radius: 15px;
 
