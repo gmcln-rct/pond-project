@@ -1,4 +1,4 @@
-import successStories from '../../data/success-stories';
+import {successStories} from '../../data/success-stories';
 
 export default function IndividualStory({ params}) {
 
@@ -6,10 +6,14 @@ export default function IndividualStory({ params}) {
     return successStories.find(story => story.id === id);
   }
 
+  const story = findStory(params.id);
+
   return (
     <>
     <div>IndividualStory</div>
     <div>{params.id}</div>
+    <h2>{story.title}</h2>
+    <p>{story.description}</p>
     </>
   )
 }
