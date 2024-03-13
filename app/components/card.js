@@ -16,7 +16,7 @@ export default function Card({ photo, title, text, image, id }) {
   const truncatedText = truncateBasedOnWordCount(text, 20);
   return (
     <div className={styles.card}>
-      <Image className={styles.card__image} src={photo} alt="Card Image" width={300} height={200} />
+      <Image className={styles.card__image} src={image} alt="Card Image" width={300} height={200} />
       <div className={styles.card__content}>
         <h2>{title}</h2>
         <p>{truncatedText}...</p>
