@@ -3,18 +3,18 @@ import Card from './card';
 
 import styles from './cards.module.scss';
 
-import {successStories} from '../data/success-stories';
+export default function Cards(props) {
 
-export default function Cards() {
+  const { cardcontent } = props;
   return (
     <div className={styles.cards}>
-      {successStories.map((card, index) => (
+      {cardcontent.map((card, index) => (
         <Card
           key={index}
-          photo={card.image}
+          image={card.image}
           title={card.title}
           text={card.description}
-          slug={card.id}
+          id={card.id}
         />
       ))}
     </div>
