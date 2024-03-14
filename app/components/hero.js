@@ -20,10 +20,7 @@ export default function Hero() {
           Expert advice for pond & lake management.
         </h1>
         <p className={styles.hero__subtitle}>
-          Professional environmental consulting for the unique needs of your
-          pond or lake.
-        </p>
-        <p className={styles.hero__subtitle}>Serving New York & New Jersey.</p>
+          Professional environmental consulting serving New York & New Jersey.</p>
         <p className={styles.hero__subtitle}>Call us at 914-867-5309</p>
       </div>
     </section>

@@ -25,7 +25,6 @@ export const successStories = [
     title: "Invasive Species Management & Restoration",
     description:
       "Invasive species are plants, animals, or pathogens that are non-native to the ecosystem under consideration and whose introduction causes or is likely to cause harm.",
-    slug: "card-3",
     longTextRte:
       "Invasive species are a major threat to the health of aquatic ecosystems. They can outcompete native species, disrupt food chains, and alter the physical and chemical properties of the environment. Our team specializes in invasive species management and restoration, and can help you develop a plan to control and eradicate invasive species from your pond or lake.",
     image: "/images/pond-temp-3.jpg",

@@ -1,3 +1,5 @@
+
+@use "../_variables.scss" as *;
 .infounit,
 .infounit2 {
   display: flex;
@@ -12,7 +14,9 @@
 
   //   background-color: #ece9d0;
   // background-color: #2d2c2d;
-  background-color: hsl(104, 45%, 39%);
+  // background-color: hsl(104, 45%, 39%);
+  color: $text-color;
+  background-color: $primary-color-grey;
 
   border-radius: 20px;
   overflow: hidden;
@@ -34,10 +38,11 @@
 
     width: 50%;
 
-    color: #fff;
+    color: $text-color;
+
     // color: #2d2c2d;
     // background-color: hsl(149, 31%, 81%);
-    background-color: hsl(104, 45%, 39%);
+    // background-color: hsl(104, 45%, 39%);
   }
 
   &__imagesection {
@@ -48,7 +53,7 @@
 
     width: 50%;
 
-    background-color: hsl(104, 45%, 39%);
+    // background-color: hsl(104, 45%, 39%);
   }
 
   .infounit__title {
