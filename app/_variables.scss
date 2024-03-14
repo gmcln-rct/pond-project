@@ -17,11 +17,13 @@
 // $text-color-light: #F8F9F9;
 // $background-color: #F8F9F9;
 
-// MOdern Neutrals
+// Modern Neutrals
 $primary-color: #4D638A;
 $secondary-color: #E0EAF1;
-$accent-color: #8BC34A;
+// $accent-color: #8BC34A;
+$accent-color: hsl(88, 50%, 48%);
 $text-color: #333333;
+$text-color-sub: #555555;
 $text-color-light: #F8F9F9;
 $background-color: #F8F9F9;
 $primary-color-grey: hsl(88, 40%, 73%);

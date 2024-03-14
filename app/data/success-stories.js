@@ -29,7 +29,7 @@ export const successStories = [
     longTextRte:
       "Invasive species are a major threat to the health of aquatic ecosystems. They can outcompete native species, disrupt food chains, and alter the physical and chemical properties of the environment. Our team specializes in invasive species management and restoration, and can help you develop a plan to control and eradicate invasive species from your pond or lake.",
     image: "/images/pond-temp-3.jpg",
-    dates: "Jan 2023-Present",
+    dates: "Project Duration: Jan 2023-Present",
     client: "NJ Department of Environmental Protection",
   },
   {
@@ -46,7 +46,7 @@ export const successStories = [
 
         </ul>`,
     image: "/images/pond-temp-4.jpg",
-    dates: "Jan 2023-Present",
+    dates: "Project Duration: Jan 2023-Present",
     client: "NJ Department of Environmental Protection",
   },
 ];

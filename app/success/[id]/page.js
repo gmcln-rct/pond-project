@@ -23,9 +23,9 @@ export default function IndividualStory({ params }) {
           // layout="responsive"
         />
       </div>
-      <div className={styles.successStory__wrapper}>
+      <div className={styles.successStory__content}>
         <h2 className={styles.successStory__title}>{story.title}</h2>
-        <h3 className={styles.successStory__client}>{story.client}</h3>
+        <p className={styles.successStory__client}>Client: {story.client}</p>
         <p className={styles.successStory__dates}>{story.dates}</p>
         {/* <div className={styles.successStory__content}>{story.longTextRte}</div> */}
         <div

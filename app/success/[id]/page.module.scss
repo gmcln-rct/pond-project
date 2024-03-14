@@ -1,15 +1,20 @@
+@use "../../_variables.scss" as *;
+
 .successStory {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
 
+  height: 90vh;
 
+  padding: 4dvh 0 0 0;
 
-  color: white;
-  background-color: darkgreen;
+  color: $text-color;
+  //   background-color: darkgreen;
+  background-color: $secondary-color;
 
-//   border-radius: 2vmin;
+  //   border-radius: 2vmin;
 
   &__wrapper {
     display: flex;
@@ -17,9 +22,9 @@
     align-items: center;
     justify-content: center;
 
-    max-width: 80vmin;
-margin: 0 auto;
-    padding: 3vmin;
+    // max-width: 30vmin;
+    // margin: 0 auto;
+    // padding: 3vmin;
   }
 
   &__image {
@@ -29,12 +34,34 @@ margin: 0 auto;
   }
 
   &__title {
+      margin-bottom: 1rem;
+
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    text-align: center;
   }
 
   &__content {
-    font-size: 1.5rem;
+    max-width: 70vmin;
     margin-bottom: 1rem;
+
+    font-size: 1.5rem;
+
+    text-align: left;
+  }
+
+  &__client {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+
+    color: $text-color-sub;
+  }
+
+  &__dates {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+
+    color: $text-color-sub;
   }
 }
