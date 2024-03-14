@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { successStories } from "../../data/success-stories";
 
-import styles from "./page.module.scss";
+import styles from "../page.module.scss";
 
 export default function IndividualStory({ params }) {
   function findStory(id) {

@@ -1,67 +1,67 @@
-@use "../../_variables.scss" as *;
+// @use "../../_variables.scss" as *;
 
-.successStory {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+// .successStory {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: flex-start;
+//   justify-content: space-around;
 
-  height: 90vh;
+//   height: 90vh;
 
-  padding: 4dvh 0 0 0;
+//   padding: 4dvh 0 0 0;
 
-  color: $text-color;
-  //   background-color: darkgreen;
-  background-color: $secondary-color;
+//   color: $text-color;
+//   //   background-color: darkgreen;
+//   background-color: $secondary-color;
 
-  //   border-radius: 2vmin;
+//   //   border-radius: 2vmin;
 
-  &__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+//   &__wrapper {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
 
-    // max-width: 30vmin;
-    // margin: 0 auto;
-    // padding: 3vmin;
-  }
+//     // max-width: 30vmin;
+//     // margin: 0 auto;
+//     // padding: 3vmin;
+//   }
 
-  &__image {
-    // width: 100%;
-    // height: 400px;
-    margin-bottom: 1rem;
-  }
+//   &__image {
+//     // width: 100%;
+//     // height: 400px;
+//     margin-bottom: 1rem;
+//   }
 
-  &__title {
-      margin-bottom: 1rem;
+//   &__title {
+//       margin-bottom: 1rem;
 
-    font-size: 2.5rem;
-    text-align: center;
-  }
+//     font-size: 2.5rem;
+//     text-align: center;
+//   }
 
-  &__content {
-    max-width: 70vmin;
-    margin-bottom: 1rem;
+//   &__content {
+//     max-width: 70vmin;
+//     margin-bottom: 1rem;
 
-    font-size: 1.5rem;
+//     font-size: 1.5rem;
 
-    text-align: left;
-  }
+//     text-align: left;
+//   }
 
-  &__client {
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: left;
+//   &__client {
+//     font-size: 1.5rem;
+//     font-weight: 700;
+//     text-align: left;
 
-    color: $text-color-sub;
-  }
+//     color: $text-color-sub;
+//   }
 
-  &__dates {
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: left;
+//   &__dates {
+//     font-size: 1.5rem;
+//     font-weight: 700;
+//     text-align: left;
 
-    color: $text-color-sub;
-  }
-}
+//     color: $text-color-sub;
+//   }
+// }
