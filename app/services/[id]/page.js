@@ -25,8 +25,8 @@ export default function IndividualStory({ params }) {
       </div>
       <div className={styles.successStory__content}>
         <h2 className={styles.successStory__title}>{story.title}</h2>
-        <p className={styles.successStory__client}>Client: {story.client}</p>
-        <p className={styles.successStory__dates}>{story.dates}</p>
+        {/* <p className={styles.successStory__client}>Client: {story.client}</p>
+        <p className={styles.successStory__dates}>{story.dates}</p> */}
         {/* <div className={styles.successStory__content}>{story.longTextRte}</div> */}
         <div
           className={styles.successStory__content}
