@@ -19,4 +19,14 @@ export const labels = [
     height: 378,
     pdfUrl: "/pdfs/clearcast_nysproductlabel.pdf",
   },
+  {
+    id: "procellacorec_nys",
+    title: "ProcellaCOR EC NYS Product Label",
+    description:
+      "ProcellaCOR EC NYS is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
+    image: "/pdfs/thumbs/procellacorec_nysproductlabel.jpg",
+    width: 366,
+    height: 386,
+    pdfUrl: "/pdfs/procellacorec_nysproductlabel.pdf",
+  },
 ];
