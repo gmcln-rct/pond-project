@@ -5,7 +5,7 @@ import styles from './cards.module.scss';
 
 export default function Cards(props) {
 
-  const { cardcontent } = props;
+  const { cardcontent, isservices } = props;
   console.log("cardcontent", cardcontent);
   return (
     <div className={styles.cards}>
@@ -16,6 +16,7 @@ export default function Cards(props) {
           title={card.title}
           text={card.description}
           id={card.id}
+          isservices={isservices}
         />
       ))}
     </div>

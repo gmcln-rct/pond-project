@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import styles from "./card.module.scss";
 
-export default function Card({ photo, title, text, image, id }) {
+export default function Card({ isservices, photo, title, text, image, id }) {
 
     function truncateBasedOnWordCount(text, max) {
         return text.split(" ").slice(0, max).join(" ");
@@ -12,6 +12,8 @@ export default function Card({ photo, title, text, image, id }) {
 //   function truncateWithEllipses(text, max) {
 //     return text.substr(0, max - 1);
 //   }
+
+const url = isservices ? `/services/${id}` : `/success/${id}`;
 
   const truncatedText = truncateBasedOnWordCount(text, 20);
   return (
@@ -21,7 +23,7 @@ export default function Card({ photo, title, text, image, id }) {
         <h2>{title}</h2>
         <p>{truncatedText}...</p>
       </div>
-        <Link className={styles.card__button} href={`/success/${id}`}>
+        <Link className={styles.card__button} href={url}>
           More
         </Link>
     </div>

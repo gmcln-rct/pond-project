@@ -13,7 +13,7 @@ export default function ServicesPage() {
       <p className={styles.services__subheader}>
         We provide a variety of enviornmental services:
       </p>
-      <Cards cardcontent={services}/>
+      <Cards cardcontent={services} isservices="true"/>
     </section>
   );
 }
