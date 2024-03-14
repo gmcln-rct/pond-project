@@ -1,0 +1,70 @@
+@use "../variables" as *;
+
+.labelsPage {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    // width: 100%;
+
+    padding: 1vmin 3vmin;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    // width: 100%;
+
+    padding: 1vmin 3vmin;
+
+    font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 3vmin;
+    padding: 1vmin;
+
+    color: $text-color;
+    background-color: $secondary-color;
+  }
+
+  &__label {
+    padding: 0 3vmin;
+
+    font-family: "Noto Sans", sans-serif;
+    font-size: clamp(1.2rem, 1.4vw, 1.5rem);
+    text-align: center;
+
+    color: $text-color;
+    background-color: $secondary-color;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    // max-width: 90vmin;
+    margin: 0 auto;
+    // padding: 0 3vmin;
+  }
+}
