@@ -35,8 +35,8 @@ export default function LabelsPage() {
             <Image
               src={label.image}
               alt={label.title}
-              width={label.width}
-              height={label.height}
+              width={label.width * 0.6}
+              height={label.height * 0.6}
             />
             <p className={styles.labelsPage__label}>{label.title}</p>
           </div>

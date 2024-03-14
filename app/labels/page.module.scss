@@ -40,10 +40,16 @@
     padding: 2vmin;
 
     color: $text-color;
-    background-color: $secondary-color;
+    background-color: $text-color-sub;
 
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $primary-color-grey-light;
+    }
   }
 
   &__label {
@@ -54,8 +60,8 @@
     font-weight: 400;
     text-align: center;
 
-    color: $text-color;
-    background-color: $secondary-color;
+    color: $text-color-light;
+    // background-color: $secondary-color;
   }
 
   &__wrapper {
