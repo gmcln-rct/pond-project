@@ -18,7 +18,7 @@ export default function Header() {
             height={75}
           />
 
-          <span className={styles.navBar__brandtext}>Ponder</span>
+          <span className={styles.navBar__brandtext}>Little Bear Environmental</span>
         </Link>
         <div className={styles.navBar__links}>
           <Link href="/services">Services</Link>
