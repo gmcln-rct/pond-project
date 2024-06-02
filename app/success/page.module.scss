@@ -1,67 +1,113 @@
 @use "../_variables.scss" as *;
 
-.successStory {
+.services {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 
-  height: 90vh;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
 
-  padding: 4dvh 0 0 0;
+  padding: 2vmin;
+  background: linear-gradient(to top, rgba(39, 75, 61,0.8), rgba(0, 0, 0, 0.2)),
+  url("/images/pond-bg-temp.jpg") no-repeat center center/cover;
 
-  color: $text-color;
-  //   background-color: darkgreen;
-  background-color: $secondary-color;
+  &__header {
+    margin: 1dvh 0 0 0;
+    font-size: clamp(1.5rem, 3vw, 2.8rem);
+    color:#fff;
+  }
 
-  //   border-radius: 2vmin;
+  &__subheader {
+    font-size: clamp(1.5rem, 1.8vw, 2.1rem);
+    color:#fff;
+  }
 
-  &__wrapper {
+  &__headSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    margin: 2dvh 0;
+    padding: 1vh 3vw;
+
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+
+    transition: 0.3s ease-in-out;
+  }
+
+  &__clientSection {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
 
-    // max-width: 30vmin;
-    // margin: 0 auto;
-    // padding: 3vmin;
-  }
+    width: 100%;
+    margin: 0 0 0 2dvw;
+    // margin: 2dvh 0;
+    // padding: 1vh 3vw;
 
-  &__image {
-    // width: 100%;
-    // height: 400px;
-    margin-bottom: 1rem;
-  }
+    font-size: clamp(1.5rem, 1.8vw, 2.2rem);
+    font-family: "Proxima Nova", sans-serif;
 
-  &__title {
-      margin-bottom: 1rem;
-
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  &__content {
-    max-width: 70vmin;
-    margin-bottom: 1rem;
-
-    font-size: 1.5rem;
-
-    text-align: left;
+    transition: 0.3s ease-in-out;
   }
 
   &__client {
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: left;
+    font-weight: 600;
+    color: lightyellow;
 
-    color: $text-color-sub;
   }
 
-  &__dates {
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: left;
+  &__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
-    color: $text-color-sub;
+    width: 50vw;
+    margin: 1dvh 0;
+    padding: 1vh 2vw;
+
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+
+    color: #fff;
+    background-color: #0a6643;
+
+    border-radius: 10px;
+
+    transition: 0.3s ease-in-out;
+  }
+
+  &__details:hover {
+    background-color: hsl(157, 82%, 32%);
+  }
+
+  &__title {
+    font-size: clamp(2rem, 2.2vw, 2.2rem);
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Minion Pro", serif;
+    text-align: center;
+
+    color: #fff;
+
+    &::marker {
+      color: hsl(104, 45%, 69%);
+    }
+  }
+
+  &__description {
+    width: 100%;
+
+    // margin: 0;
+    // padding: 2vh 3vw;
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Proxima Nova", sans-serif;
+    color: #fff;
+    // background-color: hsl(157, 82%, 32%);
   }
 }

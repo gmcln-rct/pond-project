@@ -1,4 +1,4 @@
-import styles from "../services/page.module.scss";
+import styles from "./page.module.scss";
 
 import Cards from "../components/cards";
 
