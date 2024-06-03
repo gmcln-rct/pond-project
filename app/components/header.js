@@ -11,17 +11,10 @@ export default function Header() {
       <div className={styles.navBar__linkscontainer}>
         <Link className={styles.navBar__brandcontainer} href="/">
           <Image
-            src="/images/pond-test.png"
-            alt="Little Bear Logo"
-            className={styles.navBar__brandlogo}
-            width={75}
-            height={75}
-          />
-          <Image
-            src="/images/Little Bear - logo - text.png"
+            src="/images/pond-logo - v2.png"
             alt="Little Bear Environmental"
             className={styles.navBar__brandlogo}
-            width={200}
+            width={300}
             height={75}
           />
           {/* <span className={styles.navBar__brandtext}>Little Bear Environmental</span> */}
