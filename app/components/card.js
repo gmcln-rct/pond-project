@@ -20,8 +20,8 @@ const url = isservices ? `/services/${id}` : `/success/${id}`;
     <div className={styles.card}>
       <Image className={styles.card__image} src={image} alt="Card Image" width={300} height={200} />
       <div className={styles.card__content}>
-        <h2>{title}</h2>
-        <p>{truncatedText}...</p>
+        <h2 className={styles.card__title}>{title}</h2>
+        <p className={styles.card__description}>{truncatedText}...</p>
       </div>
         <Link className={styles.card__button} href={url}>
           More

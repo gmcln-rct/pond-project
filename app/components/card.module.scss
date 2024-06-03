@@ -8,7 +8,7 @@
   margin: 2dvh 1dvw;
   padding: 0 0 3vmin 0;
 
-  background-color: $primary-color-grey;
+  background-color: $primary-color-green;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5%;
 
@@ -53,26 +53,31 @@
     object-fit: cover;
   }
 
-  .card-title {
+  &__title {
     font-size: 24px;
     margin-bottom: 20px;
   }
-  .card-description {
+
+  &__description {
     font-size: 16px;
-    color: #666;
+    color: $primary-color-grey-darker;
   }
-  .card-footer {
+
+  &__footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    .card-author {
-      font-size: 14px;
-      color: #666;
-    }
-    .card-date {
-      font-size: 14px;
-      color: #666;
-    }
+
+  }
+
+  &__author {
+    font-size: 14px;
+    color: #666;
+  }
+
+  &__date {
+    font-size: 14px;
+    color: #666;
   }
 }
