@@ -1,3 +1,5 @@
+@use "../_variables.scss" as *;
+
 .info {
 
     &__container {
@@ -6,8 +8,11 @@
         align-items: center;
         justify-content: center;
 
-        margin: 5vmin 0 4vmin 0;
+        padding: 4vmin 1vmin;
 
+        // margin: 5vmin 0 4vmin 0;
+        // background-color: red;
+        background-color: $primary-color-green-dark;
 
     }
 }

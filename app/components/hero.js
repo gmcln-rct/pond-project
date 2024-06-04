@@ -17,11 +17,11 @@ export default function Hero() {
       </video>
       <div className={styles.hero__content}>
         <h1 className={styles.hero__title}>
-          Expert advice for pond & lake management.
+          Expert Pond & Lake Management
         </h1>
         <p className={styles.hero__subtitle}>
           Professional environmental consulting serving New York & New Jersey.</p>
-        <p className={styles.hero__subtitle}>Call us at 914-867-5309</p>
+        <p className={styles.hero__subtitle}>Contact us at 914-867-5309</p>
       </div>
     </section>
   );
