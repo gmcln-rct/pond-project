@@ -9,16 +9,9 @@
   width: 100%;
   padding: 1vh 3vw 1.3vh 3vw;
 
-  // background-color: #274b3d;
-  // background-color: #155634;
-  // background-color: white;
-  // background-color: hsl(157, 22%, 82%);
-  // background-color: #d7ddca;
-  // background-color: beige;
-  // background-color: #C5E1A5;
   background-color: $primary-color-dark;
-
-  // z-index: 100;
+  position: relative;
+  z-index: 100;
 
   &__linkscontainer {
     display: flex;
@@ -27,23 +20,6 @@
     align-items: center;
   }
 
-  &__brandtext {
-    margin: 0 0 0 1vw;
-
-    font-family: "Playfair Display";
-    // font-family: "Martel", serif;
-    // font-family: "Minion Pro", serif;
-    // font-family: 'Josefin Sans', sans-serif; // 'Syne', sans-serif;
-    font-size: clamp(2rem, 2.5vw, 3rem);
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-
-    text-decoration: none;
-    letter-spacing: 0.1rem;
-    // color: #fff;
-    color: $text-color-light;
-  }
   &__brandcontainer {
     display: flex;
     flex-direction: row;
@@ -58,44 +34,53 @@
 
   &__links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    margin-left: auto;
-    padding: 0 1vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+
+    background-color: $primary-color-dark;
+
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+
+    &.open {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    a {
+      margin: 1rem 0;
+      font-family: "Noto Sans", sans-serif;
+      font-size: clamp(1.2rem, 1.4vw, 1.5rem);
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: $text-color-light;
+      text-decoration: none;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        color: #29aef2;
+        transform: scale(1.1);
+      }
+    }
   }
 
-  &__links a {
-    margin: 0 1vw;
-
-    font-family: "Noto Sans", sans-serif;
-    // font-family: "Oxygen", sans-serif;
-    // font-family: "Karla", sans-serif;
-    // font-family: "Martel Sans", sans-serif;
-    // font-family: "Proxima Nova", sans-serif;
-    font-size: clamp(1.2rem, 1.4vw, 1.5rem);
-    font-weight: 400;
-    letter-spacing: 1px;
-    // color: #fff;
-    color: $text-color-light;
-    // color: #155634;
-    text-decoration: none;
-
-    transition: 0.3s ease-in-out;
-  }
-
-  &__links a:hover {
-    color: #29aef2;
-    transform: scale(1.1);
-  }
   &__ctacontainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    // text-decoration: none;
   }
+
   &__cta {
     margin: 0 4vmin 0 0;
     padding: 0.8vmin 2vmin;
@@ -121,35 +106,70 @@
       transform: scale(1.1);
     }
   }
-}
 
-// Landscape
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .navBar {
-    padding: 0.2vh 2vw;
+  &__ctaMobile {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.8vmin 2vmin;
+    font-size: clamp(1.2rem, 1.4vw, 1.5rem);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: $accent-color;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #fff;
+      color: $accent-color;
+      border: 2px solid #29aef2;
+      transform: scale(1.1);
+    }
+
+    @media (min-width: 768px) {
+      display: none;
+    }
   }
-  .brandTextSm {
+
+  &__ctaDesktop {
     display: none;
+
+    @media (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: $text-color-light;
+    font-size: 3rem;
+    cursor: pointer;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
   }
 }
 
-// Desktop
-@media screen and (min-width: 768px) {
-  // .navBar {
-  //   padding: 0.5vh 1vw;
-  // }
+@media (min-width: 768px) {
+  .navBar {
+    &__links {
+      position: static;
+      flex-direction: row;
+      transform: none;
+      background-color: transparent;
+      padding: 0 1vw;
+      opacity: 1;
+      visibility: visible;
 
-  // .brandLogoSm {
-  //   display: none;
-  // }
-  // .brandLogoLg {
-  //   display: block;
-  // }
-
-  // .brandTextSm {
-  //   display: none;
-  // }
-  // .brandTextLg {
-  //   display: block;
-  // }
+      a {
+        margin: 0 1vw;
+      }
+    }
+  }
 }

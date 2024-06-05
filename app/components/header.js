@@ -1,11 +1,21 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
 import styles from "./header.module.scss";
 
-import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav className={styles.navBar}>
       <div className={styles.navBar__linkscontainer}>
@@ -17,21 +27,24 @@ export default function Header() {
             width={300}
             height={75}
           />
-          {/* <span className={styles.navBar__brandtext}>Little Bear Environmental</span> */}
         </Link>
-        <div className={styles.navBar__links}>
+        <div className={`${styles.navBar__links} ${isOpen ? styles.open : ""}`}>
           <Link href="/services">Services</Link>
           <Link href="/certifications">Certifications</Link>
-
           <Link href="/success">Success Stories</Link>
           <Link href="/labels">Labels</Link>
-          {/* <Link href="/about">About Us</Link> */}
+          <Link href="/contact" className={styles.navBar__ctaMobile}>
+            Contact Us
+          </Link>
         </div>
       </div>
       <div className={styles.navBar__ctacontainer}>
-        <Link href="/contact">
+        <Link href="/contact" className={styles.navBar__ctaDesktop}>
           <button className={styles.navBar__cta}>Contact Us</button>
         </Link>
+        <button className={styles.navBar__toggle} onClick={toggleMenu}>
+          {isOpen ? <CloseIcon /> : <MenuIcon />}
+        </button>
       </div>
     </nav>
   );
