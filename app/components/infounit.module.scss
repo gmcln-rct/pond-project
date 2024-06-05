@@ -1,21 +1,18 @@
 
 @use "../_variables.scss" as *;
+
 .infounit,
 .infounit2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  // width: 60vw;
-  // height: 250px;
+
   width: 90vw;
   // min-height: 250px;
 
   margin: 0 0 4vmin 0;
   padding: 1vmin 3vmin;
 
-  //   background-color: #ece9d0;
-  // background-color: #2d2c2d;
-  // background-color: hsl(104, 45%, 39%);
   color: $text-color;
   // background-color: $primary-color-grey-light;
   background-color: #fff;
@@ -42,9 +39,6 @@
 
     color: $text-color;
 
-    // color: #2d2c2d;
-    // background-color: hsl(149, 31%, 81%);
-    // background-color: hsl(104, 45%, 39%);
   }
 
   &__imagesection {
@@ -55,7 +49,6 @@
 
     width: 50%;
 
-    // background-color: hsl(104, 45%, 39%);
   }
 
   .infounit__title {
