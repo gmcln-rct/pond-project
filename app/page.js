@@ -5,6 +5,7 @@ import SuccessStories from "./success/page";
 import InfoUnit from "./components/infounit";
 import InfoContainer from "./components/info";
 import ContactForm from "./components/contactform";
+import SocialMediaContainer from "./components/social-media-container";
 
 const homePageInfoData = [
   {
@@ -44,6 +45,7 @@ export default function Home() {
     <>
       <main className={styles.main}>
         <Hero />
+        <SocialMediaContainer />
         <InfoContainer infoUnitsData={homePageInfoData}/>
         <ContactForm />
       </main>

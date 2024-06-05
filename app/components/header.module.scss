@@ -164,8 +164,8 @@
 @media (min-width: 768px) {
   .navBar {
     &__links {
-      position: static;
       flex-direction: row;
+      position: static;
       transform: none;
       background-color: transparent;
       padding: 0 1vw;
