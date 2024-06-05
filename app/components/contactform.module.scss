@@ -81,6 +81,11 @@
       }
     }
 
+    &__textarea {
+      min-width: 350px;
+      margin: 0 0 0 2vmin;
+    }
+
     &__title {
       margin: 0 0 2dvh 0;
       padding: 0 2dvw;

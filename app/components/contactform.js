@@ -20,9 +20,9 @@ export default function ContactForm() {
 
       <label className={styles.contact__label}>
         Message:
-        <textarea name="message" />
+        <textarea name="message" className={styles.contact__textarea} />
         </label>
-        <input className={styles.contact__button}type="submit" value="Submit" />
+        <input className={styles.contact__button} type="submit" value="Submit" />
     </form>
     </section>
   )
