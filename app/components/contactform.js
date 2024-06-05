@@ -1,6 +1,7 @@
 "use client"
 
 import React, { use, useState } from 'react';
+// import nodemailer from 'nodemailer'
 
 import styles from "./contactform.module.scss";
 
@@ -10,6 +11,7 @@ export default function ContactForm() {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [errors, setErrors] = useState({});
+  const [submitStatus, setSubmitStatus] = useState(null);
 
   const validateForm = () => {
     let errors = {};
@@ -45,26 +47,41 @@ export default function ContactForm() {
     return isValid;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     if (validateForm()) {
-      // Submit the form data to the server or perform any desired actions
-      console.log('Form submitted successfully');
-      // Reset form fields
-      setName('');
-      setEmail('');
-      setPhone('');
-      setMessage('');
-      setErrors({});
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ name, email, phone, message }),
+        });
+  
+        if (response.ok) {
+          // Reset form fields
+          setName('');
+          setEmail('');
+          setPhone('');
+          setMessage('');
+          setErrors({});
+          setSubmitStatus('success');
+        } else {
+          setSubmitStatus('error');
+        }
+      } catch (error) {
+        console.error('Error submitting form:', error);
+        setSubmitStatus('error');
+      }
     }
   };
 
   return (
     <section className={styles.contact}>
       <form className={styles.contact__form} onSubmit={handleSubmit}>
-        <h1 className={styles.contact__title}>Contact us to learn more about our services.</h1>
-        
+        <h1 className={styles.contact__title}>Contact Little Bear to learn more about our services.</h1>
         <label className={styles.contact__label}>
           Name:
           <input className={styles.contact__input} type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -90,6 +107,13 @@ export default function ContactForm() {
         </label>
         
         <input className={styles.contact__button} type="submit" value="Submit" />
+        
+        {submitStatus === 'success' && (
+          <p className={styles.contact__success}>Form submitted successfully!</p>
+        )}
+        {submitStatus === 'error' && (
+          <p className={styles.contact__error}>An error occurred. Please try again later.</p>
+        )}
       </form>
     </section>
   );

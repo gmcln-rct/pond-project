@@ -8,6 +8,7 @@ import Footer from "./components/footer";
 
 import Script from "next/script";
 
+
 // Fonts
 
 import { WorkSans } from "next/font/google";

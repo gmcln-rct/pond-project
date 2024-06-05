@@ -9,6 +9,8 @@ import styles from "./header.module.scss";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
+// import ContactBar from "./contact-bar";
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,6 +19,7 @@ export default function Header() {
   };
 
   return (
+    <>
     <nav className={styles.navBar}>
       <div className={styles.navBar__linkscontainer}>
         <Link className={styles.navBar__brandcontainer} href="/">
@@ -47,5 +50,7 @@ export default function Header() {
         </button>
       </div>
     </nav>
+      {/* <ContactBar /> */}
+    </>
   );
 }
