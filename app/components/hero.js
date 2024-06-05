@@ -21,7 +21,7 @@ export default function Hero() {
         </h1>
         <p className={styles.hero__subtitle}>
           Professional environmental consulting serving New York & New Jersey.</p>
-        <p className={styles.hero__subtitle}>Contact us at 914-867-5309</p>
+        <p className={styles.hero__subtitle}>Contact us at <a className={styles.hero__phoneLink} href="tel:914-867-5309">914-867-5309</a></p>
       </div>
     </section>
   );
