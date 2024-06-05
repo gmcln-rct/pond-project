@@ -24,7 +24,7 @@ export default function Header() {
             src="/images/pond-logo - v2.png"
             alt="Little Bear Environmental"
             className={styles.navBar__brandlogo}
-            width={350}
+            width={390}
             height={75}
           />
         </Link>

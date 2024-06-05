@@ -1,29 +1,96 @@
+"use client"
+
+import React, { use, useState } from 'react';
+
 import styles from "./contactform.module.scss";
 
 export default function ContactForm() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
+  const [errors, setErrors] = useState({});
+
+  const validateForm = () => {
+    let errors = {};
+    let isValid = true;
+
+    if (!name) {
+      errors.name = 'Name is required';
+      isValid = false;
+    }
+
+    if (!email) {
+      errors.email = 'Email is required';
+      isValid = false;
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+      errors.email = 'Email is invalid';
+      isValid = false;
+    }
+
+    if (phone) {
+      const phoneRegex = /^(\+1|1)?[-.\s]?\(?[2-9]\d{2}\)?[-.\s]?\d{3}[-.\s]?\d{4}$/;
+      if (!phoneRegex.test(phone)) {
+        errors.phone = 'Phone number is invalid';
+        isValid = false;
+      }
+    }
+
+    if (!message) {
+      errors.message = 'Message is required';
+      isValid = false;
+    }
+
+    setErrors(errors);
+    return isValid;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (validateForm()) {
+      // Submit the form data to the server or perform any desired actions
+      console.log('Form submitted successfully');
+      // Reset form fields
+      setName('');
+      setEmail('');
+      setPhone('');
+      setMessage('');
+      setErrors({});
+    }
+  };
+
   return (
     <section className={styles.contact}>
-    <form className={styles.contact__form}>
-      <h1 className={styles.contact__title}>Contact us to learn more about our services.</h1>
-      <label className={styles.contact__label}>
-        Name:
-        <input className={styles.contact__input}type="text" name="name" />
-      </label>
-      <label className={styles.contact__label}>
-        Email:
-        <input className={styles.contact__input}type="text" name="email" />
-      </label>
-      <label className={styles.contact__label}>
-        Phone:
-        <input className={styles.contact__input}type="number" name="phone" />
-      </label>
-
-      <label className={styles.contact__label}>
-        Message:
-        <textarea name="message" className={styles.contact__textarea} />
+      <form className={styles.contact__form} onSubmit={handleSubmit}>
+        <h1 className={styles.contact__title}>Contact us to learn more about our services.</h1>
+        
+        <label className={styles.contact__label}>
+          Name:
+          <input className={styles.contact__input} type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} />
+          {errors.name && <span className={styles.contact__error}>{errors.name}</span>}
         </label>
+        
+        <label className={styles.contact__label}>
+          Email:
+          <input className={styles.contact__input} type="text" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          {errors.email && <span className={styles.contact__error}>{errors.email}</span>}
+        </label>
+        
+        <label className={styles.contact__label}>
+          Phone:
+          <input className={styles.contact__input} type="tel" name="phone" value={phone} onChange={(e) => setPhone(e.target.value)} />
+          {errors.phone && <span className={styles.contact__error}>{errors.phone}</span>}
+        </label>
+
+        <label className={styles.contact__label}>
+          Message:
+          <textarea name="message" className={styles.contact__textarea} value={message} onChange={(e) => setMessage(e.target.value)} />
+          {errors.message && <span className={styles.contact__error}>{errors.message}</span>}
+        </label>
+        
         <input className={styles.contact__button} type="submit" value="Submit" />
-    </form>
+      </form>
     </section>
-  )
+  );
 }
