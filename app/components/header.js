@@ -20,36 +20,45 @@ export default function Header() {
 
   return (
     <>
-    <nav className={styles.navBar}>
-      <div className={styles.navBar__linkscontainer}>
-        <Link className={styles.navBar__brandcontainer} href="/">
-          <Image
-            src="/images/pond-logo - v2.png"
-            alt="Little Bear Environmental"
-            className={styles.navBar__brandlogo}
-            width={390}
-            height={75}
-          />
-        </Link>
-        <div className={`${styles.navBar__links} ${isOpen ? styles.open : ""}`}>
-          <Link href="/services">Services</Link>
-          <Link href="/certifications">Certifications</Link>
-          <Link href="/success">Success Stories</Link>
-          <Link href="/labels">Labels</Link>
-          <Link href="/contact" className={styles.navBar__ctaMobile}>
-            Contact Us
+      <nav className={styles.navBar}>
+        <div className={styles.navBar__linkscontainer}>
+          <Link className={styles.navBar__brandcontainer} href="/">
+            <Image
+              src="/images/pond-logo - v2.png"
+              alt="Little Bear Environmental"
+              className={styles.navBar__brandlogo}
+              width={390}
+              height={75}
+            />
           </Link>
+          <div
+            className={`${styles.navBar__links} ${isOpen ? styles.open : ""}`}
+          >
+            <div className={styles.navBar__servicesDropdown}>
+              <Link href="/services">Services</Link>
+              <div className={styles.navBar__servicesDropdownContent}>
+                <Link href="/services/service1">Service 1</Link>
+                <Link href="/services/service2">Service 2</Link>
+                <Link href="/services/service3">Service 3</Link>
+              </div>
+            </div>{" "}
+            <Link href="/certifications">Certifications</Link>
+            <Link href="/success">Success Stories</Link>
+            <Link href="/labels">Labels</Link>
+            <Link href="/contact" className={styles.navBar__ctaMobile}>
+              Contact Us
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className={styles.navBar__ctacontainer}>
-        <Link href="/contact" className={styles.navBar__ctaDesktop}>
-          <button className={styles.navBar__cta}>Contact Us</button>
-        </Link>
-        <button className={styles.navBar__toggle} onClick={toggleMenu}>
-          {isOpen ? <CloseIcon /> : <MenuIcon />}
-        </button>
-      </div>
-    </nav>
+        <div className={styles.navBar__ctacontainer}>
+          <Link href="/contact" className={styles.navBar__ctaDesktop}>
+            <button className={styles.navBar__cta}>Contact Us</button>
+          </Link>
+          <button className={styles.navBar__toggle} onClick={toggleMenu}>
+            {isOpen ? <CloseIcon /> : <MenuIcon />}
+          </button>
+        </div>
+      </nav>
       {/* <ContactBar /> */}
     </>
   );
