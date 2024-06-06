@@ -108,5 +108,5 @@ export const labels = [
     width: 366,
     height: 386,
     pdfUrl: "/pdfs/nys-sonar-h4c-label.pdf",
-  },
+  }
 ];
