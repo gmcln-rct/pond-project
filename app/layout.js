@@ -22,10 +22,10 @@ import {Oxygen} from "next/font/google";
 import { Noto_Sans } from "next/font/google";
 
 export const metadata = {
-  title: "Ponder | Pond Management and Monitoring",
-  template: "%s | Verbing",
+  title: "Little Bear Environmental | Environmental consulting serving New York & New Jersey",
+  template: "%s | Little Bear Environmental",
   description:
-    "Little Bear Environmental Consulting LLC provides a variety of natural resource services for municipalities, non-profit organizations, and private landowners.",
+    "Little Bear Environmental provides a variety of natural resource services for municipalities, non-profit organizations, and private landowners.",
 };
 
 export default function RootLayout({ children }) {
