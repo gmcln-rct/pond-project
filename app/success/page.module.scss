@@ -15,12 +15,16 @@
 
   &__header {
     margin: 1dvh 0 0 0;
+
     font-size: clamp(1.5rem, 3vw, 2.8rem);
     color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   }
 
   &__subheader {
     font-size: clamp(1.5rem, 1.8vw, 2.1rem);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    
     color: #fff;
   }
 
