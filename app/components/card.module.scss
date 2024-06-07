@@ -2,13 +2,17 @@
 
 .card {
   width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   // height: 400px;
   // padding: 20px;
 
   margin: 2dvh 1dvw;
   padding: 0 0 3vmin 0;
 
-  background-color: $primary-color-green;
+  background-color: $primary-color-grey-lighter;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 5%;
 
@@ -21,12 +25,15 @@
   }
 
   &__button {
+
+    width: 50%;
     margin: 2vmin;
     padding: 10px 20px;
 
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
+    text-align: center;
 
     color: #fff;
     background-color: #29aef2;
@@ -43,7 +50,7 @@
 
   &__content {
     margin: 0 0 2vmin 0;
-    padding: 20px;
+    padding: 1.5vmin 2vmin;
   }
 
   &__image {
@@ -54,15 +61,19 @@
   }
 
   &__title {
+    margin: 0 0 0.5vmin 0;
+
     font-size: 24px;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+
+    color: $primary-color-darker;
   }
 
   &__description {
     font-size: 16px;
     // color: $primary-color-green;
 
-    color: #fff;
+    color: $primary-color-darker;
   }
 
   &__footer {

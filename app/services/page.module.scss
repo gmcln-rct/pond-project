@@ -9,16 +9,23 @@
 
   padding: 2vmin;
 
+  background: linear-gradient(to top, rgba(39, 75, 61, 0.8), rgba(0, 0, 0, 0.2)),
+    url("/images/pond-surface-bg.jpg") no-repeat center center/cover;
+
   &__header {
     margin: 1dvh 0 0 0;
-    
+
     font-size: clamp(1.5rem, 3vw, 2.8rem);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05);
+
+    color: #fff;
   }
 
   &__subheader {
-    font-size: clamp(1.5rem, 1.8vw, 2.1rem);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    font-size: clamp(1.5rem, 2vw, 2.1rem);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05);
+
+    color: #fff;
   }
 
   &__headSection {
