@@ -20,7 +20,6 @@ export default function IndividualStory({ params }) {
           alt={story.title}
           width={507}
           height={446}
-          // layout="responsive"
         />
       </div>
       <div className={styles.successStory__content}>
