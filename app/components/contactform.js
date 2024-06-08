@@ -82,11 +82,12 @@ export default function ContactForm() {
 
   return (
     <section className={styles.contact}>
+      <h1 className={styles.contact__title}>Contact Little Bear to learn more about our services.</h1>
+      <div className={styles.contact__content}>
       <div className={styles.contact__image}>
-        <Image src="/images/pond-logo-v1.png" alt="Pond" width={300} height={300} />
+        <Image src="/images/pond-logo-v1.png" alt="Pond" width={400} height={400} layout="responsive" />
       </div>
       <form className={styles.contact__form} onSubmit={handleSubmit}>
-        <h1 className={styles.contact__title}>Contact Little Bear to learn more about our services.</h1>
         <label className={styles.contact__label}>
           Name:
           <input className={styles.contact__input} type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -120,6 +121,7 @@ export default function ContactForm() {
           <p className={styles.contact__error}>An error occurred. Please try again later.</p>
         )}
       </form>
+      </div>
     </section>
   );
 }
