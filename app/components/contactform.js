@@ -3,6 +3,8 @@
 import React, { use, useState } from 'react';
 // import nodemailer from 'nodemailer'
 
+import Image from 'next/image';
+
 import styles from "./contactform.module.scss";
 
 export default function ContactForm() {
@@ -80,6 +82,9 @@ export default function ContactForm() {
 
   return (
     <section className={styles.contact}>
+      <div className={styles.contact__image}>
+        <Image src="/images/pond-logo-v1.png" alt="Pond" width={300} height={300} />
+      </div>
       <form className={styles.contact__form} onSubmit={handleSubmit}>
         <h1 className={styles.contact__title}>Contact Little Bear to learn more about our services.</h1>
         <label className={styles.contact__label}>
