@@ -13,11 +13,15 @@
     font-size: clamp(1.2rem, 1.8vw, 5rem);
     font-weight: 600;
 
-    color: $primary-color-grey-dark;
-    background-color: $primary-color-grey-light;
+    color: #fff;
+    background-color: $primary-color-grey-dark;
+    // color: $primary-color-grey-light;
+
 
     &__icon {
-        margin: 0 0 0 1vmin;
+        padding: 0 0 0 1vmin;
+
+        font-size: 4rem;
     }
 
     &__link{
@@ -27,7 +31,8 @@
         align-items: center;
 
         padding: 0 1vmin 0 1vmin;
-        color: $primary-color-grey-dark;
+        color: #fff;
+        // color: $primary-color-grey-dark;
         text-decoration: none;
     }
 }
