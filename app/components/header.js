@@ -29,7 +29,6 @@ export default function Header() {
               className={styles.navBar__brandlogo}
               width={390}
               height={75}
-              layout="responsive"
             />
           </Link>
           <div

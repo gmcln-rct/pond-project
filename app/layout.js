@@ -14,12 +14,14 @@ import Script from "next/script";
 import { WorkSans } from "next/font/google";
 import { ProximaNova } from "next/font/google";
 import { MinionPro } from "next/font/google";
-import {Martel} from "next/font/google";
+import { Martel } from "next/font/google";
 import {MartelSans} from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import {Karla} from "next/font/google";
 import {Oxygen} from "next/font/google";
 import { Noto_Sans } from "next/font/google";
+
+
 
 export const metadata = {
   title: "Little Bear Environmental | Environmental consulting serving New York & New Jersey",
@@ -28,6 +30,7 @@ export const metadata = {
     "Little Bear Environmental provides a variety of natural resource services for municipalities, non-profit organizations, and private landowners.",
 };
 
+  
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -36,6 +39,8 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="noindex, nofollow" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"></link>
         {/* <meta name="author" content="Glenn McClanan, Rio Create LLC" /> */}
         {/* <meta
           name="keywords"

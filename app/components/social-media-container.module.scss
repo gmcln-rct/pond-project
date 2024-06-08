@@ -1,15 +1,18 @@
 @use "../_variables.scss" as *;
 
+
 .socialMedia {
     display: flex;
     justify-content: center;
     align-items: center;
 
     padding: 2vmin 0;
-
-    font-size: clamp(1.2rem, 1.8vw, 2rem);
-
+    
+    // font-family: 'Volkhorn', serif;
+    font-family: var(--font-martel);
+    font-size: clamp(1.2rem, 1.8vw, 5rem);
     font-weight: 600;
+
     color: $primary-color-grey-dark;
     background-color: $primary-color-grey-light;
 
@@ -22,6 +25,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+
         padding: 0 1vmin 0 1vmin;
         color: $primary-color-grey-dark;
         text-decoration: none;
