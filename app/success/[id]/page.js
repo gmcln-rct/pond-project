@@ -1,6 +1,11 @@
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
 import { successStories } from "../../data/success-stories";
+
+const IndividualStoryRTE = dynamic(() => import("./individual-story-rte"), {
+  ssr: false,
+});
 
 import styles from "./page.module.scss";
 
@@ -28,11 +33,8 @@ export default function IndividualStory({ params }) {
           <h2 className={styles.successStory__title}>{story.title}</h2>
           <p className={styles.successStory__client}>Client: {story.client}</p>
           <p className={styles.successStory__dates}>{story.dates}</p>
-          <div
-            className={styles.successStory__content}
-            dangerouslySetInnerHTML={{ __html: story.longTextRte }}
-            suppressHydrationWarning={true}
-          ></div>
+          <IndividualStoryRTE story={story} />
+
         </div>
       </div>
     </section>

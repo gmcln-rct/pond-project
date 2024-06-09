@@ -34,21 +34,24 @@
         margin-left: 10%;
       }
     }
-  
+    &__client {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
     &__content {
       max-width: 800px;
       margin: 0 auto;
     }
   
+    &__test {
+      background-color: red;
+    }
     &__title {
       font-size: 2rem;
       margin-bottom: 1rem;
     }
   
-    &__client {
-      font-size: 1.2rem;
-      margin-bottom: 0.5rem;
-    }
+
   
     &__dates {
       font-size: 1rem;

@@ -5,29 +5,29 @@ export const successStories = [
     description:
       "Lake Sebago is a 310-acre lake located in Harriman State Park in New York. It is a popular destination for fishing, boating, and swimming.",
     longTextRte: `<article>
-  <h1 class="entry-title">Lake Sebago Hydrilla Control Project</h1>
-  <div class="entry-content">
     
-<div>
-<h3 class="wp-block-heading has-medium-font-size">Treatment Schedule</h3>
+<div class="storyWrapper">
+<div class="storyColumn">
+<h3 class="">Treatment Schedule</h3>
 
 <p class="has-medium-font-size">Both a liquid formulation (Sonar Genesis) and pellet formulation (Sonar H4C) of the herbicide fluridone are scheduled to be utilized in designated treatment areas within Lake Sebago. Six treatments are slated to occured between June and October 2024.</p>
 
-<p class="has-luminous-vivid-amber-background-color has-background">2024 Treatments will begin on Thursday June 6th. There will be a 24 hour swimming restriction in place for the northern basin (see hatched section of the map below) until the morning of June 7th. </p>
+<p class="textBox -yellow">2024 Treatments will begin on Thursday June 6th. There will be a 24 hour swimming restriction in place for the northern basin (see hatched section of the map below) until the morning of June 7th. </p>
 
-<p class="has-luminous-vivid-amber-background-color has-background">Shoreline signage will be placed at public access points notifiying of all water use restrictions.</p>
+<p class="textBox -yellow">Shoreline signage will be placed at public access points notifiying of all water use restrictions.</p>
 
-<figure class="wp-block-image size-large"><img data-attachment-id="2439" data-permalink="https://littlebearenvironmental.com/lake-sebago-hydrilla-control-project/swimming-restriction-map/" data-orig-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png" data-orig-size="1010,1610" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="swimming-restriction-map" data-image-description="" data-image-caption="" data-medium-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188" data-large-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=640" width="642" height="1023" src="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642" alt="" class="wp-image-2439" srcset="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642 642w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=94 94w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188 188w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=768 768w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png 1010w" sizes="(max-width: 642px) 100vw, 642px"></figure>
+<div class="storyImageContainer"><img class="storyImage" data-attachment-id="2439" data-permalink="https://littlebearenvironmental.com/lake-sebago-hydrilla-control-project/swimming-restriction-map/" data-orig-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png" data-orig-size="1010,1610" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="swimming-restriction-map" data-image-description="" data-image-caption="" data-medium-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188" data-large-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=640" width="642" height="1023" src="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642" alt="" class="wp-image-2439" srcset="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642 642w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=94 94w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188 188w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=768 768w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png 1010w" sizes="(max-width: 642px) 100vw, 642px"></div>
 
 <p class="has-medium-font-size">A single application of a granular formulation of chelated copper (Harpoon) occured in July 2023 to &gt;1 acre of the lake. Product labels are linked below. Both target and non-target species were monitored for impacts throughout the season. </p>
 
-<h3 class="wp-block-heading has-medium-font-size">Product Labels</h3>
+<h3 class="">Product Labels</h3>
 
 <p class="has-medium-font-size">Product labels can be found here: <a href="https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/">https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/</a></p>
 </div>
 
-<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<h3 class="wp-block-heading has-medium-font-size">Project Permits</h3>
+
+<div class="storyColumn">
+<h3 class="">Project Permits</h3>
 
 <p class="has-medium-font-size">Article 15 Aquatic Pesticide Permits:  </p>
 
@@ -35,28 +35,27 @@ export const successStories = [
 
 <p class="has-medium-font-size">-Sonar Genesis – Permit # AV-3-24-170<br>-Sonar H4C – Permit # AV-3-24-169<br>-Harpoon – Permit # AV-3-24-171<br>SPDES : NYP260127 (Neg Dec)<br>SEQR Neg Dec posted in ENB 2/1/202</p>
 
-<h3 class="wp-block-heading has-medium-font-size">Water Use Restriction</h3>
+<h3 class="">Water Use Restriction</h3>
 
 
 
 <p>An irrigiation restriction will be in place for the entire lake between June and October 2024. Treated water can not be used to irrigate greenhouse or nursery plants, turf grass, or plants in the nightshade family.</p>
 
-<p class="has-light-green-cyan-background-color has-background">There are <strong>no</strong> restrictions for fishing, livestock watering, or drinking associated with this project. </p>
+<p class="">There are <strong>no</strong> restrictions for fishing, livestock watering, or drinking associated with this project. </p>
 
-<p class="has-light-green-cyan-background-color has-background">There are <strong>no swimming restrictions</strong> in the Southern Basin associated with this project. </p>
+<p class="">There are <strong>no swimming restrictions</strong> in the Southern Basin associated with this project. </p>
 
 <p>(See map for 24-hour swimming estrictions for Nothern Basin Only that will be scheduled up to 6 times during the season from June-October). </p>
 
-<p class="has-light-green-cyan-background-color has-background">There are no restriction for boating.</p>
+<p class="">There are no restriction for boating.</p>
 
-<h3 class="wp-block-heading has-medium-font-size">Harriman Group Camps Information Meeting</h3>
+<h3 class="">Harriman Group Camps Information Meeting</h3>
 
-<p class="has-medium-font-size">A virtual meeting took place on May 7, 2024. This meeting included a presentation with background on the hydrilla infestation within Lake Sebago and provided details on the success of the 2023 treatment, and was followed by a Q&amp;A session. <a href="https://meetny.webex.com/recordingservice/sites/meetny/recording/816e6e25eea8103ca6be00505681bf78/playback">A recording is available here</a>.</p>
+<p class="">A virtual meeting took place on May 7, 2024. This meeting included a presentation with background on the hydrilla infestation within Lake Sebago and provided details on the success of the 2023 treatment, and was followed by a Q&amp;A session. <a href="https://meetny.webex.com/recordingservice/sites/meetny/recording/816e6e25eea8103ca6be00505681bf78/playback">A recording is available here</a>.</p>
 
-<p class="has-medium-font-size">A recording of the 2023 introductory meeting can be found here:<br><a href="https://www.youtube.com/watch?v=wVUqWArYlPo" target="_blank" rel="noreferrer noopener">A recording of the meeting is available on YouTube and can be found at this link</a>.</p>
-
-</div></div>
-
+<p class="">A recording of the 2023 introductory meeting can be found here:<br><a href="https://www.youtube.com/watch?v=wVUqWArYlPo" target="_blank" rel="noreferrer noopener">A recording of the meeting is available on YouTube and can be found at this link</a>.</p>
+</div>
+</div>
 </div>
 </div>
 </article>`,
