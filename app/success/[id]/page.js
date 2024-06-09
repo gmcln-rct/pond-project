@@ -14,7 +14,7 @@ export default function IndividualStory({ params }) {
   return (
     <section className={styles.successStory}>
       <div className={styles.successStory__imageWrapper}>
-      <Image
+        <Image
           className={styles.successStory__image}
           src={story.image}
           alt={story.title}
@@ -24,16 +24,16 @@ export default function IndividualStory({ params }) {
         />
       </div>
       <div className={styles.successStory__contentWrapper}>
-
-      <div className={styles.successStory__content}>
-        <h2 className={styles.successStory__title}>{story.title}</h2>
-        <p className={styles.successStory__client}>Client: {story.client}</p>
-        <p className={styles.successStory__dates}>{story.dates}</p>
-        <div
-          className={styles.successStory__content}
-          dangerouslySetInnerHTML={{ __html: story.longTextRte }}
-        ></div>
-      </div>
+        <div className={styles.successStory__content}>
+          <h2 className={styles.successStory__title}>{story.title}</h2>
+          <p className={styles.successStory__client}>Client: {story.client}</p>
+          <p className={styles.successStory__dates}>{story.dates}</p>
+          <div
+            className={styles.successStory__content}
+            dangerouslySetInnerHTML={{ __html: story.longTextRte }}
+            suppressHydrationWarning={true}
+          ></div>
+        </div>
       </div>
     </section>
   );
