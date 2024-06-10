@@ -10,7 +10,7 @@ export const successStories = [
 <div class="storyColumn">
 <h3 class="">Treatment Schedule</h3>
 
-<p class="has-medium-font-size">Both a liquid formulation (Sonar Genesis) and pellet formulation (Sonar H4C) of the herbicide fluridone are scheduled to be utilized in designated treatment areas within Lake Sebago. Six treatments are slated to occured between June and October 2024.</p>
+<p class="">Both a liquid formulation (Sonar Genesis) and pellet formulation (Sonar H4C) of the herbicide fluridone are scheduled to be utilized in designated treatment areas within Lake Sebago. Six treatments are slated to occured between June and October 2024.</p>
 
 <p class="textBox -yellow">2024 Treatments will begin on Thursday June 6th. There will be a 24 hour swimming restriction in place for the northern basin (see hatched section of the map below) until the morning of June 7th. </p>
 
@@ -18,22 +18,22 @@ export const successStories = [
 
 <div class="storyImageContainer"><img class="storyImage" data-attachment-id="2439" data-permalink="https://littlebearenvironmental.com/lake-sebago-hydrilla-control-project/swimming-restriction-map/" data-orig-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png" data-orig-size="1010,1610" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="swimming-restriction-map" data-image-description="" data-image-caption="" data-medium-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188" data-large-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=640" width="642" height="1023" src="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642" alt="" class="wp-image-2439" srcset="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642 642w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=94 94w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188 188w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=768 768w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png 1010w" sizes="(max-width: 642px) 100vw, 642px"></div>
 
-<p class="has-medium-font-size">A single application of a granular formulation of chelated copper (Harpoon) occured in July 2023 to &gt;1 acre of the lake. Product labels are linked below. Both target and non-target species were monitored for impacts throughout the season. </p>
+<p class="">A single application of a granular formulation of chelated copper (Harpoon) occured in July 2023 to &gt;1 acre of the lake. Product labels are linked below. Both target and non-target species were monitored for impacts throughout the season. </p>
 
 <h3 class="">Product Labels</h3>
 
-<p class="has-medium-font-size">Product labels can be found here: <a href="https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/">https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/</a></p>
+<p class="">Product labels can be found here: <a href="https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/">https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/</a></p>
 </div>
 
 
 <div class="storyColumn">
 <h3 class="">Project Permits</h3>
 
-<p class="has-medium-font-size">Article 15 Aquatic Pesticide Permits:  </p>
+<p class="">Article 15 Aquatic Pesticide Permits:  </p>
 
 
 
-<p class="has-medium-font-size">-Sonar Genesis – Permit # AV-3-24-170<br>-Sonar H4C – Permit # AV-3-24-169<br>-Harpoon – Permit # AV-3-24-171<br>SPDES : NYP260127 (Neg Dec)<br>SEQR Neg Dec posted in ENB 2/1/202</p>
+<p class="">-Sonar Genesis – Permit # AV-3-24-170<br>-Sonar H4C – Permit # AV-3-24-169<br>-Harpoon – Permit # AV-3-24-171<br>SPDES : NYP260127 (Neg Dec)<br>SEQR Neg Dec posted in ENB 2/1/202</p>
 
 <h3 class="">Water Use Restriction</h3>
 
@@ -62,6 +62,16 @@ export const successStories = [
     image: "/images/success/lake-sebago/lake-sebago.jpg",
     dates: "Project Duration: Jan 2023-Present",
     client: "NJ Department of Environmental Protection",
+  },
+  {
+    id: "usace-water-chestnut-control-trials",
+    title: "USACE Water Chestnut control trials",
+    description:
+      "This project is part of U.S. Army Corps of Engineers research project comparing various herbicides on Trapa natans versus Trapa bispinosa..",
+    longTextRte: `Little Bear has been contracted to work with NJDEP, NJ Water Supply Authority, NJFWS, and local stakeholders to develop the NJ AISMP. Creation of the following sections of the plan: introduced species in New Jersey, Pathways for exisiting & potential AIS introdutions, Exisitng and potential AIS species list and species profiles, Legislative/regulation recommendations, education & outreach opportunities, ecological risk assessments and prioritzation, statewide reporting database, rapid response plan.<br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+    image: "/images/success/new-jersey-aquatic-invasive-species-managment.webp",
+    dates: "Project Duration: Jan 2023-Present",
+    client: "U.S. Army Corps of Engineers",
   },
   {
     id: "new-jersey-aquatic-invasive-species-managment",
