@@ -69,7 +69,7 @@ export const successStories = [
     description:
       "This project is part of U.S. Army Corps of Engineers research project comparing various herbicides on Trapa natans versus Trapa bispinosa..",
     longTextRte: `Little Bear has been contracted to work with NJDEP, NJ Water Supply Authority, NJFWS, and local stakeholders to develop the NJ AISMP. Creation of the following sections of the plan: introduced species in New Jersey, Pathways for exisiting & potential AIS introdutions, Exisitng and potential AIS species list and species profiles, Legislative/regulation recommendations, education & outreach opportunities, ecological risk assessments and prioritzation, statewide reporting database, rapid response plan.<br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-    image: "/images/success/new-jersey-aquatic-invasive-species-managment.webp",
+    image: "/images/success/usace/usace-cover-water-chestnut.jpg",
     dates: "Project Duration: Jan 2023-Present",
     client: "U.S. Army Corps of Engineers",
   },
