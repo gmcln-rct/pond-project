@@ -51,9 +51,9 @@ export const labels = [
   },
   {
     id: "komeen_nysproductlabel",
-    title: "ProcellaCOR® EC Product Label",
+    title: "Kommen NYS Product Label",
     description:
-      "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
+      "Komeen is an aquatic herbicide used in still or flowing water sites for control of submersed, emergent, and floating weeds.",
     image: "/pdfs/thumbs/komeen_nysproductlabel.jpg",
     width: 366,
     height: 386,
@@ -61,9 +61,9 @@ export const labels = [
   },
   {
     id: "sonarq_nyslabel",
-    title: "ProcellaCOR® EC Product Label",
+    title: "Sonarq NYS Label",
     description:
-      "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
+      "Sonarq is a selective systemic aquatic herbicide used in still or flowing water sites.",
     image: "/pdfs/thumbs/sonarq_nyslabel.jpg",
     width: 366,
     height: 386,
@@ -71,9 +71,9 @@ export const labels = [
   },
   {
     id: "seclear-sln",
-    title: "ProcellaCOR® EC Product Label",
+    title: "Seclear SLN Product Label",
     description:
-      "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
+      "Seclear SLN is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
     image: "/pdfs/thumbs/seclear-sln.jpg",
     width: 366,
     height: 386,
@@ -81,9 +81,9 @@ export const labels = [
   },
   {
     id: "harpoongranularnyslabel",
-    title: "ProcellaCOR® EC Product Label",
+    title: "Harpoon Granular NYS Label",
     description:
-      "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
+      "Harpoon Granular is a chelated copper herbicide that effectively controls copper sensitive aquatic plants. Harpoon Granular may be applied to slow moving or quiescent bodies of water, including lakes, fish hatcheries, potable water reservoirs, golf courses, and ornamental, fish and fire ponds.",
     image: "/pdfs/thumbs/harpoongranularnyslabel.jpg",
     width: 366,
     height: 386,
@@ -91,9 +91,9 @@ export const labels = [
   },
   {
     id: "sonar-h4c-slnny-150003",
-    title: "ProcellaCOR® EC Product Label",
+    title: "NYS Sonar H4C SLN NY Label",
     description:
-      "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
+    "Sonar H4C is a An herbicide for management of aquatic vegetation in fresh water ponds, lakes, reservoirs (including inlets and tributaries), potable water sources, drainage canals, irrigation canals and rivers.",
     image: "/pdfs/thumbs/sonar-h4c-slnny-150003.jpg",
     width: 366,
     height: 386,
@@ -101,9 +101,9 @@ export const labels = [
   },
   {
     id: "nys-sonar-h4c-label",
-    title: "ProcellaCOR® EC Product Label",
+    title: "NYS Sonar H4C Label",
     description:
-      "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
+      "Sonar H4C is a An herbicide for management of aquatic vegetation in fresh water ponds, lakes, reservoirs (including inlets and tributaries), potable water sources, drainage canals, irrigation canals and rivers.",
     image: "/pdfs/thumbs/nys-sonar-h4c-label.jpg",
     width: 366,
     height: 386,
