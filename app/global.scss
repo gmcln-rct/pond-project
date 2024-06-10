@@ -38,8 +38,16 @@ main {
 .storyWrapper {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
+
+  @media (min-width: 1020px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+  }
 
   // overflow-y: hidden;
   // padding: 2rem;
@@ -54,7 +62,7 @@ main {
   flex: 1;
 
   // width: 50%;
-  min-width: 400px;
+  min-width: 320px;
   margin: 0 2vmin;
   padding: 2rem;
 
