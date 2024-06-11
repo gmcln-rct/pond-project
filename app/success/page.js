@@ -18,7 +18,7 @@ export default function SuccessPage() {
           throughout New York and New Jersey.
         </p>
 
-        <Cards  cardcontent={successStories} />
+        <Cards cardcontent={successStories} />
       </div>
     </section>
   );
