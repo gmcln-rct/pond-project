@@ -12,12 +12,13 @@ export default function SuccessPage() {
         </video>
       </div>
       <div className={styles.success__content}>
+        <div>
         <h1 className={styles.success__header}>Success Stories</h1>
         <p className={styles.success__subheader}>
           Little Bear has achieved successful results on a variety of projects
           throughout New York and New Jersey.
         </p>
-
+        </div>
         <Cards cardcontent={successStories} />
       </div>
     </section>

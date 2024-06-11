@@ -41,6 +41,8 @@ main {
   justify-content: center;
   align-items: flex-start;
 
+  padding: 0 0 5vmin 0;
+
   @media (min-width: 1020px) {
     display: flex;
     flex-direction: row;
@@ -74,16 +76,25 @@ main {
   border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+  a {
+    color: hsl(194, 82%, 80%);
+    text-decoration: none;
+    font-weight: 700;
+  }
+
 }
 
 .sectionHeader {
   width: 100%;
   margin: 2vmin 0 0 0;
-  padding: 2vmin 0 0 0;
 
+  font-size: 24px;
   text-align: center;
 
-  border-top: 1px solid #fff;
+  .-border {
+    padding: 2vmin 0 0 0;
+    border-top: 1px solid #fff;
+  }
 
 }
 

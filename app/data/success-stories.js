@@ -8,7 +8,7 @@ export const successStories = [
     
 <div class="storyWrapper">
 <div class="storyColumn">
-<h3 class="">Treatment Schedule</h3>
+<h3 class="sectionHeader">Treatment Schedule</h3>
 
 <p class="storyText">Both a liquid formulation (Sonar Genesis) and pellet formulation (Sonar H4C) of the herbicide fluridone are scheduled to be utilized in designated treatment areas within Lake Sebago. Six treatments are slated to occured between June and October 2024.</p>
 
@@ -19,18 +19,18 @@ export const successStories = [
 <div class="storyImageContainer"><img class="storyImage" data-attachment-id="2439" data-permalink="https://littlebearenvironmental.com/lake-sebago-hydrilla-control-project/swimming-restriction-map/" data-orig-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png" data-orig-size="1010,1610" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="swimming-restriction-map" data-image-description="" data-image-caption="" data-medium-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188" data-large-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=640" width="642" height="1023" src="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642" alt="" class="wp-image-2439" srcset="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642 642w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=94 94w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188 188w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=768 768w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png 1010w" sizes="(max-width: 642px) 100vw, 642px"></div>
 
 <p class="storyText">A single application of a granular formulation of chelated copper (Harpoon) occured in July 2023 to &gt;1 acre of the lake. Product labels are linked below. Both target and non-target species were monitored for impacts throughout the season. </p>
-<h3 class="sectionHeader">Product Labels</h3>
+<h3 class="sectionHeader -border">Product Labels</h3>
 
 <p class="storyText">Product labels can be found <a href="https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/">here</a></p>
 </div>
 
 <div class="storyColumn">
-<h3 class="sectionHeaderClean">Project Permits</h3>
+<h3 class="sectionHeader">Project Permits</h3>
 
 <p class="storyText">Article 15 Aquatic Pesticide Permits:  </p>
 
 <ul>
-<li>Sonar Genesis</li><li>Permit # AV-3-24-170</li><li>Sonar H4C – Permit # AV-3-24-169</li><li>Harpoon – Permit # AV-3-24-171<br>SPDES : NYP260127 (Neg Dec)</li><li>>SEQR Neg Dec posted in ENB 2/1/202</li></ul>
+<li>Sonar Genesis</li><li>Permit # AV-3-24-170</li><li>Sonar H4C – Permit # AV-3-24-169</li><li>Harpoon – Permit # AV-3-24-171<br>SPDES : NYP260127 (Neg Dec)</li><li>SEQR Neg Dec posted in ENB 2/1/202</li></ul>
 
 <h3 class="sectionHeader">Water Use Restriction</h3>
 
@@ -40,7 +40,7 @@ export const successStories = [
 
 <p class="storyText">There are <strong>no swimming restrictions</strong> in the Southern Basin associated with this project. </p>
 
-<p>(See map for 24-hour swimming estrictions for Nothern Basin Only that will be scheduled up to 6 times during the season from June-October). </p>
+<p>(See map for 24-hour swimming restrictions for Nothern Basin Only that will be scheduled up to 6 times during the season from June-October). </p>
 
 <p class="storyText">There are no restriction for boating.</p>
 
