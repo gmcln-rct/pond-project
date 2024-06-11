@@ -1,6 +1,10 @@
+@use '../../_variables.scss' as *;
+
 .successStory {
   display: flex;
   flex-direction: column;
+
+  background-color: $primary-color-grey-light;
 
   // overflow: hidden;
 
@@ -31,6 +35,7 @@
     display: block;
     flex: 1;
     overflow-y: auto;
+    margin: 0 auto;
     padding: 2rem;
 
     @media (min-width: 1020px) {

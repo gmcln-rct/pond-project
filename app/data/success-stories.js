@@ -5,7 +5,6 @@ export const successStories = [
     description:
       "Lake Sebago is a 310-acre lake located in Harriman State Park in New York. It is a popular destination for fishing, boating, and swimming.",
     longTextRte: `<article>
-    
 <div class="storyWrapper">
 <div class="storyColumn">
 <h3 class="sectionHeader">Treatment Schedule</h3>
@@ -30,7 +29,7 @@ export const successStories = [
 <p class="storyText">Article 15 Aquatic Pesticide Permits:  </p>
 
 <ul>
-<li>Sonar Genesis</li><li>Permit # AV-3-24-170</li><li>Sonar H4C – Permit # AV-3-24-169</li><li>Harpoon – Permit # AV-3-24-171<br>SPDES : NYP260127 (Neg Dec)</li><li>SEQR Neg Dec posted in ENB 2/1/202</li></ul>
+<li>Sonar Genesis</li><li>Permit # AV-3-24-170</li><li>Sonar H4C – Permit # AV-3-24-169</li><li>Harpoon – Permit # AV-3-24-171</li><li>SPDES : NYP260127 (Neg Dec)</li><li>SEQR Neg Dec posted in ENB 2/1/202</li></ul>
 
 <h3 class="sectionHeader">Water Use Restriction</h3>
 
@@ -49,6 +48,7 @@ export const successStories = [
 <p class="storyText">A virtual meeting took place on May 7, 2024. This meeting included a presentation with background on the hydrilla infestation within Lake Sebago and provided details on the success of the 2023 treatment, and was followed by a Q&amp;A session. <a href="https://meetny.webex.com/recordingservice/sites/meetny/recording/816e6e25eea8103ca6be00505681bf78/playback">A recording is available here</a>.</p>
 
 <p class="storyText">A recording of the 2023 introductory meeting can be found here:<br><a href="https://www.youtube.com/watch?v=wVUqWArYlPo" target="_blank" rel="noreferrer noopener">A recording of the meeting is available on YouTube and can be found at this link</a>.</p>
+<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg" alt="dense-rake-lauren" class="wp-image-2438" srcset="https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=640 640w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=94 94w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=188 188w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=768 768w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg 1010w" sizes="(max-width: 640px) 100vw, 640px" class="storyImage">
 </div>
 </div>
 </div>
@@ -63,7 +63,25 @@ export const successStories = [
     title: "USACE Water Chestnut control trials",
     description:
       "This project is part of U.S. Army Corps of Engineers research project comparing various herbicides on Trapa natans versus Trapa bispinosa..",
-    longTextRte: `Little Bear has been contracted to work with NJDEP, NJ Water Supply Authority, NJFWS, and local stakeholders to develop the NJ AISMP. Creation of the following sections of the plan: introduced species in New Jersey, Pathways for exisiting & potential AIS introdutions, Exisitng and potential AIS species list and species profiles, Legislative/regulation recommendations, education & outreach opportunities, ecological risk assessments and prioritzation, statewide reporting database, rapid response plan.<br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+    longTextRte: `<article>
+    <div class="storyWrapper">
+<div class="storyColumn">
+<h3 class="sectionHeader">Intro</h3>
+<p class="storyText">The U.S. Army Corps of Engineers (USACE) is conducting a research project to compare the efficacy of various herbicides on Trapa natans (water chestnut) versus Trapa bispinosa (spiny water chestnut). The project is being conducted in the Hudson River Estuary and the Croton River (Westchester County, NY).</p>
+<img src="http://localhost:3000/_next/image?url=%2Fimages%2Fsuccess%2Fusace%2Fusace-cover-water-chestnut.jpg&w=3840&q=75" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+<h3 class="sectionHeader">Trapa natans</h3>
+<p class="storyText">Trapa natans is a floating aquatic plant that is native to Europe and Asia. It has been introduced to North America and is considered an invasive species in many areas. Water chestnut forms dense mats on the surface of the water, which can impede navigation, block sunlight from reaching submerged plants, and alter the physical and chemical properties of the water.</p>
+<p class="storyText">Three sets of photos show pre-treatment plots (left) and plots treated with 50 ppb. Clearcast (imazamox) 4 weeks after treatment. Rosettes have broken apart and leaflets are found at different stages of decomposition.</p>
+<div class="storyImageContainer">
+<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.47.43-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.02-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.31-pm.png?w=2044" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+
+</div>
+</div>
+</div>
+</article>
+`,
     image: "/images/success/usace/usace-cover-water-chestnut.jpg",
     dates: "Project Duration: Jan 2023-Present",
     client: "U.S. Army Corps of Engineers",
