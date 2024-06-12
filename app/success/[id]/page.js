@@ -34,7 +34,6 @@ export default function IndividualStory({ params }) {
           <p className={styles.successStory__client}>Client: {story.client}</p>
           <p className={styles.successStory__dates}>{story.dates}</p>
           <IndividualStoryRTE story={story} />
-
         </div>
       </div>
     </section>
