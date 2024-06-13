@@ -15,7 +15,7 @@ export default function SuccessPage() {
         <div>
         <h1 className={styles.success__header}>Success Stories</h1>
         <p className={styles.success__subheader}>
-          Little Bear has achieved successful results on a variety of projects
+          Little Bear has achieved successful results on a range of projects
           throughout New York and New Jersey.
         </p>
         </div>
