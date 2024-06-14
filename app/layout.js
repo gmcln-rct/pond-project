@@ -42,37 +42,37 @@ export default function RootLayout({ children }) {
 
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"></link>
         {/* <meta name="author" content="Glenn McClanan, Rio Create LLC" /> */}
-        {/* <meta
+        <meta
           name="keywords"
           content="brazilian portuguese, verb conjugation, flashcards, language learning, verbs, flashcards, education, Brazil"
         />
-        <meta name="application-name" content="Verbing" />
-        <meta name="apple-mobile-web-app-title" content="Verbing" />
+        <meta name="application-name" content="Little Bear Environmental" />
+        <meta name="apple-mobile-web-app-title" content="Little Bear Environmental" />
         <meta name="msapplication-TileColor" content="#5e376c" />
         <meta name="theme-color" content="#5e376c" />
 
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://verbing.ninja" />
-        <meta property="og:site_name" content="Verbing" />
+        {/* <meta property="og:url" content="https://Littlebearenvironmental.ninja" /> */}
+        <meta property="og:site_name" content="Little Bear Environmental" />
         <meta property="og:locale" content="en_US" />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://site-social-images.s3.amazonaws.com/verbing-ogimage.jpg"
-        />`
+        />` */}
 
-        <meta name="twitter:card" content="summary_large_image" />
+        {/* <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@glennmcclanan" />
         <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} />
-        <meta
+        <meta name="twitter:description" content={metadata.description} /> */}
+        {/* <meta
           name="twitter:image"
           content="https://site-social-images.s3.amazonaws.com/verbing-twittercard.jpg"
-        />
+        /> */}
 
-        <link rel="canonical" href="https://verbing.ninja" />
-        <link rel="icon" href="/favicon.ico" sizes="any" /> */}
+        {/* <link rel="canonical" href="https://verbing.ninja" /> */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         {/* <link
           rel="apple-touch-icon"
           sizes="180x180"
