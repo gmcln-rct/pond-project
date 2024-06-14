@@ -8,7 +8,6 @@ import Footer from "./components/footer";
 
 import Script from "next/script";
 
-
 // Fonts
 
 import { WorkSans } from "next/font/google";
@@ -21,8 +20,6 @@ import {Karla} from "next/font/google";
 import {Oxygen} from "next/font/google";
 import { Noto_Sans } from "next/font/google";
 
-
-
 export const metadata = {
   title: "Little Bear Environmental | Environmental consulting serving New York & New Jersey",
   template: "%s | Little Bear Environmental",
@@ -30,7 +27,6 @@ export const metadata = {
     "Little Bear Environmental provides a variety of natural resource services for municipalities, non-profit organizations, and private landowners.",
 };
 
-  
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -108,7 +104,7 @@ export default function RootLayout({ children }) {
         <Header />
         <main>{children}</main>
         {/* <Share /> */}
-        {/* <Footer /> */}
+        <Footer />
         {/* <GoogleAnalytics gaId="G-PLTQ0Q1S3Z" /> */}
         {/* <Script src="https://www.googletagmanager.com/gtag/js?id=G-PLTQ0Q1S3Z" /> */}
       </body>
