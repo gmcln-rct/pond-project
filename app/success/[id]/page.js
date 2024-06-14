@@ -25,7 +25,6 @@ export default function IndividualStory({ params }) {
           alt={story.title}
           width={1500}
           height={1000}
-          // layout="responsive"
         />
       </div>
       <div className={styles.successStory__contentWrapper}>
