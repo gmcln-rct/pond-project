@@ -44,7 +44,13 @@ export default function RootLayout({ children }) {
         {/* <meta name="author" content="Glenn McClanan, Rio Create LLC" /> */}
         <meta
           name="keywords"
-          content="brazilian portuguese, verb conjugation, flashcards, language learning, verbs, flashcards, education, Brazil"
+          content="lake management,
+          pond management,
+          aquatic ecosystem management,
+          lake and pond maintenance,
+          lake and pond restoration, algae control
+          aquatic weed control, water quality testing
+          New York environmental consulting, New Jersey environmental consulting"
         />
         <meta name="application-name" content="Little Bear Environmental" />
         <meta name="apple-mobile-web-app-title" content="Little Bear Environmental" />
@@ -73,11 +79,11 @@ export default function RootLayout({ children }) {
 
         {/* <link rel="canonical" href="https://verbing.ninja" /> */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        {/* <link
+        <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.png"
-        /> */}
+        />
         <link
           rel="apple-touch-icon"
           href="/apple-icon?<generated>"
