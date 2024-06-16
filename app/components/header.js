@@ -9,6 +9,8 @@ import styles from "./header.module.scss";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
+import { services } from "../data/services";
+
 // import ContactBar from "./contact-bar";
 
 export default function Header() {
@@ -17,6 +19,12 @@ export default function Header() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const servicesDropdown = services.map((service) => (
+    <Link key={service.id} href={`/services/${service.id}`}>
+      {service.navText}
+    </Link>
+  ));
 
   return (
     <>
@@ -37,9 +45,7 @@ export default function Header() {
             <div className={styles.navBar__servicesDropdown}>
               <Link href="/services">Services</Link>
               <div className={styles.navBar__servicesDropdownContent}>
-                <Link href="/services/service1">Service 1</Link>
-                <Link href="/services/service2">Service 2</Link>
-                <Link href="/services/service3">Service 3</Link>
+                {servicesDropdown}
               </div>
             </div>{" "}
             <Link href="/certifications">Certifications</Link>

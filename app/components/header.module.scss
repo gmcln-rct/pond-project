@@ -162,8 +162,11 @@
   &__servicesDropdown {
     position: relative;
 
+
     &:hover .navBar__servicesDropdownContent {
       display: flex;
+      background-color: rgb(109, 109, 109);
+
     }
 
     @media (max-width: 767px) {

@@ -2,6 +2,7 @@ export const services = [
   {
     id: "pond-lake-management",
     title: "Pond & Lake Management",
+    navText: "Pond & Lake Management",
     description:
       "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
     longTextRte:
@@ -15,6 +16,7 @@ export const services = [
   {
     id: "pest-control-management",
     title: "Pest Control and Management",
+    navText: "Pest Control",
     description:
       "Professional pest control services for aquatic environments. Our team of licensed professionals uses targeted strategies to manage nuisance pests while minimizing the impact on non-target species.",
     longTextRte:
@@ -28,6 +30,7 @@ export const services = [
   {
     id: "invasive-species-management",
     title: "Invasive Species Management & Restoration",
+    navText: "Invasive Species",
     description:
       "Invasive species are plants, animals, or pathogens that are non-native to the ecosystem under consideration and whose introduction causes or is likely to cause harm.",
     longTextRte:
@@ -43,6 +46,7 @@ export const services = [
   {
     id: "aquatic-plant-algae-control",
     title: "Aquatic Plant & Algae Control",
+    navText: "Aquatic Plant Control",
     description:
       "Aquatic plants and algae are essential components of healthy aquatic ecosystems, providing food, oxygen, and habitat for a variety of organisms. However, excessive growth of these species can lead to water quality issues, habitat degradation, and aesthetic concerns.",
     longTextRte:
@@ -52,6 +56,21 @@ export const services = [
       When necessary, we use targeted herbicide applications to control particularly stubborn or invasive species. Our licensed applicators follow strict safety protocols and use environmentally friendly products to minimize any potential impacts on non-target organisms and maintain the ecological balance of your aquatic ecosystem.
       In addition to our control measures, we also provide recommendations for long-term management and prevention of excessive plant and algae growth. This may include nutrient reduction strategies, aeration, and the establishment of native aquatic plants that compete with nuisance species.
       With our proactive approach, regular maintenance services, and commitment to sustainable solutions, [Company Name] can help you achieve and maintain clear, healthy waters that support thriving aquatic communities and provide endless enjoyment for years to come.`,
+    image: "/images/pond-temp-4.jpg",
+  },
+  {
+    id: "environmental-project-management",
+    title: "Environmental Project Management & RFPs",
+    navText: "Project Management",
+    description:
+      "We offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects.",
+    longTextRte:
+      `At Little Bear, we offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects. Our experienced team of project managers, biologists, and environmental specialists work closely with you to understand your goals, constraints, and expectations, developing customized solutions that meet your unique needs.</p>
+      <p>Our project management services cover a wide range of environmental initiatives, including habitat restoration, wetland mitigation, stormwater management, and water quality improvement projects. We take a holistic approach, considering all aspects of your project, from initial feasibility studies and regulatory compliance to design, implementation, and long-term monitoring.</p>
+      <p>We also specialize in the development of Request for Proposals (RFPs) for environmental projects. Our team has extensive experience in crafting clear, concise, and technically sound RFPs that effectively communicate your project requirements and attract qualified contractors. We work closely with you to identify key project components, define scope of work, and establish evaluation criteria, ensuring that your RFP process is efficient, transparent, and aligned with your objectives.</p>
+      <p>Throughout the project lifecycle, our dedicated project managers serve as your single point of contact, coordinating all aspects of the project and ensuring seamless communication among stakeholders. We employ industry best practices and cutting-edge project management tools to keep your project on schedule, within budget, and in compliance with all relevant regulations and standards.</p>
+      <p>With [Company Name]'s environmental project management and RFP development services, you can have confidence that your projects will be executed with the highest level of professionalism, expertise, and attention to detail, delivering superior results for your aquatic and terrestrial environments.</p>
+      `,
     image: "/images/pond-temp-4.jpg",
   },
 ];
