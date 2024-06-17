@@ -4,25 +4,23 @@ export const services = [
     title: "Pond & Lake Management",
     navText: "Pond & Lake Management",
     description:
-      "Monitoring water quality helps determine the health of aquatic ecosystems. Imbalances in water quality can make it inhabitable for life or cause algal bloom.",
-    longTextRte: `<p>Our expert team offers comprehensive pond and lake management services to ensure the health, beauty, and functionality of your aquatic ecosystems. We understand that every water body is unique, which is why we provide customized solutions tailored to your specific needs and goals.</p>
-      <p>Our services include thorough water quality monitoring, where we regularly assess parameters such as temperature, pH, dissolved oxygen, and nutrient levels. By keeping a close eye on these indicators, we can identify potential issues early on and take proactive measures to maintain optimal conditions for aquatic life.
-      In addition to water quality management, we also focus on nutrient management to prevent excessive algae growth and maintain a balanced ecosystem. Our team employs a range of strategies, including aeration, nutrient reduction, and biological controls, to keep nutrient levels in check and promote a healthy, vibrant aquatic environment.</p>
-      <p>Shoreline stabilization is another key aspect of our pond and lake management services. We use a combination of natural and engineered solutions, such as native vegetation plantings, erosion control measures, and bioengineering techniques, to protect and enhance shorelines. By stabilizing banks and preventing erosion, we help maintain water clarity, reduce sedimentation, and provide essential habitat for aquatic and terrestrial wildlife.</p>
-      <p>At Little Bear, we are committed to creating sustainable and thriving aquatic ecosystems that support diverse wildlife and provide long-term enjoyment for our clients. Trust our experienced professionals to manage your ponds and lakes with the utmost care, expertise, and dedication to environmental stewardship.</p>`,
+      "Transform your water feature into a thriving ecosystem. Bespoke pond and lake management designed for your unique needs.",
+    longTextRte: `<p>Our expert team offers comprehensive pond and lake management services to ensure the health, beauty, and functionality of your aquatic ecosystems. We understand that every waterbody is unique, which is why we provide customized solutions tailored to your specific needs and goals.
+    LBE provides a full suite of services from assessments, surveys, and creation of management plans. Our services include thorough water quality monitoring, where we regularly assess parameters such as temperature, pH, dissolved oxygen, and nutrient levels. By keeping a close eye on these indicators, we can identify potential issues early on and take proactive measures to maintain optimal conditions for aquatic life.</p>
+      <p>Our team employs a range of best management practices, including aeration, nutrient inactivation, and treatment of aquatic invasive species to promote a balanced ecosystem.</p>
+      <p>At LBE, we are committed to creating sustainable and thriving aquatic ecosystems that support diverse wildlife and provide long-term enjoyment for our clients. Trust our experienced professionals to manage your ponds and lakes with the utmost care, expertise, and dedication to environmental stewardship.</p>`,
     image: "/images/pond-temp-1.jpg",
   },
   {
-    id: "pest-control-management",
-    title: "Pest Control and Management",
-    navText: "Pest Control",
+    id: "pesticide-application-nuisance-species-management",
+    title: "Pesticide Application/Nuisance Species Management",
+    navText: "Pesticide Application",
     description:
-      "Professional pest control services for aquatic environments. Our team of licensed professionals uses targeted strategies to manage nuisance pests while minimizing the impact on non-target species.",
-    longTextRte: `<p>At Little Bear, we specialize in providing effective and environmentally responsible pesticide application and pest control services for aquatic environments. Our team of licensed and highly trained professionals understands the delicate balance of aquatic ecosystems and employs targeted strategies to manage nuisance pests while minimizing the impact on non-target species.
-      We use state-of-the-art equipment and techniques to apply EPA-approved pesticides in accordance with strict safety guidelines and regulations. Our experts carefully select the most appropriate products for your specific situation, taking into account factors such as water chemistry, target species, and potential environmental impacts.</p>
-      <p>Our integrated pest management (IPM) approach focuses on long-term, sustainable solutions rather than relying solely on chemical treatments. We incorporate biological controls, such as introducing natural predators, and habitat modifications to create an environment that is less conducive to pest infestations. By using a combination of methods, we can effectively manage pests while promoting the overall health and balance of your aquatic ecosystem.
-      Regular monitoring is a crucial component of our pesticide application and pest control services. We conduct frequent site visits to assess the effectiveness of our treatments, identify any new or emerging issues, and adjust our strategies as needed. This proactive approach allows us to stay ahead of potential problems and ensure the ongoing success of our pest management efforts.</p>
-      <p>With our expertise, attention to detail, and commitment to environmental stewardship, you can trust [Company Name] to keep your ponds and lakes free from harmful pests while maintaining the integrity and beauty of your aquatic community.</p>`,
+      "We specialize in providing effective and environmentally responsible pesticide application specifically designed for aquatic environments.",
+    longTextRte: `<p>Our team of licensed and highly trained professionals understands the delicate balance of aquatic ecosystems and employs targeted strategies to manage nuisance aquatic pests while minimizing the impact on non-target species. LBE is experienced in preparing even the most complex permit packages for aquatic projects and handles all permitting needs with New York State.</p>
+      <p>We use state-of-the-art equipment and techniques to apply EPA-approved pesticides in accordance with strict safety guidelines and regulations. Our experts carefully select the most appropriate products for your specific situation, taking into account factors such as water chemistry, target species, and potential environmental impacts.</p>
+      <p>Our integrated pest management (IPM) approach focuses on long-term, sustainable solutions rather than relying solely on chemical treatments. By using a combination of treatment methods, we can effectively manage nuisance species while promoting the overall health and balance of your aquatic ecosystem.</p>
+      <p>Our integrated pest management (IPM) approach focuses on long-term, sustainable solutions rather than relying solely on chemical treatments. By using a combination of treatment methods, we can effectively manage nuisance species while promoting the overall health and balance of your aquatic ecosystem.</p>`,
     image: "/images/pond-temp-3.jpg",
   },
   {
