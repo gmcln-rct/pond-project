@@ -24,45 +24,40 @@ export const services = [
     image: "/images/pond-temp-3.jpg",
   },
   {
-    id: "invasive-species-management",
-    title: "Invasive Species Management & Restoration",
-    navText: "Invasive Species",
-    description:
-      "Invasive species are plants, animals, or pathogens that are non-native to the ecosystem under consideration and whose introduction causes or is likely to cause harm.",
-    longTextRte: `<p>Invasive species can have devastating impacts on the health and biodiversity of aquatic ecosystems, displacing native species and disrupting delicate ecological balances. At Little Bear, we specialize in developing comprehensive invasive species management plans to protect your ponds and lakes from these threats.</p>
-      <p>Our process begins with thorough surveys and assessments to identify the presence, extent, and potential impacts of invasive species infestations in your water bodies. Our experienced biologists and ecologists use the latest techniques and technologies, such as eDNA analysis and remote sensing, to gather accurate data and develop a detailed understanding of the situation.
-      Based on our findings, we create custom-tailored management plans that incorporate a multi-faceted approach to controlling and eradicating invasive species. This may include targeted removal efforts, such as manual harvesting, mechanical dredging, or selective herbicide applications, depending on the specific species and the extent of the infestation.</p>
-      <p>We also place a strong emphasis on biological control methods, which involve introducing natural predators or pathogens that specifically target the invasive species without harming native organisms. Our experts carefully research and select the most appropriate biological control agents for your unique ecosystem, ensuring their effectiveness and safety.</p>
-      <p>In addition to control and eradication measures, our invasive species management plans also include strategies for preventing future invasions. We provide education and guidance on best practices for minimizing the risk of introducing invasive species, such as proper boat cleaning protocols and monitoring of potential entry points.</p>
-      <p>Throughout the implementation of our management plans, we work closely with our clients, providing regular progress updates and making adjustments as needed to ensure the best possible outcomes. Our ultimate goal is to restore and maintain the ecological integrity of your aquatic environments, promoting the recovery and resilience of native species and habitats.
-      With [Company Name]'s expertise and commitment to protecting aquatic biodiversity, you can trust us to develop and execute effective invasive species management plans that safeguard the health and beauty of your ponds and lakes for generations to come.</p>`,
-    image: "/images/pond-temp-3.jpg",
-  },
-  {
     id: "aquatic-plant-algae-control",
     title: "Aquatic Plant & Algae Control",
     navText: "Aquatic Plant Control",
     description:
-      "Aquatic plants and algae are essential components of healthy aquatic ecosystems, providing food, oxygen, and habitat for a variety of organisms. However, excessive growth of these species can lead to water quality issues, habitat degradation, and aesthetic concerns.",
-    longTextRte: `At Little Bear, we understand the challenges posed by excessive aquatic plant and algae growth in ponds and lakes. Our team of experienced professionals offers efficient and sustainable solutions to control nuisance vegetation and maintain the aesthetic appeal and recreational value of your water bodies.
-      We begin by conducting a thorough assessment of your aquatic ecosystem to identify the specific plant and algae species present, as well as the underlying factors contributing to their growth. Based on this information, we develop a customized management plan that addresses your unique concerns and goals.
-      Our aquatic plant and algae control strategies include a range of techniques, such as mechanical removal, biological controls, and selective herbicide applications. We employ cutting-edge equipment and methodologies to physically remove unwanted vegetation, while our experts carefully select and introduce biological control agents, such as herbivorous fish or insects, to naturally manage plant populations.
-      When necessary, we use targeted herbicide applications to control particularly stubborn or invasive species. Our licensed applicators follow strict safety protocols and use environmentally friendly products to minimize any potential impacts on non-target organisms and maintain the ecological balance of your aquatic ecosystem.
-      In addition to our control measures, we also provide recommendations for long-term management and prevention of excessive plant and algae growth. This may include nutrient reduction strategies, aeration, and the establishment of native aquatic plants that compete with nuisance species.
-      With our proactive approach, regular maintenance services, and commitment to sustainable solutions, [Company Name] can help you achieve and maintain clear, healthy waters that support thriving aquatic communities and provide endless enjoyment for years to come.`,
+      "We offer effective solutions whether your goals are to control nuisance algae and vegetation or to simply enhance the aesthetic appeal and recreational value of your water bodies.",
+    longTextRte: `<p>At LBE, we understand the challenges posed by excessive aquatic plant and algae growth in ponds and lakes. Our team of experienced professionals offers efficient and sustainable solutions to control nuisance vegetation and maintain the aesthetic appeal and recreational value of your water bodies.</p>
+    <p>We begin by conducting a thorough assessment of your aquatic ecosystem to identify the specific plant and algae species present, as well as the underlying factors contributing to their growth. Based on this information, we develop a customized management plan that addresses your unique concerns and goals.
+    Our aquatic plant and algae control strategies include a range of techniques, such as physical, mechanical, and chemical. 
+    When necessary, we use targeted herbicide applications to control particularly stubborn or invasive species. Our licensed applicators follow strict safety protocols and use environmentally friendly products to minimize any potential impacts on non-target organisms and maintain the ecological balance of your aquatic ecosystem.</p>
+    <p>In addition to our control measures, we also provide recommendations for long-term management and prevention of excessive plant and algae growth. This may include nutrient reduction strategies, aeration, and the establishment of native aquatic plants that compete with nuisance species.</p>
+    <p>With our proactive approach, regular maintenance services, and commitment to sustainable solutions, LBE can help you achieve and maintain clear, healthy waters that support thriving aquatic communities and provide endless enjoyment for years to come.</p>`,
     image: "/images/pond-temp-4.jpg",
+  },
+  {
+    id: "invasive-species-management-plans",
+    title: "Invasive Species Management Plans",
+    navText: "Invasive Species Management",
+    description:
+      "We specialize in developing comprehensive invasive species management plans to protect your ponds and lakes from these threats.",
+    longTextRte: `<p>Invasive species can have devastating impacts on the health and biodiversity of aquatic ecosystems, displacing native species and disrupting delicate ecological balances. At LBE, we specialize in developing comprehensive invasive species management plans to ensure early detection and rapid response to aquatic invasive species.</p>
+      <p>Our process begins with thorough surveys and assessments to identify the presence, extent, and potential impacts of invasive species infestations in your water bodies.</p>
+      <p>Based on our findings, we create custom-tailored management plans that incorporate a multi-faceted approach to managing, or where feasible, eradicating invasive species. This may include targeted removal efforts, such as manual harvesting, selective herbicide applications, and restoration of native species.</p>
+      <p>In addition to control and eradication measures, our invasive species management plans also include strategies for preventing future invasions. We provide education and guidance on best practices for minimizing the risk of introducing invasive species, such as proper boat cleaning protocols and monitoring of potential entry points.</p>
+      <p>Throughout the implementation of our management plans, we work closely with our clients, providing regular progress updates and making adjustments as needed to ensure the best possible outcomes. Our ultimate goal is to restore and maintain the ecological integrity of your aquatic environments, promoting the recovery and resilience of native species and habitats.</p>`,
+    image: "/images/pond-temp-3.jpg",
   },
   {
     id: "environmental-project-management",
     title: "Environmental Project Management & RFPs",
-    navText: "Project Management",
+    navText: "Environmental Project Management",
     description:
-      "We offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects.",
-    longTextRte: `At Little Bear, we offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects. Our experienced team of project managers, biologists, and environmental specialists work closely with you to understand your goals, constraints, and expectations, developing customized solutions that meet your unique needs.</p>
-      <p>Our project management services cover a wide range of environmental initiatives, including habitat restoration, wetland mitigation, stormwater management, and water quality improvement projects. We take a holistic approach, considering all aspects of your project, from initial feasibility studies and regulatory compliance to design, implementation, and long-term monitoring.</p>
-      <p>We also specialize in the development of Request for Proposals (RFPs) for environmental projects. Our team has extensive experience in crafting clear, concise, and technically sound RFPs that effectively communicate your project requirements and attract qualified contractors. We work closely with you to identify key project components, define scope of work, and establish evaluation criteria, ensuring that your RFP process is efficient, transparent, and aligned with your objectives.</p>
-      <p>Throughout the project lifecycle, our dedicated project managers serve as your single point of contact, coordinating all aspects of the project and ensuring seamless communication among stakeholders. We employ industry best practices and cutting-edge project management tools to keep your project on schedule, within budget, and in compliance with all relevant regulations and standards.</p>
-      <p>With [Company Name]'s environmental project management and RFP development services, you can have confidence that your projects will be executed with the highest level of professionalism, expertise, and attention to detail, delivering superior results for your aquatic and terrestrial environments.</p>
+      "We have a strong history writitng invasive species management plans and offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects.",
+    longTextRte: `
+      <p>At LBE, we offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects. Our experienced team of project managers, biologists, and environmental specialists work closely with you to understand your goals, constraints, and expectations, developing customized solutions that meet your unique needs. We also specialize in the development of Request for Proposals (RFPs) for environmental projects. </p>
       `,
     image: "/images/pond-temp-4.jpg",
   },
@@ -71,7 +66,7 @@ export const services = [
     title: "Biological & Plant Surveys",
     navText: "Biological Surveys",
     description:
-      "Biological surveys are essential tools for assessing the health and biodiversity of aquatic ecosystems. Our team of biologists and ecologists conducts comprehensive surveys to identify and monitor key species and habitats.",
+      "Biological surveys are essential tools for assessing the health and biodiversity of aquatic ecosystems. Our experienced staff conducts comprehensive surveys to identify and monitor key species and habitats.",
     longTextRte: `<p>Little Bear conducts comprehensive biological and plant surveys to assess the health, diversity, and ecological value of aquatic and terrestrial habitats. Our team of experienced biologists and botanists utilizes scientifically rigorous methods to gather accurate and reliable data on the flora and fauna present in your ecosystems.</p>
     <p>Our biological surveys encompass a wide range of taxa, including fish, amphibians, reptiles, mammals, birds, and invertebrates. We employ a variety of sampling techniques, such as electrofishing, seine netting, live trapping, and point counts, to assess species presence, abundance, and distribution. Our experts also collect data on habitat characteristics, such as water quality, substrate composition, and vegetation structure, to gain a holistic understanding of the ecosystem.</p>
     <p>Our plant surveys involve detailed inventories of aquatic and terrestrial vegetation communities. We use a combination of transect sampling, quadrat sampling, and remote sensing techniques to identify and map plant species, assess their relative abundance, and characterize community structure. Our botanists have extensive knowledge of native and invasive plant species and can provide valuable insights into the health and sustainability of your plant communities.</p>
