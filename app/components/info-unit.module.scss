@@ -8,10 +8,11 @@
   justify-content: center;
 
   width: 90vw;
+  max-height: 300px;
   // min-height: 250px;
 
   margin: 0 0 4vmin 0;
-  padding: 1vmin 3vmin;
+  // padding: 1vmin 3vmin;
 
   color: $text-color;
   // background-color: $primary-color-grey-light;
@@ -36,18 +37,23 @@
     align-items: center;
 
     width: 50%;
+    padding: 1vmin 3vmin;
 
     color: $text-color;
 
   }
 
   &__imagesection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
 
     width: 50%;
+    height: 100%;
+    object-fit: cover;
+
+    // padding: 0 2vmin;
 
   }
 

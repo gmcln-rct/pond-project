@@ -1,6 +1,8 @@
-import styles from "./infounit.module.scss";
+import styles from "./info-unit.module.scss";
 
 import Image from "next/image";
+
+import InfoUnitList from "./info-unit-list";
 
 export default function InfoUnit(props) {
   const {
@@ -10,6 +12,7 @@ export default function InfoUnit(props) {
     image,
     imageStyle,
     imagePlacement,
+    servicesList
   } = props;
   const circleStyle = imageStyle === "certification" ? true : false;
   const alignImage1 = {
@@ -25,7 +28,7 @@ export default function InfoUnit(props) {
         <p className={styles.infounit__description}>{description}</p>
         {imageStyle === "certification" ? (
           <p className={styles.infounit__description}>{subdescription}</p>
-        ) : null}
+        ) : <InfoUnitList infoUnitListData={servicesList} />}
       </div>
       <div className={styles.infounit__imagesection} style={alignImage2}>
         {imageStyle === "certification" ? (
