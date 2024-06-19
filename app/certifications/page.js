@@ -1,8 +1,5 @@
 
-// import Info from 'app/components/Info'
 
-// import styles from "./page.module.scss";
-// import InfoUnit from "./infounit";
 import InfoContainer from "../components/info";
 
 const certificationData = [
@@ -59,22 +56,7 @@ export default function Certifications() {
   return (
     <section className={certificationStyleClass}>
         <InfoContainer infoUnitsData={certificationData}/>
-
     </section>
-    // <div className={styles.info__container}>
-    //   {infoUnitsData.map((infoUnitData) => (
-    //     <InfoUnit key={infoUnitData.title} {...infoUnitData} />
-    //   ))}
-    // </div>
   );
 }
 
-
-
-// import React from 'react'
-
-// export default function page() {
-//   return (
-//     <div>page</div>
-//   )
-// }
