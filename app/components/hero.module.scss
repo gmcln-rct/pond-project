@@ -1,12 +1,12 @@
 @use "../_variables.scss" as *;
 
 .hero {
-  background: linear-gradient(to top, rgb(39, 75, 61), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to top, rgba(39, 75, 61, 0.2), rgba(0, 0, 0, 0.1)),
     url("/images/pond-hero.jpg") no-repeat center center/cover;
   width: 100%;
   height: 500px;
 
-  padding: 25vmin 0 2vmin 6vmin;
+  padding: 28vmin 0 2vmin 6vmin;
 
   color: #fafafc;
 
@@ -17,12 +17,13 @@
     top: 90px;
     left: 0;
     width: 100%;
-    height: 500px;
-
-    background: linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.1) 0%,
-        rgba(0, 0, 0, 0.3) 50%,
-        rgba(0, 0, 0, 0.6) 100%);
+    height: 510px; // Increase the height to extend the gradient beyond the video
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.2) 50%,
+      rgba(0, 0, 0, 0.8) 100%
+    );
     z-index: 1;
   }
 
@@ -66,7 +67,6 @@
     line-height: clamp(1.5rem, 2.7vw, 2.7rem);
     font-weight: 400;
     letter-spacing: 0.1rem;
-
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 
   }
