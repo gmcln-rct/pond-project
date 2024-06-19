@@ -10,6 +10,7 @@ import Script from "next/script";
 
 // Fonts
 
+
 import { WorkSans } from "next/font/google";
 import { ProximaNova } from "next/font/google";
 import { MinionPro } from "next/font/google";
