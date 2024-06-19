@@ -3,12 +3,18 @@
 .hero {
   background: linear-gradient(to top, rgba(39, 75, 61, 0.2), rgba(0, 0, 0, 0.1)),
     url("/images/pond-hero.jpg") no-repeat center center/cover;
-  height: 500px;
+  height: 300px;
   margin: 0;
-
-  padding: 28vmin 0 0vmin 6vmin;
+  padding: 18vmin 0 0vmin 6vmin;
 
   color: #fafafc;
+
+  @media screen and (min-width: 720px){
+    height: 500px;
+
+    padding: 28vmin 0 0vmin 6vmin;
+    
+  }
 
   //   padding: 15rem 3rem 6rem;
   // &::before {
@@ -32,8 +38,12 @@
     top: 90px;
     left: 0;
     width: 100%;
-    height: 510px;
+    height: 310px;
     object-fit: cover;
+
+    @media screen and (min-width: 720px){
+      height: 510px;
+    }
   }
 
   &__content {
@@ -44,9 +54,17 @@
 
     position: absolute;
 
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    font-family: "Lato", sans-serif;
+    line-height: clamp(1.7rem, 2.9vw, 2.7rem);
+
     color: white;
     text-align: center;
     z-index: 2;
+
+    @media screen and (min-width: 720px){
+      text-align: left;
+    }
   }
 
   &__phoneLink {
@@ -63,18 +81,24 @@
   }
 
   &__subtitle {
-    font-size: clamp(1rem, 2.5vw, 2rem);
-    font-family: "Lato", sans-serif;
-    line-height: clamp(1.5rem, 2.7vw, 2.7rem);
+    // font-size: clamp(1.3rem, 2.5vw, 2rem);
+    // font-family: "Lato", sans-serif;
+    // line-height: clamp(1.9rem, 2.9vw, 2.5rem);
     font-weight: 400;
     letter-spacing: 0.1rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+    @media screen and (min-width: 720px){
+      text-align: left;
+    }
 
   }
 
   &__title {
     font-size: clamp(2rem, 4vw, 3rem);
     font-weight: 600;
+    line-height: clamp(2.5rem, 4.5vw, 3.5rem);
     // font-family: "Droid Serif", serif;
     // font-family: "Montserrat", sans-serif;
     font-family: "Futura PT", sans-serif;
