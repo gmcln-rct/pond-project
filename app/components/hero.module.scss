@@ -1,8 +1,8 @@
 @use "../_variables.scss" as *;
 
 .hero {
-  background: linear-gradient(to top, rgba(39, 75, 61, 0.2), rgba(0, 0, 0, 0.1)),
-    url("/images/pond-hero.jpg") no-repeat center center/cover;
+  // background: linear-gradient(to top, rgba(39, 75, 61, 0.2), rgba(0, 0, 0, 0.1)),
+  //   url("/images/pond-hero.jpg") no-repeat center center/cover;
   width: 100%;
   height: 500px;
 
@@ -11,21 +11,21 @@
   color: #fafafc;
 
   //   padding: 15rem 3rem 6rem;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 90px;
-    left: 0;
-    width: 100%;
-    height: 510px; // Increase the height to extend the gradient beyond the video
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 0.2) 50%,
-      rgba(0, 0, 0, 0.8) 100%
-    );
-    z-index: 1;
-  }
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 90px;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 510px; // Increase the height to extend the gradient beyond the video
+  //   background: linear-gradient(
+  //     to bottom,
+  //     rgba(0, 0, 0, 0.1) 0%,
+  //     rgba(0, 0, 0, 0.2) 50%,
+  //     rgba(0, 0, 0, 0.8) 100%
+  //   );
+  //   z-index: 1;
+  // }
 
   &__video {
     position: absolute;
