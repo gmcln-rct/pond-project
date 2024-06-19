@@ -15,10 +15,7 @@
 
     // color: #fff;
     color: $primary-color-grey-dark;
-    // background-color: $primary-color-grey-dark;
     background-color: $primary-color-green-light;
-    // color: $primary-color-grey-light;
-
 
     &__icon {
         padding: 0 0 0 1vmin;
@@ -33,9 +30,8 @@
         align-items: center;
 
         padding: 0 1vmin 0 1vmin;
-        // color: #fff;
+
         color:  $primary-color-grey-dark;
-        // color: $primary-color-grey-dark;
         text-decoration: none;
     }
 }
