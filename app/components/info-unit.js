@@ -32,15 +32,15 @@ export default function InfoUnit(props) {
       </div>
       <div className={styles.infounit__imagesection} style={alignImage2}>
         {imageStyle === "certification" ? (
-          <div className={styles.infounit__sealcontainer}>
+          <span className={styles.infounit__sealcontainer}>
             <Image
               src={image}
-              alt="Pond Hero"
+              alt={title}
               className={styles.infounit__image}
               width={300}
               height={300}
             />
-          </div>
+          </span>
         ) : (
           <div className={styles.infounit__imagecontainer}>
             <Image

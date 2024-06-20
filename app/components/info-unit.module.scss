@@ -7,7 +7,7 @@
   justify-content: center;
 
   width: 90vw;
-  max-height: 300px;
+  // max-height: 300px;
   // min-height: 250px;
 
   margin: 0 0 4vmin 0;
@@ -20,14 +20,7 @@
   border-radius: 20px;
   overflow: hidden;
 
-  &__section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    width: 50%;
-  }
 
   &__contentsection {
     display: flex;
@@ -42,41 +35,55 @@
 
   }
 
-  &__imagesection {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
-
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
-
-    // padding: 0 2vmin;
-
-  }
-
-  .infounit__title {
-    margin-bottom: 0.5rem;
-
-    font-size: 1.5rem;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 700;
-  }
-
-  .infounit__description {
+  &__description {
     margin: 0 3vmin;
 
     font-size: clamp(1rem, 1.5vw, 1.5rem);
     font-family: "Proxima Nova", sans-serif;
   }
 
-  .infounit__image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  &__image {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    width: 90%;
+    height: auto;
+    // // height: 80%;
+
+    // margin: 5%;
+    // padding: 5%;
+    // object-fit: cover;
+    margin: 0 auto;
+
 
     order: 1;
+  }
+
+  &__imagesection {
+    width: 50%;
+    height: 100%;
+    // object-fit: cover;
+
+    // padding: 0 2vmin;
+
+  }
+
+    &__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+  }
+
+  &__title {
+    margin-bottom: 0.5rem;
+  
+    font-size: 1.5rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
   }
 
   @media screen and (min-width: 768px) {
@@ -86,12 +93,16 @@
   }
 }
 
+
+
+// Separate styling for two types of info units
+
 .infounit {
-  min-height: 250px;
+  // min-height: 250px;
 }
 
 .infounit2 {
-  min-height: 300px;
+  // min-height: 300px;
 
   padding: 2vmin 0;
 
