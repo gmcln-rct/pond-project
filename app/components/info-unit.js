@@ -6,13 +6,14 @@ import InfoUnitList from "./info-unit-list";
 
 export default function InfoUnit(props) {
   const {
-    title,
+    certificationNumbers,
     description,
     subdescription,
     image,
     imageStyle,
     imagePlacement,
-    servicesList
+    servicesList,
+    title
   } = props;
   const circleStyle = imageStyle === "certification" ? true : false;
   const alignImage1 = {
@@ -26,8 +27,12 @@ export default function InfoUnit(props) {
       <div className={styles.infounit__contentsection} style={alignImage1}>
         <h2 className={styles.infounit__title}>{title}</h2>
         <p className={styles.infounit__description}>{description}</p>
-        {imageStyle === "certification" ? (
-          <p className={styles.infounit__description}>{subdescription}</p>
+        {(certificationNumbers !== undefined && imageStyle === "certification" )? (
+          <ul className={styles.infounit__certList}>
+            {certificationNumbers.map((item, index) => (
+              <li className={styles.infounit__certListItem} key={index}>{item}</li>
+            ))}
+          </ul>
         ) : <InfoUnitList infoUnitListData={servicesList} />}
       </div>
       <div className={styles.infounit__imagesection} style={alignImage2}>

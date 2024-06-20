@@ -20,7 +20,29 @@
   border-radius: 20px;
   overflow: hidden;
 
+&__certList{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 
+  list-style: none;
+
+  padding-inline-start: 0;
+}
+
+&__certListItem {
+  // margin: 0 3vmin;
+
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  line-height: clamp(1.7rem, 2.9vw, 2.7rem);
+  
+  list-style: none;
+
+  color: $primary-color-grey-dark;
+}
 
   &__contentsection {
     display: flex;
