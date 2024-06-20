@@ -1,4 +1,3 @@
-
 @use "../_variables.scss" as *;
 
 .infounit,
@@ -86,9 +85,11 @@
     // height: 100%;
   }
 }
+
 .infounit {
   min-height: 250px;
 }
+
 .infounit2 {
   min-height: 300px;
 
