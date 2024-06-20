@@ -1,0 +1,26 @@
+@use "../../_variables.scss" as *;
+
+.servicesStory {
+    display: flex;
+    flex-direction: row;
+
+    background-color: $primary-color-grey-lighter;
+
+    &__contentWrapper {
+        width: 50%;
+
+        padding: 1vmin 3vmin;
+    }
+
+    &__imageWrapper {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        width: 50%;
+    }
+
+    &__image {
+        width: 100%;
+    }
+}

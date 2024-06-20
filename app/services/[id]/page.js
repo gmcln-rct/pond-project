@@ -2,7 +2,9 @@ import Image from "next/image";
 
 import { services } from "../../data/services";
 
-import styles from "../../success/page.module.scss";
+import SocialMediaContainer from "../../components/social-media-container";
+
+import styles from "./page.module.scss";
 
 export default function IndividualStory({ params }) {
   function findStory(id) {
@@ -12,23 +14,26 @@ export default function IndividualStory({ params }) {
   const story = findStory(params.id);
 
   return (
-    <section className={styles.successStory}>
-      <div className={styles.successStory__wrapper}>
+    <>
+    <section className={styles.servicesStory}>
+      <div className={styles.servicesStory__imageWrapper}>
         <Image
-          className={styles.successStory__image}
+          className={styles.servicesStory__image}
           src={story.image}
           alt={story.title}
           width={507}
           height={446}
         />
       </div>
-      <div className={styles.successStory__content}>
-        <h2 className={styles.successStory__title}>{story.title}</h2>
+      <div className={styles.servicesStory__contentWrapper}>
+        <h2 className={styles.servicesStory__title}>{story.title}</h2>
         <div
-          className={styles.successStory__content}
+          className={styles.servicesStory__content}
           dangerouslySetInnerHTML={{ __html: story.longTextRte }}
         ></div>
       </div>
     </section>
+    <SocialMediaContainer />
+    </>
   );
 }
