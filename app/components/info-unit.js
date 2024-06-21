@@ -51,7 +51,7 @@ export default function InfoUnit(props) {
             <Image
               src={image}
               alt="Pond Hero"
-              className={styles.infounit__image}
+              className={styles.infounit__imageHighlight}
               width={200}
               height={200}
             />
