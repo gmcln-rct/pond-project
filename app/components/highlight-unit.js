@@ -1,6 +1,7 @@
 import styles from "./info-unit.module.scss";
 import Image from "next/image";
 
+// HIGHLIGHT UNIT FOR HOMEPAGE
 export default function InfoUnit(props) {
   const {
     certificationNumbers,
@@ -10,7 +11,7 @@ export default function InfoUnit(props) {
     imagePlacement,
     title
   } = props;
-  const circleStyle = imageStyle === "certification" ? true : false;
+
   const alignImage1 = {
     order: imagePlacement === "left" ? 1 : 2,
   };
@@ -19,30 +20,13 @@ export default function InfoUnit(props) {
   };
 
   return (
-    <section className={circleStyle ? `${styles.infounit2}` : `${styles.infounit}`}>
+    <section className={styles.infounit}>
       <div className={styles.infounit__contentsection} style={alignImage1}>
         <h2 className={styles.infounit__title}>{title}</h2>
         <p className={styles.infounit__description}>{description}</p>
-        {(certificationNumbers !== undefined && imageStyle === "certification") ? (
-          <ul className={styles.infounit__certList}>
-            {certificationNumbers.map((item, index) => (
-              <li className={styles.infounit__certListItem} key={index}>{item}</li>
-            ))}
-          </ul>
-        ) : null}
       </div>
       <div className={styles.infounit__imageSection} style={alignImage2}>
-        {imageStyle === "certification" ? (
-          <span className={styles.infounit__sealContainer}>
-            <Image
-              src={image}
-              alt={title}
-              className={styles.infounit__seal}
-              width={300}
-              height={300}
-            />
-          </span>
-        ) : (
+
           <div className={styles.infounit__imageContainer}>
             <Image
               src={image}
@@ -52,7 +36,6 @@ export default function InfoUnit(props) {
               height={300}
             />
           </div>
-        )}
       </div>
     </section>
   );
