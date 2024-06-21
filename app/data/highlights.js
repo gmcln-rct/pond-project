@@ -1,7 +1,8 @@
 export const infoUnitsData = [
     {
-        id: "environmental-management-services",
-        title: "Environmental Management Services",
+        id: "pond-and-lake-management",
+        title: "Pond & Lake Management",
+        description: "Transform your water feature into a thriving ecosystem with the help of LBE's Certified Lake Manager.",
         servicesList: [
             "Pond & Lake Management",
             "Pesticide Application/Pest Control",
@@ -13,8 +14,10 @@ export const infoUnitsData = [
         imagePlacement: "left",
     },
     {
-        id: "environmental-project-planning-and-execution",
-        title: "Environmental Project Planning and Execution",
+        id: "weed-and-algae-control",
+        title: "Weed & Algae Control",
+        description: "Control invasive aquatic plant species and nuisance algae with an experienced Certified Pesticide Applicator.",
+
         servicesList: [
             "Project Management and Execution of Environmental Projects",
             "Biological/Habitat Assessments",
@@ -26,8 +29,9 @@ export const infoUnitsData = [
         imagePlacement: "right",
     },
     {
-        id: "permitting-compliance-and-communication",
-        title: "Permitting, Compliance, and Communication",
+        id: "invase-species-management",
+        title: "Invasive Species Management",
+        description: "LBE provides early detection and rapid response for aquatic invasive species.",
         servicesList: [
             "Preparation of Environmental Permit Packages",
             "Development of Education & Outreach Materials",
@@ -36,5 +40,19 @@ export const infoUnitsData = [
             "Natural Resource Grant Writing & Reporting"
         ],
         image: "/images/pond-temp-3.jpg",
-        imagePlacement: "left",    }
+        imagePlacement: "left",    },
+    {
+        id: "environmental-permits-and-grants",
+        title: "Environmental Permits & Grants",
+        description: "LBE can confidently handle all environmental permits and grant applications for pond and lake management projects.",
+        image: "/images/pond-temp-4.jpg",
+        imagePlacement: "right"
+    },
+    {
+        id: "water-quality-testing",
+        title: "Water Quality Testing",
+        description: "LBE offers testing for a variety of water quality parameters and works with qualified labs to provide reports quickly.",
+        image: "/images/pond-temp-5.jpg",
+        imagePlacement: "left"
+    }
 ];

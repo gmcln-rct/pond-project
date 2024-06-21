@@ -33,7 +33,7 @@ export default function InfoUnit(props) {
               <li className={styles.infounit__certListItem} key={index}>{item}</li>
             ))}
           </ul>
-        ) : <InfoUnitList infoUnitListData={servicesList} />}
+        ) : <></>}
       </div>
       <div className={styles.infounit__imagesection} style={alignImage2}>
         {imageStyle === "certification" ? (
