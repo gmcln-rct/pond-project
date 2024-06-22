@@ -4,7 +4,6 @@ import Image from "next/image";
 // HIGHLIGHT UNIT FOR HOMEPAGE
 export default function InfoUnit(props) {
   const {
-    certificationNumbers,
     description,
     image,
     imageStyle,
