@@ -3,7 +3,7 @@
 .navBar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 
   width: 100%;
@@ -14,68 +14,16 @@
   
   z-index: 100;
 
-  &__linkscontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    z-index: 50;
-  }
-
   &__brandcontainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-decoration: none;
-  }
 
-  &__brandcontainer:hover {
-    color: #f4f4f4;
-  }
-
-  &__links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 2rem;
-
-    background-color: grey;
-
-    transform: translateY(-100%);
-    transition: transform 0.3s ease-in-out;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 5;
-
-    &.open {
-      transform: translateY(0);
-      opacity: 1;
-      visibility: visible;
-    }
-
-    a {
-      margin: 1rem 0;
-      font-family: "Noto Sans", sans-serif;
-      font-size: clamp(1.2rem, 1.4vw, 1.5rem);
-      font-weight: 400;
-      letter-spacing: 1px;
-      color: $text-color-light;
-      text-decoration: none;
-      transition: 0.3s ease-in-out;
-
-      &:hover {
-        color: #29aef2;
-        transform: scale(1.1);
-      }
-    }
+    width: 15vw;
+    height: auto;
+    min-width: 250px;
   }
 
   &__ctaContainer {
@@ -83,6 +31,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    min-width: 150px;
   }
 
   &__cta {
@@ -146,6 +96,70 @@
     }
   }
 
+
+  &__linkscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 50;
+  }
+
+
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+
+    background-color: grey;
+
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 5;
+
+    &.open {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    a {
+      margin: 1rem 0;
+      font-family: "Noto Sans", sans-serif;
+      font-size: clamp(1.2rem, 1.4vw, 1.5rem);
+      font-weight: 400;
+      letter-spacing: 1px;
+      color: $text-color-light;
+      text-decoration: none;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        color: #29aef2;
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  &__navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  
   &__toggle {
     display: block;
     background: none;

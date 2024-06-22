@@ -29,16 +29,19 @@ export default function Header() {
   return (
     <>
       <nav className={styles.navBar}>
+      <div className={styles.navBar__navContainer}>
+        <Link className={styles.navBar__brandcontainer} href="/">
+          <Image
+            src="/images/pond-logo - v2.png"
+            alt="Little Bear Environmental"
+            className={styles.navBar__brandlogo}
+            width={200}
+            height={60}
+            layout={"responsive"}
+            objectFit={"contain"}
+          />
+        </Link>
         <div className={styles.navBar__linkscontainer}>
-          <Link className={styles.navBar__brandcontainer} href="/">
-            <Image
-              src="/images/pond-logo - v2.png"
-              alt="Little Bear Environmental"
-              className={styles.navBar__brandlogo}
-              width={390}
-              height={75}
-            />
-          </Link>
           <div
             className={`${styles.navBar__links} ${isOpen ? styles.open : ""}`}
           >
@@ -55,6 +58,7 @@ export default function Header() {
               Contact Us
             </Link>
           </div>
+        </div>
         </div>
         <div className={styles.navBar__ctacontainer}>
           <Link href="/contact" className={styles.navBar__ctaDesktop}>

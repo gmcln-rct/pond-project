@@ -1,4 +1,4 @@
-import styles from "./info-unit.module.scss";
+import styles from "./highlight-unit.module.scss";
 import Image from "next/image";
 
 // HIGHLIGHT UNIT FOR HOMEPAGE
@@ -19,18 +19,18 @@ export default function HighlightUnit(props) {
   };
 
   return (
-    <section className={styles.infounit}>
-      <div className={styles.infounit__contentsection} style={alignImage1}>
-        <h2 className={styles.infounit__title}>{title}</h2>
-        <p className={styles.infounit__description}>{description}</p>
+    <section className={styles.highlightUnit}>
+      <div className={styles.highlightUnit__contentsection} style={alignImage1}>
+        <h2 className={styles.highlightUnit__title}>{title}</h2>
+        <p className={styles.highlightUnit__description}>{description}</p>
       </div>
-      <div className={styles.infounit__imageSection} style={alignImage2}>
+      <div className={styles.highlightUnit__imageSection} style={alignImage2}>
 
-          <div className={styles.infounit__imageContainer}>
+          <div className={styles.highlightUnit__imageContainer}>
             <Image
               src={image}
               alt="Pond Hero"
-              className={styles.infounit__image}
+              className={styles.highlightUnit__image}
               width={300}
               height={300}
             />

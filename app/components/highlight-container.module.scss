@@ -1,0 +1,16 @@
+@use "../_variables.scss" as *;
+
+.highlight {
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 4vmin 1vmin;
+
+        background-color: $primary-color-grey-dark;
+
+    }
+}
