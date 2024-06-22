@@ -1,4 +1,4 @@
-import styles from "./info.module.scss";
+import styles from "./info-container.module.scss";
 import InfoUnit from "./info-unit";
 
 
