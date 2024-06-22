@@ -5,36 +5,21 @@
   flex-direction: row;
   justify-content: center;
   width: 90vw;
+  max-height: 300px;
   margin: 0 0 4vmin 0;
 
   color: $text-color;
   background-color: #fff;
   border-radius: 20px;
+
   overflow: hidden;
-
-  &__certList {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    list-style: none;
-    padding-inline-start: 0;
-  }
-
-  &__certListItem {
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
-    font-family: "Proxima Nova", sans-serif;
-    font-weight: 400;
-    line-height: clamp(1.7rem, 2.9vw, 2.7rem);
-    list-style: none;
-    color: $primary-color-grey-dark;
-  }
 
   &__contentsection {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     width: 50%;
     padding: 1vmin 3vmin;
     color: $text-color;
@@ -46,9 +31,13 @@
   }
 
   &__image {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin: 0 auto;
+      // margin: 0 auto;
+
+    object-fit: cover;
+    overflow: hidden;
+
     order: 1;
   }
 
@@ -56,17 +45,19 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    margin: 0 auto;
+    // margin: 0 auto;
 
     display: none;
 
     order: 1;
+
     @media screen and (min-width: 420px) {
       display: flex;
-      width: 100%;
+      width: 500%;
       height: 100%;
 
       object-fit: cover;
+      overflow: hidden;
       
     }
   }
