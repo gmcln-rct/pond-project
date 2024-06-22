@@ -2,7 +2,7 @@ import styles from "./info-unit.module.scss";
 import Image from "next/image";
 
 // HIGHLIGHT UNIT FOR HOMEPAGE
-export default function InfoUnit(props) {
+export default function HighlightUnit(props) {
   const {
     description,
     image,

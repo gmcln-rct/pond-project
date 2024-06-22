@@ -1,6 +1,6 @@
 
 
-import InfoContainer from "../components/info";
+import InfoContainer from "../components/info-container";
 
 import { certificationData } from "../data/certifications";
 
