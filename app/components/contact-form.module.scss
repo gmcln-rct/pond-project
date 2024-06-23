@@ -58,6 +58,12 @@
     align-items: center;
   }
 
+  &__error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+
   &__form {
     display: flex;
     flex-direction: column;
