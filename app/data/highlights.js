@@ -52,7 +52,7 @@ export const infoUnitsData = [
         id: "water-quality-testing",
         title: "Water Quality Testing",
         description: "LBE offers testing for a variety of water quality parameters and works with qualified labs to provide reports quickly.",
-        image: "/images/pond-temp-5.jpg",
+        image: "/images/pond-hero.jpg",
         imagePlacement: "left"
     }
 ];
