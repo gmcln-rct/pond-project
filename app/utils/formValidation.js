@@ -13,8 +13,11 @@ export const validateForm = (name, email, phone, message) => {
       errors.email = 'Email is invalid';
     }
   
-    if (phone && !/^\+?[1-9]\d{1,14}$/.test(phone)) {
-      errors.phone = 'Phone number is invalid';
+    if (phone) {
+      const phoneRegex = /^(\+1|1)?[-.\s]?\(?[2-9]\d{2}\)?[-.\s]?\d{3}[-.\s]?\d{4}$/;
+      if (!phoneRegex.test(phone)) {
+        errors.phone = 'Phone number is invalid';
+      }
     }
   
     if (!message.trim()) {
