@@ -65,7 +65,7 @@ export default function Header() {
             <button className={styles.navBar__cta}>Contact Us</button>
           </Link>
           <button className={styles.navBar__toggle} onClick={toggleMenu}>
-            {isOpen ? <CloseIcon /> : <MenuIcon />}
+            {isOpen ? <CloseIcon fontSize="large" /> : <MenuIcon fontSize="large" />}
           </button>
         </div>
       </nav>
