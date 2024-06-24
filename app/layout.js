@@ -8,18 +8,17 @@ import Footer from "./components/footer";
 
 import Script from "next/script";
 
-// Fonts
+// Font
 
-
-import { WorkSans } from "next/font/google";
-import { ProximaNova } from "next/font/google";
-import { MinionPro } from "next/font/google";
-import { Martel } from "next/font/google";
-import {MartelSans} from "next/font/google";
-import { Playfair_Display } from "next/font/google";
-import {Karla} from "next/font/google";
-import {Oxygen} from "next/font/google";
-import { Noto_Sans } from "next/font/google";
+// import { WorkSans } from "next/font/google";
+// import { ProximaNova } from "next/font/google";
+// import { MinionPro } from "next/font/google";
+// import { Martel } from "next/font/google";
+// import {MartelSans} from "next/font/google";
+// import { Playfair_Display } from "next/font/google";
+// import {Karla} from "next/font/google";
+// import {Oxygen} from "next/font/google";
+// import { Noto_Sans } from "next/font/google";
 
 export const metadata = {
   title: "Little Bear Environmental | Environmental consulting serving New York & New Jersey",
