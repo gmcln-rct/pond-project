@@ -21,8 +21,12 @@
     align-items: center;
     
     width: 50%;
-    padding: 1vmin 3vmin;
+    padding: 2vmin 5vmin;
     color: $text-color;
+
+    @media screen and (min-width: 420px) {
+      padding: 1vmin 3vmin;
+    }
   }
 
   &__description {
@@ -71,7 +75,7 @@
   &__title {
     margin-bottom: 0.2rem;
     font-size: clamp(1.2rem, 1.8vw, 2.3rem);
-    font-family: "Work Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     line-height: clamp(1.7rem, 2.9vw, 2.7rem);
   }

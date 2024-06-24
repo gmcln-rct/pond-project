@@ -1,4 +1,4 @@
-// components/ContactForm.js
+// Contact Form, including image
 
 "use client";
 

@@ -25,7 +25,8 @@ export const infoUnitsData = [
             "Drone Survey (for use in difficult terrain)",
             "Bathymetric Mapping"
         ],
-        image: "/images/pond-temp-2.jpg",
+        image: "/images/highlights/pond-algae.jpg",
+        credit: `Photo by <a href="https://unsplash.com/@jrlars?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonathan Larson</a> on <a href="https://unsplash.com/photos/green-grass-on-brown-sand-0LPBkOb7f1c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>`,
         imagePlacement: "right",
     },
     {
@@ -39,7 +40,7 @@ export const infoUnitsData = [
             "Curriculum Development for Varying Audiences",
             "Natural Resource Grant Writing & Reporting"
         ],
-        image: "/images/pond-temp-3.jpg",
+        image: "/images/highlights/invasive-species.jpg",
         imagePlacement: "left",    },
     {
         id: "environmental-permits-and-grants",
@@ -52,7 +53,8 @@ export const infoUnitsData = [
         id: "water-quality-testing",
         title: "Water Quality Testing",
         description: "LBE offers testing for a variety of water quality parameters and works with qualified labs to provide reports quickly.",
-        image: "/images/pond-hero.jpg",
+        image: "/images/highlights/water-quality.jpg",
+        credit: `Photo by <a href="https://unsplash.com/@photohunter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jimmy Chang</a> on <a href="https://unsplash.com/photos/water-drop-NP8gd2KUnfw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>`,
         imagePlacement: "left"
     }
 ];
