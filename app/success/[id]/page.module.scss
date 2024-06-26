@@ -3,34 +3,15 @@
 .successStory {
   display: flex;
   flex-direction: column;
-
   background-color: $primary-color-grey-light;
-
-  // overflow: hidden;
 
   @media (min-width: 1020px) {
     flex-direction: row;
+    flex-wrap: wrap; // Add this line
   }
 
-  &__imageWrapper {
-    position: relative;
-    width: 100%;
-    height: 30vh;
-  
-    @media (min-width: 1020px) {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 30%;
-      height: 100vh;
-    }
-  }
 
-  &__image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
+
 
   &__contentWrapper {
     display: block;
@@ -39,7 +20,8 @@
     padding: 2rem;
     
     @media (min-width: 1020px) {
-      margin-left: 30%; // Adjust this value to match the width of the imageWrapper
+      width: 70%;
+      margin-left: 0; // Remove the left margin
     }
   }
 
@@ -56,6 +38,26 @@
     text-align: center;
 
     font-size: clamp(1rem, 1.2vw, 1.5rem);
+  }
+
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+  
+    @media (min-width: 1020px) {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 30%;
+      height: calc(100vh - 100px); // Adjust 100px to match your footer height
+    }
   }
 
   &__title {
