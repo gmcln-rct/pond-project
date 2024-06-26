@@ -4,17 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 html {
-background-color: darkolivegreen;
+  background-color: darkolivegreen;
 
 }
+
 // START GLOBAL STYLES ********
 
 main {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-
   width: 100%;
   height: 100%;
 
@@ -34,7 +30,7 @@ main {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-  
+
   }
 
   @media (min-width: 1020px) {
@@ -42,11 +38,8 @@ main {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-  
-  }
 
-  // overflow-y: hidden;
-  // padding: 2rem;
+  }
 
 }
 
@@ -100,8 +93,6 @@ main {
 
 
 .storyImageContainer {
-  // width: 100%;
-  // height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,4 +139,3 @@ main {
     background-color: hsl(40, 67%, 54%);
   }
 }
-
