@@ -4,21 +4,6 @@ import Head from "next/head";
 
 import Header from "./components/header";
 import Footer from "./components/footer";
-// import Share from "./components/share";
-
-import Script from "next/script";
-
-// Font
-
-// import { WorkSans } from "next/font/google";
-// import { ProximaNova } from "next/font/google";
-// import { MinionPro } from "next/font/google";
-// import { Martel } from "next/font/google";
-// import {MartelSans} from "next/font/google";
-// import { Playfair_Display } from "next/font/google";
-// import {Karla} from "next/font/google";
-// import {Oxygen} from "next/font/google";
-// import { Noto_Sans } from "next/font/google";
 
 export const metadata = {
   title: "Little Bear Environmental | Environmental consulting serving New York & New Jersey",
@@ -64,16 +49,7 @@ export default function RootLayout({ children }) {
           content="https://site-social-images.s3.amazonaws.com/verbing-ogimage.jpg"
         />` */}
 
-        {/* <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@glennmcclanan" />
-        <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} /> */}
-        {/* <meta
-          name="twitter:image"
-          content="https://site-social-images.s3.amazonaws.com/verbing-twittercard.jpg"
-        /> */}
 
-        {/* <link rel="canonical" href="https://verbing.ninja" /> */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="apple-touch-icon"
@@ -102,11 +78,10 @@ export default function RootLayout({ children }) {
       </Head>
       <body className="main-layout">
         <Header />
-        <main>{children}</main>
-        {/* <Share /> */}
-        <Footer />
-        {/* <GoogleAnalytics gaId="G-PLTQ0Q1S3Z" /> */}
-        {/* <Script src="https://www.googletagmanager.com/gtag/js?id=G-PLTQ0Q1S3Z" /> */}
+        <div className="content-wrapper">
+          <main>{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

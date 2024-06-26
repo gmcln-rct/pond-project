@@ -7,21 +7,38 @@
 
   @media (min-width: 1020px) {
     flex-direction: row;
-    flex-wrap: wrap; // Add this line
   }
 
+  &__imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+  
+    @media (min-width: 1020px) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 30%;
+      height: 100%; // 95% of viewport height
+    }
+  }
 
-
+  &__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 
   &__contentWrapper {
     display: block;
     flex: 1;
-    overflow-y: auto;
     padding: 2rem;
     
     @media (min-width: 1020px) {
+      margin-left: 30%; // To offset the fixed imageWrapper
       width: 70%;
-      margin-left: 0; // Remove the left margin
+      height: 100vh; // Full viewport height
+      overflow-y: auto; // Enable scrolling
     }
   }
 
@@ -44,20 +61,6 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
-  }
-
-  &__imageWrapper {
-    position: relative;
-    width: 100%;
-    height: 30vh;
-  
-    @media (min-width: 1020px) {
-      position: sticky;
-      top: 0;
-      left: 0;
-      width: 30%;
-      height: calc(100vh - 100px); // Adjust 100px to match your footer height
-    }
   }
 
   &__title {
