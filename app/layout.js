@@ -49,7 +49,6 @@ export default function RootLayout({ children }) {
           content="https://site-social-images.s3.amazonaws.com/verbing-ogimage.jpg"
         />` */}
 
-
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="apple-touch-icon"
