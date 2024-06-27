@@ -60,15 +60,14 @@ export const successStories = [
   },
   {
     id: "new-jersey-aquatic-invasive-species-managment",
-    title: "New Jersey Aquatic Invasive Species Managment Plan",
+    title: "New Jersey Aquatic Invasive Species Management Plan",
     description:
       "Preparing environmental permits and grant applications for pond and lake management projects.",
     longTextRte: `<article>
       <div class="storyWrapper">
-      <div class="storyColumn">
-      <h3 class="sectionHeader">New Jersey Aquatic Invasive Species Managment Plan</h3>
-      
+      <div class="storyColumn">    
       <p class="storyText">The New Jersey Aquatic Invasive Species Management Plan was created in partnership with the New Jersey Department of Environmental Protection (NJDEP) Division of Science & Research, NJDEP Fish & Wildlife, New Jersey Department of Agriculture, and the New Jersey Water Supply Authority. An extensive AIS working group was created to provide robust data from across the region. The plan was signed by Governor Murphy and accepted by the Mid-Atlantic Panel is the Spring of 2024.</p>
+      <img src="/images/success/njep/hydrilla.jpg" alt="New Jersey Aquatic Invasive Species Management Plan" class="storyImage">
       
       </div>
       </div>
