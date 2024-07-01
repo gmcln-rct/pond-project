@@ -127,9 +127,19 @@ main {
 
 }
 
+.storyImageSmall {
+  width: 50%;
+  height: auto;
+
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
 .storyText {
   padding: 1vmin 0;
-  font-weight: 100;
+  font-size: clamp(1rem, 2vmin, 1.5rem);
+  font-weight: 400;
 }
 
 .textBox {

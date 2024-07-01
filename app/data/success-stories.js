@@ -8,7 +8,7 @@ export const successStories = [
       <div class="storyWrapper">
       <div class="storyColumn">    
       <p class="storyText">The New Jersey Aquatic Invasive Species Management Plan was created in partnership with the New Jersey Department of Environmental Protection (NJDEP) Division of Science & Research, NJDEP Fish & Wildlife, New Jersey Department of Agriculture, and the New Jersey Water Supply Authority. An extensive AIS working group was created to provide robust data from across the region. The plan was signed by Governor Murphy and accepted by the Mid-Atlantic Panel is the Spring of 2024.</p>
-      <img src="/images/success/njep/hydrilla.jpg" alt="New Jersey Aquatic Invasive Species Management Plan" class="storyImage">
+      <img src="/images/success/njep/hydrilla.jpg" alt="New Jersey Aquatic Invasive Species Management Plan" class="storyImageSmall">
       
       </div>
       </div>
@@ -59,7 +59,23 @@ export const successStories = [
     dates: "Project Duration: Jan 2023-Present",
     client: "U.S. Army Corps of Engineers",
   },
+  {
+    id: "peconic-river-project",
+    title: "Peconic River Ludwigia peploides Control Project",
+    description:
+      "Water quality testing is an essential part of environmental management. It helps determine the health of aquatic ecosystems and identify potential threats to the environment.",
+    longTextRte: `Little Bear worked on the team to develop NYSDEC’s 5-Year Peconic River Ludwigia peploides Management Plan. A pilot combination herbicide treatment took place in 2021, followed by full-scale treatment of the aquatic invasive plants floating-primrose willow (Ludwigia peploides) and European frogbit (Hydrocharis morsus-ranae). Project partners include SOLitude Lake Mangement (2021), The Pond and Lake Connection (2022-2024), and Adirondack Research (2022-2026).<br/>
+      <h3>Project Documents & Reports:</h3>
+      <ul>
+        <li><a href="http://dec.ny.gov/docs/lands_forests_pdf/croton5yrplan(1).pdf"> Peconic River Ludwigia Control 5-Year Management Plan</a></li>
+        <li><a href="http://dec.ny.gov/docs/lands_forests_pdf/waterprimrosefs.pdf"> Ludwigia peploides Fact Sheet</a></li>
+        <li><a href="http://dec.ny.gov/animals/122333.html"> Project Website</a></li>
 
+        </ul>`,
+    image: "/images/pond-temp-4.jpg",
+    dates: "Project Duration: Jan 2023-Present",
+    client: "NJ Department of Environmental Protection",
+  },
   {
     id: "lake-sebago-hydrilla-control-project",
     title: "Lake Sebago Hydrilla Control Project",
@@ -119,10 +135,6 @@ export const successStories = [
     dates: "Project Duration: January 2023-April 2024",
     client: "NJ Department of Environmental Protection",
   },
-  
- 
-  
- 
 
   {
     id: "invasive-species-management",
@@ -135,21 +147,5 @@ export const successStories = [
     dates: "Project Duration: Jan 2023-Present",
     client: "NJ Department of Environmental Protection",
   },
-  {
-    id: "peconic-river-project",
-    title: "Peconic River Ludwigia peploides Control Project",
-    description:
-      "Water quality testing is an essential part of environmental management. It helps determine the health of aquatic ecosystems and identify potential threats to the environment.",
-    longTextRte: `Little Bear worked on the team to develop NYSDEC’s 5-Year Peconic River Ludwigia peploides Management Plan. A pilot combination herbicide treatment took place in 2021, followed by full-scale treatment of the aquatic invasive plants floating-primrose willow (Ludwigia peploides) and European frogbit (Hydrocharis morsus-ranae). Project partners include SOLitude Lake Mangement (2021), The Pond and Lake Connection (2022-2024), and Adirondack Research (2022-2026).<br/>
-      <h3>Project Documents & Reports:</h3>
-      <ul>
-        <li><a href="http://dec.ny.gov/docs/lands_forests_pdf/croton5yrplan(1).pdf"> Peconic River Ludwigia Control 5-Year Management Plan</a></li>
-        <li><a href="http://dec.ny.gov/docs/lands_forests_pdf/waterprimrosefs.pdf"> Ludwigia peploides Fact Sheet</a></li>
-        <li><a href="http://dec.ny.gov/animals/122333.html"> Project Website</a></li>
 
-        </ul>`,
-    image: "/images/pond-temp-4.jpg",
-    dates: "Project Duration: Jan 2023-Present",
-    client: "NJ Department of Environmental Protection",
-  },
 ];
