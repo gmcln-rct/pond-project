@@ -1,5 +1,66 @@
 export const successStories = [
   {
+    id: "new-jersey-aquatic-invasive-species-managment",
+    title: "New Jersey Aquatic Invasive Species Management Plan",
+    description:
+      "Preparing environmental permits and grant applications for pond and lake management projects.",
+    longTextRte: `<article>
+      <div class="storyWrapper">
+      <div class="storyColumn">    
+      <p class="storyText">The New Jersey Aquatic Invasive Species Management Plan was created in partnership with the New Jersey Department of Environmental Protection (NJDEP) Division of Science & Research, NJDEP Fish & Wildlife, New Jersey Department of Agriculture, and the New Jersey Water Supply Authority. An extensive AIS working group was created to provide robust data from across the region. The plan was signed by Governor Murphy and accepted by the Mid-Atlantic Panel is the Spring of 2024.</p>
+      <img src="/images/success/njep/hydrilla.jpg" alt="New Jersey Aquatic Invasive Species Management Plan" class="storyImage">
+      
+      </div>
+      </div>
+      </article>`,
+    image: "/images/success/new-jersey-aquatic-invasive-species-managment.webp",
+    dates: "Project Duration: Jan 2023-Present",
+    client: "NJ Department of Environmental Protection",
+  },
+  {
+    id: "croton-river-hydrilla-control-project",
+    client: "NYS Department of Environmental Conservation (NYSDEC)",
+    title: "Croton River Hydrilla Control Project",
+    description:
+      "Little Bear Environmental managed the successful eradication of the aquatic invasive plant Hydrilla verticillata during 5-years for the New York State Department of Environmental Conservation Invasive Species Coordination Section. LBE oversaw 5-years of herbicide treatment of the entire Croton River.",
+    longTextRte: `<article>
+      <div class="storyWrapper">
+      <div class="storyColumn"> 
+      <p class="storyText">Little Bear Environmental managed the successful eradication of the aquatic invasive plant Hydrilla verticillata from the Croton River (Westchester County, NY). </p>
+      <p class="storyText">Project partners included the Village of Croton-on-Hudson, the New York City Department of Environmental Protection, SOLitude Lake Management, and SePRO Corporation. Hydrilla’s escape from this infestation into the Hudson River Estuary was prevented following 6 seasons of herbicide treatment (2017-2022).</p>    </div> </div>
+      </article>`,
+    image: "/images/success/croton-river-hydrilla-control-project.jpg",
+    dates: "Project Duration: April 2018 - December 2022",
+  },
+  {
+    id: "usace-water-chestnut-control-trials",
+    title: "USACE Water Chestnut control trials",
+    description:
+      "This project is part of U.S. Army Corps of Engineers research project comparing various herbicides on Trapa natans versus Trapa bispinosa..",
+    longTextRte: `<article>
+    <div class="storyWrapper">
+<div class="storyColumn">
+<h3 class="sectionHeader">Intro</h3>
+<p class="storyText">The U.S. Army Corps of Engineers (USACE) is conducting a research project to compare the efficacy of various herbicides on Trapa natans (water chestnut) versus Trapa bispinosa (spiny water chestnut). The project is being conducted in the Hudson River Estuary and the Croton River (Westchester County, NY).</p>
+<img src="http://localhost:3000/_next/image?url=%2Fimages%2Fsuccess%2Fusace%2Fusace-cover-water-chestnut.jpg&w=3840&q=75" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+<h3 class="sectionHeader">Trapa natans</h3>
+<p class="storyText">The United States Army Corps of Engineers ERDC partnered with LBE for a control trial research project comparing various herbicides on Trapa natans versus Trapa bispinosa. LBE provided environmental permitting and pesticide application.</p>
+<div class="storyImageContainer">
+<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.47.43-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.02-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.31-pm.png?w=2044" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+
+</div>
+</div>
+</div>
+</article>
+`,
+    image: "/images/success/usace/usace-cover-water-chestnut.jpg",
+    dates: "Project Duration: Jan 2023-Present",
+    client: "U.S. Army Corps of Engineers",
+  },
+
+  {
     id: "lake-sebago-hydrilla-control-project",
     title: "Lake Sebago Hydrilla Control Project",
     description:
@@ -58,63 +119,9 @@ export const successStories = [
     dates: "Project Duration: January 2023-April 2024",
     client: "NJ Department of Environmental Protection",
   },
-  {
-    id: "new-jersey-aquatic-invasive-species-managment",
-    title: "New Jersey Aquatic Invasive Species Management Plan",
-    description:
-      "Preparing environmental permits and grant applications for pond and lake management projects.",
-    longTextRte: `<article>
-      <div class="storyWrapper">
-      <div class="storyColumn">    
-      <p class="storyText">The New Jersey Aquatic Invasive Species Management Plan was created in partnership with the New Jersey Department of Environmental Protection (NJDEP) Division of Science & Research, NJDEP Fish & Wildlife, New Jersey Department of Agriculture, and the New Jersey Water Supply Authority. An extensive AIS working group was created to provide robust data from across the region. The plan was signed by Governor Murphy and accepted by the Mid-Atlantic Panel is the Spring of 2024.</p>
-      <img src="/images/success/njep/hydrilla.jpg" alt="New Jersey Aquatic Invasive Species Management Plan" class="storyImage">
-      
-      </div>
-      </div>
-      </article>`,
-    image: "/images/success/new-jersey-aquatic-invasive-species-managment.webp",
-    dates: "Project Duration: Jan 2023-Present",
-    client: "NJ Department of Environmental Protection",
-  },
-  {
-    id: "croton-river-hydrilla-control-project",
-    client: "NYS Department of Environmental Conservation (NYSDEC)",
-    title: "Croton River Hydrilla Control Project",
-    description:
-      "Little Bear Environmental managed the successful eradication of the aquatic invasive plant Hydrilla verticillata during 5-years for the New York State Department of Environmental Conservation Invasive Species Coordination Section. LBE oversaw 5-years of herbicide treatment of the entire Croton River.",
-    longTextRte: `Little Bear Environmental managed the successful eradication of the aquatic invasive plant Hydrilla verticillata from the Croton River (Westchester County, NY). <br />Project partners included the Village of Croton-on-Hudson, the New York City Department of Environmental Protection, SOLitude Lake Management, and SePRO Corporation. Hydrilla’s escape from this infestation into the Hudson River Estuary was prevented following 6 seasons of herbicide treatment (2017-2022).`,
-    image: "/images/success/croton-river-hydrilla-control-project.jpg",
-    dates: "Project Duration: April 2018-Dec 2022",
-  },
-  {
-    id: "usace-water-chestnut-control-trials",
-    title: "USACE Water Chestnut control trials",
-    description:
-      "This project is part of U.S. Army Corps of Engineers research project comparing various herbicides on Trapa natans versus Trapa bispinosa..",
-    longTextRte: `<article>
-    <div class="storyWrapper">
-<div class="storyColumn">
-<h3 class="sectionHeader">Intro</h3>
-<p class="storyText">The U.S. Army Corps of Engineers (USACE) is conducting a research project to compare the efficacy of various herbicides on Trapa natans (water chestnut) versus Trapa bispinosa (spiny water chestnut). The project is being conducted in the Hudson River Estuary and the Croton River (Westchester County, NY).</p>
-<img src="http://localhost:3000/_next/image?url=%2Fimages%2Fsuccess%2Fusace%2Fusace-cover-water-chestnut.jpg&w=3840&q=75" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
-<h3 class="sectionHeader">Trapa natans</h3>
-<p class="storyText">Trapa natans is a floating aquatic plant that is native to Europe and Asia. It has been introduced to North America and is considered an invasive species in many areas. Water chestnut forms dense mats on the surface of the water, which can impede navigation, block sunlight from reaching submerged plants, and alter the physical and chemical properties of the water.</p>
-<p class="storyText">Three sets of photos show pre-treatment plots (left) and plots treated with 50 ppb. Clearcast (imazamox) 4 weeks after treatment. Rosettes have broken apart and leaflets are found at different stages of decomposition.</p>
-<div class="storyImageContainer">
-<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.47.43-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
-<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.02-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
-<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.31-pm.png?w=2044" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
-
-</div>
-</div>
-</div>
-</article>
-`,
-    image: "/images/success/usace/usace-cover-water-chestnut.jpg",
-    dates: "Project Duration: Jan 2023-Present",
-    client: "U.S. Army Corps of Engineers",
-  },
-
+  
+ 
+  
  
 
   {
