@@ -49,19 +49,19 @@ export default function ContactForm() {
         },
         body: JSON.stringify(formData),
       });
-
+      const data = await res.json();
       if (res.ok) {
         setSubmitStatus('success');
         console.log('Form submitted successfully!')
         setFormData({ name: '', email: '', phone: '', message: '' });
       } else {
         setSubmitStatus('error');
+        console.error('Server error:', data.message, data.error);
       }
     } catch (error) {
-      console.error('Error:', error);
+      console.error('Fetch error:', error);
       setSubmitStatus('error');
     }
-  };
 
   return (
     <section className={styles.contact}>
