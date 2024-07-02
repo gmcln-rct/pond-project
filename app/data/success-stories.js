@@ -40,10 +40,6 @@ export const successStories = [
     longTextRte: `<article>
     <div class="storyWrapper">
 <div class="storyColumn">
-<h3 class="sectionHeader">Intro</h3>
-<p class="storyText">The U.S. Army Corps of Engineers (USACE) is conducting a research project to compare the efficacy of various herbicides on Trapa natans (water chestnut) versus Trapa bispinosa (spiny water chestnut). The project is being conducted in the Hudson River Estuary and the Croton River (Westchester County, NY).</p>
-<img src="http://localhost:3000/_next/image?url=%2Fimages%2Fsuccess%2Fusace%2Fusace-cover-water-chestnut.jpg&w=3840&q=75" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
-<h3 class="sectionHeader">Trapa natans</h3>
 <p class="storyText">The United States Army Corps of Engineers ERDC partnered with LBE for a control trial research project comparing various herbicides on Trapa natans versus Trapa bispinosa. LBE provided environmental permitting and pesticide application.</p>
 <div class="storyImageContainer">
 <img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.47.43-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
