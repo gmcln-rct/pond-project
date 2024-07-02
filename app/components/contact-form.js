@@ -37,6 +37,7 @@ export default function ContactForm() {
     if (Object.keys(validationErrors).length > 0) {
       return;
     }
+    console.log('In handle submit - Form data:', formData);
 
     setSubmitStatus('sending');
 
@@ -51,6 +52,7 @@ export default function ContactForm() {
 
       if (res.ok) {
         setSubmitStatus('success');
+        console.log('Form submitted successfully!')
         setFormData({ name: '', email: '', phone: '', message: '' });
       } else {
         setSubmitStatus('error');
