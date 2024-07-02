@@ -9,6 +9,9 @@ import Image from 'next/image';
 import styles from './contact-form.module.scss';
 
 export default function ContactForm() {
+
+  console.log('env varialbes:', process.env.EMAIL_USER, process.env.EMAIL_PASS)
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -62,6 +65,7 @@ export default function ContactForm() {
       console.error('Fetch error:', error);
       setSubmitStatus('error');
     }
+  };
 
   return (
     <section className={styles.contact}>
