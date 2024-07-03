@@ -7,7 +7,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  height: 100vh;
+  // height: 100vh;
 
   &__description {
     display: flex;
@@ -24,11 +24,10 @@
     align-items: center;
     justify-content: center;
 
-    // width: 100%;
-
-    padding: 1vmin 3vmin;
+    padding: 2vmin 3vmin 1vmin 2vmin;
 
     font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+    color: #fff;
   }
 
   &__item {
