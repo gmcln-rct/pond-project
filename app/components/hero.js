@@ -7,10 +7,12 @@ export default function Hero() {
     <section className={styles.hero}>
       <video  src={bgVideo}
         type="video/mp4"
+        poster="/images/pond-hero.png"
         autoPlay
         loop
         muted
         playsInline
+        preload="auto"
         className={styles.hero__video}
          >
         Your browser does not support the video tag.
