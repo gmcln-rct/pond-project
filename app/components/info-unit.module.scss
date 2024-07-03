@@ -31,13 +31,13 @@
     color: $primary-color-grey-dark;
   }
 
-  &__contentsection {
+  &__contentSection {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
-    padding: 1vmin 3vmin;
+    padding: 1vmin vmin;
     color: $text-color;
   }
 
@@ -105,7 +105,7 @@
   @media screen and (max-width: 420px) {
     flex-direction: column;
 
-    &__contentsection,
+    &__contentSection,
     &__imagesection {
       width: 100%;
     }
@@ -129,30 +129,17 @@
     }
   }
 
-  // @media screen and (max-width: 420px) {
-  //   &__imagesection {
-
-
-  //     order: 1;
-
-
-  //   }
-
-  //   &__contentsection {
-  //     order: 2;
-  //   }
-  // }
 }
 
 // Certifications
 .infounit2 {
   padding: 2vmin 0;
 
-  .infounit__contentsection {
+  .infounit__contentSection {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 2vmin;
+    padding: 0 5vmin 2vmin 5vmin;
     text-align: left;
   }
 
@@ -169,7 +156,7 @@
       order: 1;
     }
 
-    &__contentsection {
+    &__contentSection {
       order: 2;
     }
   }

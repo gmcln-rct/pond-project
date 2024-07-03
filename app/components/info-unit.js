@@ -20,7 +20,7 @@ export default function InfoUnit(props) {
 
   return (
     <section className={circleStyle ? `${styles.infounit2}` : `${styles.infounit}`}>
-      <div className={styles.infounit__contentsection} style={alignImage1}>
+      <div className={styles.infounit__contentSection} style={alignImage1}>
         <h2 className={styles.infounit__title}>{title}</h2>
         <p className={styles.infounit__description}>{description}</p>
         {(certificationNumbers !== undefined && imageStyle === "certification") ? (
