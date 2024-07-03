@@ -31,7 +31,8 @@
 
   &__button {
     width: 50%;
-    margin: 0.5vmin 2vmin 0.5vmin 2vmin;
+    margin: 0 auto;
+    // margin: 0.5vmin 2vmin 0.5vmin 2vmin;
     padding: 10px 20px;
 
     font-size: clamp(1.2rem, 1.4vmin, 1.8rem);
@@ -54,6 +55,10 @@
   }
 
   &__content {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
     margin: 0 0 2vmin 0;
     padding: 1.5vmin 2vmin 0.5vmin 2vmin;
     font-size: clamp(1.2rem, 1.4vmin, 1.8rem);

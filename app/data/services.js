@@ -13,14 +13,14 @@ export const services = [
   },
   {
     id: "pesticide-application-nuisance-species-management",
-    title: "Pesticide Application/Nuisance Species Management",
+    title: "Pesticide Application & Management",
     navText: "Pesticide Application",
     description:
-      "We specialize in providing effective and environmentally responsible pesticide application specifically designed for aquatic environments.",
+      "We specialize in providing effective and environmentally responsible pesticide application for aquatic environments.",
     longTextRte: `<p>Our team of licensed and highly trained professionals understands the delicate balance of aquatic ecosystems and employs targeted strategies to manage nuisance aquatic pests while minimizing the impact on non-target species. LBE is experienced in preparing even the most complex permit packages for aquatic projects and handles all permitting needs with New York State.</p>
       <p>We use state-of-the-art equipment and techniques to apply EPA-approved pesticides in accordance with strict safety guidelines and regulations. Our experts carefully select the most appropriate products for your specific situation, taking into account factors such as water chemistry, target species, and potential environmental impacts.</p>
       <p>Our integrated pest management (IPM) approach focuses on long-term, sustainable solutions rather than relying solely on chemical treatments. By using a combination of treatment methods, we can effectively manage nuisance species while promoting the overall health and balance of your aquatic ecosystem.</p>
-      <p>Our integrated pest management (IPM) approach focuses on long-term, sustainable solutions rather than relying solely on chemical treatments. By using a combination of treatment methods, we can effectively manage nuisance species while promoting the overall health and balance of your aquatic ecosystem.</p>`,
+      <p>Regular monitoring is a crucial component of our pesticide application and pest control services. We conduct frequent site visits to assess the effectiveness of our treatments, identify any new or emerging issues, and adjust our strategies as needed.</p>`,
     image: "/images/pond-temp-3.jpg",
   },
   {
@@ -71,7 +71,7 @@ export const services = [
     <p>Our biological surveys encompass a wide range of taxa, including aquatic and wetland plants, algae, cyanobacteria, and macroinvertebrates. Our experts also collect data on habitat characteristics, such as water quality, substrate composition, and vegetation structure, to gain a holistic understanding of the ecosystem.</p>
     <p>Our plant surveys involve detailed inventories of aquatic vegetation communities. We use a combination of transect sampling, quadrat sampling, and point intercept techniques to identify and map plant species, assess their relative abundance, and characterize community structure. Our botanists have extensive knowledge of native and invasive plant species and can provide valuable insights into the health and sustainability of your plant communities.</p>
     <p>The data collected during our biological and plant surveys serve as the foundation for informed decision-making and effective management strategies. We provide detailed reports that summarize our findings, highlight key ecological trends and patterns, and offer recommendations for conservation, restoration, or management actions. Our team can also assist with the development of long-term monitoring programs to track changes in species populations and habitat conditions over time.</p>`,
-    image: "/images/pond-temp-1.jpg",
+    image: "/images/services/plant-surveys.jpg",
   },
   {
     id: "advanced-surveys",
@@ -84,6 +84,6 @@ export const services = [
     <p>We also employ cutting-edge drone technology to conduct aerial surveys of your aquatic environments. Our high-resolution drone imagery provides a bird's eye view of your waterbody, allowing us to map shoreline features, assess riparian habitat, and identify areas of concern, such as erosion or invasive species infestations.</p>
     <p>In addition to plant and shoreline surveys, we specialize in bathymetric mapping to characterize the underwater topography of your waterbody (not intended for navigation). Using advanced sonar technology, our team collects high-density depth measurements across your lake or pond, creating a detailed map of the bottom contours. This information is essential for understanding water volume, habitat structure, and sediment distribution, and can inform a wide range of management decisions such as aeration options.</p>
     <p>Our advanced survey techniques provide a wealth of data that can be used to develop targeted management strategies, prioritize restoration efforts, and monitor the effectiveness of interventions over time.</p>"`,
-    image: "/images/pond-temp-1.jpg",
+    image: "/images/services/drone-pond.jpg",
   },
 ];
