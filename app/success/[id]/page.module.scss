@@ -11,8 +11,8 @@
   }
 
 
-    &__imageWrapper {
-      width: 50%;
+  &__imageWrapper {
+    width: 50%;
   }
 
   &__image {
@@ -33,16 +33,17 @@
     line-height: clamp(1.4rem, 2.5vw, 1.9rem);
 
     p {
-        margin: 0 0 1vmin 0;
+      margin: 0 0 1vmin 0;
     }
 
-}
+  }
 
-&__contentWrapper {
+  &__contentWrapper {
     width: 50%;
     margin: 1vmin 0 3vmin 0;
     padding: 1vmin 3vmin;
-}
+  }
+
   &__client {
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
@@ -52,7 +53,7 @@
 
   &__dates {
     margin-bottom: 1.5rem;
-    
+
     text-align: center;
 
     font-size: clamp(1rem, 1.2vw, 1.5rem);
@@ -66,18 +67,15 @@
 
   &__title {
     margin: 0 auto;
+    padding: 2vmin 0 0 0;
 
     font-size: clamp(1.5rem, 3vw, 2.8rem);
     text-align: center;
   }
-
-
   &__client {
     font-size: clamp(1rem, 1.2vw, 1.5rem);
     margin-bottom: 0.5rem;
   }
-
-
 
   &__dates {
     font-size: clamp(1rem, 1.2vw, 1.5rem);

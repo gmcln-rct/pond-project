@@ -33,7 +33,9 @@ export default function IndividualStory({ params }) {
         <div className={styles.successStory__contentWrapper}>
           <div className={styles.successStory__content}>
             <h2 className={styles.successStory__title}>{story.title}</h2>
-            <p className={styles.successStory__client}>Client: {story.client}</p>
+            <p className={styles.successStory__client}>
+              Client: {story.client}
+            </p>
             <p className={styles.successStory__dates}>{story.dates}</p>
             <IndividualStoryRTE story={story} />
           </div>
