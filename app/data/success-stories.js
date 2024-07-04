@@ -143,5 +143,4 @@ export const successStories = [
     dates: "Project Duration: Jan 2023-Present",
     client: "NJ Department of Environmental Protection",
   },
-
 ];
