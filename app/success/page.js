@@ -7,7 +7,7 @@ export default function SuccessPage() {
     <section className={styles.success}>
       <div className={styles.success__videoBackground}>
         <video autoPlay muted loop playsInline preload>
-          <source src="/videos/pond-bg-2.mp4" type="video/mp4" />
+          <source src="/videos/pond-bg-success.mp4" type="video/mp4" />
           <img src="/images/pond-bg-temp.jpg" alt="Fallback Image" />
         </video>
       </div>

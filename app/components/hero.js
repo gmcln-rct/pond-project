@@ -2,7 +2,7 @@ import styles from "./hero.module.scss";
 
 
 export default function Hero() {
-  const bgVideo = "/videos/pond-bg-1.mp4";
+  const bgVideo = "/videos/pond - bg - hero.mp4";
   return (
     <section className={styles.hero}>
       <video  src={bgVideo}
