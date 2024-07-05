@@ -7,7 +7,7 @@ export default function Hero() {
     <section className={styles.hero}>
       <video  src={bgVideo}
         type="video/mp4"
-        poster="/images/pond-hero.png"
+        poster="/images/screenshots/pond-bg-hero.jpg"
         autoPlay
         loop
         muted
