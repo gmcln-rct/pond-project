@@ -7,15 +7,14 @@
   margin: 0;
   padding: 18vmin 0 0vmin 6vmin;
 
-  color: #fafafc;
+  // color: #fafafc;
+  color: $text-color-light;
 
   @media screen and (min-width: 720px) {
     height: 500px;
 
     padding: 28vmin 0 0vmin 6vmin;
-
   }
-
 
   &__video {
     position: absolute;
