@@ -12,7 +12,7 @@ export default function ServicesPage() {
       <div className={styles.services__videoBackground}>
         <video autoPlay muted loop playsInline preload>
           <source src="/videos/pond-bg-service.mp4" type="video/mp4" />
-          <img src="/images/screenshots/pond-bg-service.jpg" alt="Fallback Image" />
+          <img src="/images/screenshots/pond-bg-service.jpg" alt="Fallback Image" preload />
         </video>
       </div>
       <h1 className={styles.services__header}>Our Services</h1>
