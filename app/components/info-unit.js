@@ -40,6 +40,7 @@ export default function InfoUnit(props) {
               className={styles.infounit__seal}
               width={300}
               height={300}
+              priority={true}
             />
           </span>
         ) : (
@@ -50,6 +51,7 @@ export default function InfoUnit(props) {
               className={styles.infounit__image}
               width={300}
               height={300}
+              priority={true}
             />
           </div>
         )}

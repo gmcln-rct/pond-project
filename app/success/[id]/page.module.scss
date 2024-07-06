@@ -2,7 +2,7 @@
 
 .successStory {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   background-color: $primary-color-grey-light;
 
@@ -12,7 +12,11 @@
 
 
   &__imageWrapper {
-    width: 50%;
+    width: 100%;
+
+    @media (min-width: 720px) {
+      width: 50%;
+    }
   }
 
   &__image {
@@ -39,9 +43,13 @@
   }
 
   &__contentWrapper {
-    width: 50%;
+    width: 100%;
     margin: 1vmin 0 3vmin 0;
     padding: 1vmin 3vmin;
+
+    @media (min-width: 720px) {
+      width: 50%;
+    }
   }
 
   &__client {
@@ -66,16 +74,19 @@
   }
 
   &__title {
-    margin: 0 auto;
+    // margin: 0 auto;
+    // margin: 0 0 5vmin 0;
     padding: 2vmin 0 0 0;
 
     font-size: clamp(1.5rem, 3vw, 2.8rem);
+    line-height: clamp(2rem, 3.5vw, 4rem);
+    letter-spacing: 0.3rem;
     text-align: center;
   }
 
   &__client {
     font-size: clamp(1rem, 1.2vw, 1.5rem);
-    margin-bottom: 0.5rem;
+    margin-bottom: 2vmin 0;
   }
 
   &__dates {
