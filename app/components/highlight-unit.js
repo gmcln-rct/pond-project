@@ -20,7 +20,7 @@ export default function HighlightUnit(props) {
 
   return (
     <section className={styles.highlightUnit}>
-      <div className={styles.highlightUnit__contentsection} style={alignImage1}>
+      <div className={styles.highlightUnit__contentContainer} style={alignImage1}>
         <h2 className={styles.highlightUnit__title}>{title}</h2>
         <p className={styles.highlightUnit__description}>{description}</p>
       </div>
