@@ -12,12 +12,10 @@ import { infoUnitsData } from "./data/highlights";
 export default function Home() {
   return (
     <>
-      <main className={styles.main}>
         <Hero />
         <SocialMediaContainer />
         <HighlightContainer infoUnitsData={infoUnitsData}/>
         <ContactForm />
-      </main>
     </>
   );
 }
