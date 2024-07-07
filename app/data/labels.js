@@ -40,7 +40,7 @@ export const labels = [
     pdfUrl: "/pdfs/procellacor-ec-sln.pdf",
   },
   {
-    id: "nysseclearlabel",
+    id: "nysseclear",
     title: "NYS SeClear Product Label",
     description:
       "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
@@ -50,7 +50,7 @@ export const labels = [
     pdfUrl: "/pdfs/seclearlabel.pdf",
   },
   {
-    id: "komeen_nysproductlabel",
+    id: "komeen_nysproduct",
     title: "Komeen NYS Product Label",
     description:
       "Komeen is an aquatic herbicide used in still or flowing water sites for control of submersed, emergent, and floating weeds.",
@@ -60,7 +60,7 @@ export const labels = [
     pdfUrl: "/pdfs/komeen_nysproductlabel.pdf",
   },
   {
-    id: "sonarq_nyslabel",
+    id: "sonarq_nys",
     title: "Sonarq NYS Label",
     description:
       "Sonarq is a selective systemic aquatic herbicide used in still or flowing water sites.",
@@ -80,7 +80,7 @@ export const labels = [
     pdfUrl: "/pdfs/seclear-sln.pdf",
   },
   {
-    id: "harpoongranularnyslabel",
+    id: "harpoongranularnys",
     title: "Harpoon Granular NYS Label",
     description:
       "Harpoon Granular is a chelated copper herbicide that effectively controls copper sensitive aquatic plants. Harpoon Granular may be applied to slow moving or quiescent bodies of water, including lakes, fish hatcheries, potable water reservoirs, golf courses, and ornamental, fish and fire ponds.",
@@ -100,7 +100,7 @@ export const labels = [
     pdfUrl: "/pdfs/sonar-h4c-slnny-150003.pdf",
   },
   {
-    id: "nys-sonar-h4c-label",
+    id: "nys-sonar-h4c-",
     title: "NYS Sonar H4C Label",
     description:
       "Sonar H4C is a An herbicide for management of aquatic vegetation in fresh water ponds, lakes, reservoirs (including inlets and tributaries), potable water sources, drainage canals, irrigation canals and rivers.",
@@ -108,5 +108,25 @@ export const labels = [
     width: 366,
     height: 386,
     pdfUrl: "/pdfs/nys-sonar-h4c-label.pdf",
+  },
+  {
+    id: "nautique",
+    title: "Nautique Product Label",
+    description:
+      "Nautique is a selective systemic aquatic herbicide used in still or flowing water sites.",
+    image: "/pdfs/thumbs/nautique.jpg",
+    width: 366,
+    height: 386,
+    pdfUrl: "/pdfs/nautique.pdf",
+  },
+  {
+    id: "komeen-descend",
+    title: "Komeen Descend Product Label",
+    description:
+      "Komeen Descend is an aquatic herbicide used in still or flowing water sites for control of submersed, emergent, and floating weeds.",
+    image: "/pdfs/thumbs/komeen-descend_nys.jpg",
+    width: 366,
+    height: 386,
+    pdfUrl: "/pdfs/komeen-descend_nys.pdf",
   }
 ];
