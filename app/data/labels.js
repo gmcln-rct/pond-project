@@ -128,5 +128,25 @@ export const labels = [
     width: 366,
     height: 386,
     pdfUrl: "/pdfs/komeen-descend_nys.pdf",
+  },
+  {
+    id: "phycomycin-scp",
+    title: "Phycomycin SCP Product Label",
+    description:
+      "Phycomycin SCP is a selective systemic aquatic herbicide used in still or flowing water sites.",
+    image: "/pdfs/thumbs/phycomycin-scp.jpg",
+    width: 366,
+    height: 386,
+    pdfUrl: "/pdfs/phycomycin-scp.pdf",
+  },
+  {
+    id: "cutrine-plus",
+    title: "Cutrine Plus Product Label",
+    description:
+      "Cutrine Plus is a chelated copper algaecide that effectively controls a broad range of algae.",
+    image: "/pdfs/thumbs/cutrine-plus.jpg",
+    width: 366,
+    height: 386,
+    pdfUrl: "/pdfs/cutrine-plus.pdf",
   }
 ];
