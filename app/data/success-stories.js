@@ -130,17 +130,5 @@ export const successStories = [
     image: "/images/success/lake-sebago/lake-sebago.jpg",
     dates: "Project Duration: January 2023-April 2024",
     client: "NJ Department of Environmental Protection",
-  },
-
-  {
-    id: "invasive-species-management",
-    title: "Invasive Species Management & Restoration",
-    description:
-      "Invasive species are plants, animals, or pathogens that are non-native to the ecosystem under consideration and whose introduction causes or is likely to cause harm.",
-    longTextRte:
-      "Invasive species are a major threat to the health of aquatic ecosystems. They can outcompete native species, disrupt food chains, and alter the physical and chemical properties of the environment. Our team specializes in invasive species management and restoration, and can help you develop a plan to control and eradicate invasive species from your pond or lake.",
-    image: "/images/pond-temp-3.jpg",
-    dates: "Project Duration: Jan 2023-Present",
-    client: "NJ Department of Environmental Protection",
-  },
+  }
 ];
