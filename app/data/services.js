@@ -35,7 +35,7 @@ export const services = [
     When necessary, we use targeted herbicide applications to control particularly stubborn or invasive species. Our licensed applicators follow strict safety protocols and use environmentally friendly products to minimize any potential impacts on non-target organisms and maintain the ecological balance of your aquatic ecosystem.</p>
     <p>In addition to our control measures, we also provide recommendations for long-term management and prevention of excessive plant and algae growth. This may include nutrient reduction strategies, aeration, and the establishment of native aquatic plants that compete with nuisance species.</p>
     <p>With our proactive approach, regular maintenance services, and commitment to sustainable solutions, LBE can help you achieve and maintain clear, healthy waters that support thriving aquatic communities and provide endless enjoyment for years to come.</p>`,
-    image: "/images/pond-temp-4.jpg",
+    image: "/images/services/surface-algae-horizontal.jpg",
   },
   {
     id: "invasive-species-management-plans",
