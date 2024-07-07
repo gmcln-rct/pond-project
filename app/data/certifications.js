@@ -4,7 +4,7 @@ export const certificationData = [
     description:
       "Nicole White is a Certified Lake Manager by the North American Lake Management Society (NALMS).",
     subdescription: "Cert # 21-05M3 /n NJ #: 92152B",
-    certificationNumbers: ["Cert # 21-05M3", "NJ #: 92152B"],
+    certificationNumbers: ["Cert # 21-05M3"],
     image: "/images/certifications/lakemanager.png",
     imageStyle: "certification",
     imagePlacement: "right",
@@ -12,7 +12,7 @@ export const certificationData = [
   {
     title: "New York Women Business Enterprise (WBE)",
     description:
-      "Little Bear Environmental Consulting LLC. is certified by The New York State Department of Economic Development, Divison of Minority and Women &#8217;s Business Development (DMWBD) as a Women Business Enterprise (WBE) in New York State.",
+      "Little Bear Environmental Consulting LLC. is certified by The New York State Department of Economic Development, Divison of Minority and Women's Business Development (DMWBD) as a Women Business Enterprise (WBE) in New York State.",
     subdescription: "FileID #: 70703",
     certificationNumbers: ["FileID #: 70703"],
     image: "/images/certifications/wbe-3.png",
@@ -37,7 +37,7 @@ export const certificationData = [
     certificationNumbers: [
       "NY #: C3909094",
       "NY Categories: 3a, 3b, 5a",
-      "NY #: 64350B",
+      "NJ #: 6450B",
       "NJ Categories: 3a, 3b, 5, Core",
     ],
     image: "/images/certifications/NJ-dept-env-protection.jpg",
@@ -80,7 +80,7 @@ export const certificationData = [
   {
     title: "America's' Boating Course",
     description:
-      "Nicole White is certified by the United States Power Squadrons to have completed America &#8217;a Boating Course.",
+      "Nicole White is certified by the United States Power Squadrons to have completed America's Boating Course.",
     subdescription: "Cert. #: 72768",
     certicationNumbers: ["Cert. #: 72768"],
     image: "/images/certifications/usboating.png",
