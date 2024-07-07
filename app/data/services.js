@@ -21,7 +21,7 @@ export const services = [
       <p>We use state-of-the-art equipment and techniques to apply EPA-approved pesticides in accordance with strict safety guidelines and regulations. Our experts carefully select the most appropriate products for your specific situation, taking into account factors such as water chemistry, target species, and potential environmental impacts.</p>
       <p>Our integrated pest management (IPM) approach focuses on long-term, sustainable solutions rather than relying solely on chemical treatments. By using a combination of treatment methods, we can effectively manage nuisance species while promoting the overall health and balance of your aquatic ecosystem.</p>
       <p>Regular monitoring is a crucial component of our pesticide application and pest control services. We conduct frequent site visits to assess the effectiveness of our treatments, identify any new or emerging issues, and adjust our strategies as needed.</p>`,
-    image: "/images/pond-temp-3.jpg",
+    image: "/images/services/pesticide-application.jpg",
   },
   {
     id: "aquatic-plant-algae-control",
