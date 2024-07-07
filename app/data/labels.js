@@ -40,8 +40,8 @@ export const labels = [
     pdfUrl: "/pdfs/procellacor-ec-sln.pdf",
   },
   {
-    id: "seclearlabel",
-    title: "ProcellaCOR® EC Product Label",
+    id: "nysseclearlabel",
+    title: "NYS SeClear Product Label",
     description:
       "ProcellaCOR EC is a selective herbicide that is designed to control a wide range of aquatic weeds and algae.",
     image: "/pdfs/thumbs/seclearlabel.jpg",
@@ -51,7 +51,7 @@ export const labels = [
   },
   {
     id: "komeen_nysproductlabel",
-    title: "Kommen NYS Product Label",
+    title: "Komeen NYS Product Label",
     description:
       "Komeen is an aquatic herbicide used in still or flowing water sites for control of submersed, emergent, and floating weeds.",
     image: "/pdfs/thumbs/komeen_nysproductlabel.jpg",

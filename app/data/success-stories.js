@@ -29,7 +29,7 @@ export const successStories = [
       <p class="storyText">Little Bear Environmental managed the successful eradication of the aquatic invasive plant Hydrilla verticillata from the Croton River (Westchester County, NY). </p>
       <p class="storyText">Project partners included the Village of Croton-on-Hudson, the New York City Department of Environmental Protection, SOLitude Lake Management, and SePRO Corporation. Hydrilla’s escape from this infestation into the Hudson River Estuary was prevented following 6 seasons of herbicide treatment (2017-2022).</p>    </div> </div>
       </article>`,
-    image: "/images/success/croton-river-hydrilla-control-project.jpg",
+    image: "/images/success/croton/croton-group.jpg",
     dates: "Project Duration: April 2018 - December 2022",
   },
   {
@@ -128,7 +128,6 @@ export const successStories = [
 </div>
 </article>`,
     image: "/images/success/lake-sebago/lake-sebago.jpg",
-    dates: "Project Duration: January 2023-April 2024",
-    client: "NJ Department of Environmental Protection",
+    client: "NYS Office of Parks Recreation & Historic Preservation",
   }
 ];
