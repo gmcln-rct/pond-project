@@ -17,6 +17,8 @@
     color: $primary-color-grey-dark;
     background-color: $primary-color-green-light;
 
+    // z-index: 200;
+
     @media screen and (min-width: 420px) {
         padding: 1vmin 0 0.8vmin 0;
     }
