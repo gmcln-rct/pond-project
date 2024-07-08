@@ -68,7 +68,7 @@ export const successStories = [
         <li><a href="http://dec.ny.gov/animals/122333.html"> Project Website</a></li>
 
         </ul>`,
-    image: "/images/pond-temp-4.jpg",
+    image: "/images/success/peconic/ludwigia-peploides.jpeg",
     dates: "Project Duration: Jan 2023-Present",
     client: "NJ Department of Environmental Protection",
   },
