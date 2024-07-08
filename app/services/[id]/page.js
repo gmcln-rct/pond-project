@@ -15,25 +15,25 @@ export default function IndividualStory({ params }) {
 
   return (
     <>
-    <section className={styles.servicesStory}>
-      <div className={styles.servicesStory__imageWrapper}>
-        <Image
-          className={styles.servicesStory__image}
-          src={story.image}
-          alt={story.title}
-          width={507}
-          height={446}
-        />
-      </div>
-      <div className={styles.servicesStory__contentWrapper}>
-        <h2 className={styles.servicesStory__title}>{story.title}</h2>
-        <div
-          className={styles.servicesStory__content}
-          dangerouslySetInnerHTML={{ __html: story.longTextRte }}
-        ></div>
-      </div>
-    </section>
-    <SocialMediaContainer />
+      <section className={styles.servicesStory}>
+        <div className={styles.servicesStory__imageWrapper}>
+          <Image
+            className={styles.servicesStory__image}
+            src={story.image}
+            alt={story.title}
+            width={507}
+            height={446}
+          />
+        </div>
+        <div className={styles.servicesStory__contentWrapper}>
+          <h2 className={styles.servicesStory__title}>{story.title}</h2>
+          <div
+            className={styles.servicesStory__content}
+            dangerouslySetInnerHTML={{ __html: story.longTextRte }}
+          ></div>
+        </div>
+      </section>
+      <SocialMediaContainer />
     </>
   );
 }
