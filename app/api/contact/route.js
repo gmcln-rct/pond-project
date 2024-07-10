@@ -1,7 +1,6 @@
 import nodemailer from 'nodemailer';
 import { NextResponse } from 'next/server';
 
-console.log('Email user:', process.env.EMAIL_USER);
 
 export async function POST(request) {
   if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
@@ -24,7 +23,7 @@ export async function POST(request) {
     }
 
     const transporter = nodemailer.createTransport({
-      host: 'mail.riocreate.com',
+      host: process.env.EMAIL_HOST,
       port: 465,
       secure: true,
       auth: {

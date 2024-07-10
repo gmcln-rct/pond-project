@@ -38,7 +38,6 @@ export default function ContactForm() {
     if (Object.keys(validationErrors).length > 0) {
       return;
     }
-    console.log('In handle submit - Form data:', formData);
 
     setSubmitStatus('sending');
 
