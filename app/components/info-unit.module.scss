@@ -13,6 +13,8 @@
   border-radius: 20px;
   overflow: hidden;
 
+  animation: $fade-in-animation;
+
   &__certList {
     display: flex;
     flex-direction: column;

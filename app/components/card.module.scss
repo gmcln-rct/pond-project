@@ -18,6 +18,8 @@
 
   overflow: hidden;
 
+  animation: $fade-in-animation;
+
   @media screen and (min-width: 720px) {
 
     width: 300px;

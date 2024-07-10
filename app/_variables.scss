@@ -24,3 +24,22 @@ $primary-color-grey-lighter: hsl(88, 5%, 93%);
 $primary-color-grey-semi-dark: hsl(88, 10%, 43%);
 $primary-color-grey-dark: hsl(88, 5%, 23%);
 $primary-color-grey-darker: hsl(88, 5%, 15%);
+
+$fade-in-animation: fadeIn 0.5s ease-in forwards;
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+  }
