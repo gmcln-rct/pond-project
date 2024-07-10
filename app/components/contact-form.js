@@ -10,8 +10,6 @@ import styles from './contact-form.module.scss';
 
 export default function ContactForm() {
 
-  console.log('env varialbes:', process.env.EMAIL_USER, process.env.EMAIL_PASS)
-
   const [formData, setFormData] = useState({
     name: '',
     email: '',
