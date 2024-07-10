@@ -29,7 +29,7 @@
 
     font-size: clamp(1.2rem, 1.8vw, 1.6rem);
     color: #fff;
-    background-color: $primary-color-green-darker;
+    background-color: $primary-color-green-olive;
   }
 
   &__item {
@@ -48,6 +48,8 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 
     transition: background-color 0.3s ease;
+
+    animation: $fade-in-animation;
 
     &:first-child {
       margin: 8vmin 3vmin 3vmin 3vmin;

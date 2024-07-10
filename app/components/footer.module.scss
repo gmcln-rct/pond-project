@@ -9,11 +9,35 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 
-  color: rgb(149, 149, 149);
-  background-color: $primary-color-grey-lighter;
+  color:$primary-color-grey-light;
+  background-color: $primary-color-grey-semi-dark;
+  text-decoration: none;
 
   z-index: 200;
   // background-color: #f4f4f4;
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 1rem 0;
+
+    a {
+      color: $primary-color-grey-light;
+      text-decoration: none;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: $primary-color-grey-lighter;
+        font-weight: 400;
+        transition: color 0.3s ease-in-out;
+
+      }
+    
+    };
+  
+  }
 }
 
 /*************************************************** MEDIA QUERIES - LARGE SCREENS ******************************************************/
@@ -35,7 +59,8 @@
     width: 100%;
     padding: 1vmin 0;
 
-    color: rgb(115, 113, 113);
+    // color: rgb(115, 113, 113);
+    // background-color: $primary-color-grey-semi-dark;
     text-align: center;
 
     z-index: 50;
