@@ -26,12 +26,12 @@
     a {
       color: $primary-color-grey-light;
       text-decoration: none;
-      transition: color 0.3s ease-in-out;
+      // transition: color 0.3s ease-in-out;
 
       &:hover {
-        color: $primary-color-grey-lighter;
-        font-weight: 400;
-        transition: color 0.3s ease-in-out;
+        color: hsl(200, 89%, 75%);
+        transform: scale(1.1);
+        transition: 0.5s ease-in-out;
 
       }
     
