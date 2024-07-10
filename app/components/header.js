@@ -65,7 +65,7 @@ export default function Header() {
               width={200}
               height={60}
               layout={"responsive"}
-              objectFit={"contain"}
+              // objectFit={"contain"}
             />
           </Link>
           <div className={styles.navBar__linkscontainer}>
