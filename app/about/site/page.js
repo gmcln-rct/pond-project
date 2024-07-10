@@ -6,27 +6,37 @@ import styles from "../page.module.scss";
 export default function AboutPage() {
   return (
     <section className={styles.aboutSection}>
-      <h1 className={styles.aboutSection__title}>
-        About LBE Environnmental
-      </h1>
+      <h1 className={styles.aboutSection__title}>About Site</h1>
 
-      <p className={styles.aboutSection__content}>The site was was created and designed by New York-based Front End Developer <a href="https://www.glennmcclanan.com/">Glenn McClanan</a> of <a href="https://riocreate.com/">Rio Create</a> using <a href="https://nextjs.org/">Next.js</a> and SCSS.</p>     
       <p className={styles.aboutSection__content}>
-        Nicole is a Certified Lake Manager, with the North American Lake
-        Management Society. In 2021, Nicole was elected to the North American
-        Lake Management Society Board of Directors as Region 2 Director
-        (NY/NJ/Puerto Rico).
+        The site was created and designed by Front End Developer{" "}
+        <Link href="https://www.glennmcclanan.com/">Glenn McClanan</Link> of{" "}
+        <a href="https://riocreate.com/">Rio Create</a> in New York City, using{" "}
+        <a href="https://nextjs.org/">Next.js</a> and SCSS.
       </p>
 
-        <h2 className={styles.aboutSection__listTitle}> Nicole is a current member of the following organizations:</h2>
+      <h2 className={styles.aboutSection__listTitle}>
+        Other sites by Glenn McClanan/Rio Create
+      </h2>
       <ul className={styles.aboutSection__list}>
-       
-        <li>North American Invasive Species Management Association (NAISMA)</li>
-        <li>North American Lake Management Society (NALMS)</li>
-        <li>Northeast Aquatic Plant Management Society (NEAPMS)</li>
-        <li>Hudson River Sloop Clearwater</li>
-        <li> New York State Federation of Lake Associations (NYSFOLA)</li>
-        <li>New York Chapter of the American Fisheries Society</li>
+        <li>
+          <Link href="https://winography.net/">Winography</Link>
+        </li>
+        <li>
+          <Link href="https://fasterthan.net/">Faster Than</Link>
+        </li>
+        <li>
+          <Link href="https://writeword.net/">The Write Word</Link>
+        </li>
+        <li>
+          <Link href="https://verbing.ninja/">Verbing Ninja</Link>
+        </li>
+        <li>
+          <Link href="https://seaorgan.net/">Sea Organ</Link>
+        </li>
+        <li>
+          <Link href="https://www.copoecolher.com//">Copo e colher</Link>
+        </li>
       </ul>
     </section>
   );
