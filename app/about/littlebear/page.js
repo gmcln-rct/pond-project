@@ -11,8 +11,7 @@ export default function AboutPage() {
       </h1>
 
       <p className={styles.aboutSection__content}>
-        With over a decade of experience in natural resources, Nicole White
-        Nicole formed Little Bear Environmental Consulting LLC in 2017.
+        With over a decade of experience in natural resources, Nicole White, CLM, formed Little Bear Environmental Consulting LLC in 2017.
       </p>
       <p className={styles.aboutSection__content}>
         Nicole is a Certified Lake Manager, with the North American Lake
@@ -26,7 +25,7 @@ export default function AboutPage() {
         She has enjoyed working with a variety of stakeholders at the state and
         municipal level as well as a non-profit groups and private landowners.{" "}
       </p>
-        <h2 className={styles.aboutSection__listTitle}> Nicole is a current member of the following organizations:</h2>
+        <p className={styles.aboutSection__listTitle}> Nicole is a current member of the following organizations:</p>
       <ul className={styles.aboutSection__list}>
        
         <li>North American Invasive Species Management Association (NAISMA)</li>
