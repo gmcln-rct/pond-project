@@ -65,7 +65,7 @@
     padding: 1.5vmin 2vmin 0.5vmin 2vmin;
     font-size: clamp(1.2rem, 1.4vmin, 1.8rem);
 
-    @media screen and (min-width: 720px){
+    @media screen and (min-width: 720px) {
       padding: 1.5vmin 1vmin 0.5vmin 1vmin;
     }
   }
@@ -83,7 +83,7 @@
     font-size: 24px;
     // margin-bottom: 20px;
 
-    color: $primary-color-darker;
+    color: $primary-color-dark;
   }
 
   &__description {
@@ -91,7 +91,7 @@
     font-size: clamp(1.2rem, 1.4vmin, 1.8rem);
     // color: $primary-color-green;
 
-    color: $primary-color-darker;
+    color: $primary-color-dark;
   }
 
   &__footer {

@@ -18,7 +18,7 @@
     // z-index: 200;
 
     @media screen and (min-width: 420px) {
-        padding: 2vmin 0 0.8vmin 0;
+        padding: 1.5vmin 0 0.8vmin 0;
     }
 
     &__icon {
@@ -41,7 +41,11 @@
         transition: 0.3s ease-in-out;
 
         &:hover {
-            color: $primary-color-green-dark;
+            color: $link-hover-darker;
+            transform: scale(1.02);
+
+            transition: 0.3s ease-in-out;
+
         }
     }
 }

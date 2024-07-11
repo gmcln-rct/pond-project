@@ -18,10 +18,19 @@
 
   &__links {
     display: flex;
+
+    flex-direction: column;
+
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 1rem;
     margin: 1rem 0;
+
+    @media screen and (min-width: 720px) {
+      flex-direction: row;
+      gap: 2rem;
+      
+    }
 
     a {
       color: $primary-color-grey-light;
@@ -29,7 +38,7 @@
       // transition: color 0.3s ease-in-out;
 
       &:hover {
-        color: hsl(200, 89%, 75%);
+        color: $link-hover;
         transform: scale(1.1);
         transition: 0.5s ease-in-out;
 
@@ -57,7 +66,7 @@
     left: 0;
     bottom: 10px;
     width: 100%;
-    padding: 1vmin 0;
+    padding: 0.4vmin 0 1vmin 0;
 
     // color: rgb(115, 113, 113);
     // background-color: $primary-color-grey-semi-dark;

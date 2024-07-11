@@ -1,7 +1,8 @@
 // Modern Neutrals
 $primary-color: #4D638A;
 $primary-color-dark: hsl(218, 28%, 32%);
-$primary-color-darker: hsl(218, 28%, 12%);
+$primary-color-light: hsl(218, 48%, 62%);
+$primary-color: #4D638A;
 $secondary-color: #E0EAF1;
 $accent-color: hsl(88, 50%, 43%);
 $text-color: #333333;
@@ -26,6 +27,9 @@ $primary-color-grey-lighter: hsl(88, 5%, 93%);
 $primary-color-grey-semi-dark: hsl(88, 10%, 43%);
 $primary-color-grey-dark: hsl(88, 5%, 23%);
 $primary-color-grey-darker: hsl(88, 5%, 15%);
+
+$link-hover: hsl(200, 89%, 75%);
+$link-hover-darker: hsl(200, 89%, 55%);
 
 $fade-in-animation: fadeIn 0.5s ease-in forwards;
 
