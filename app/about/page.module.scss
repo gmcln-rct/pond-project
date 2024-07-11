@@ -35,13 +35,14 @@
     }
 
     &__link {
+        display: inline;
 
         font-family: 'Neuton', sans-serif;
         font-size: clamp(1.3rem, 2vw, 2rem);
         font-weight: 700;
         text-align: center;
 
-        color: #186e90;
+        color: hsl(197, 71%, 83%);
         text-decoration: none;
     }
 
