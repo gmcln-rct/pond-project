@@ -26,7 +26,7 @@ export default function HighlightUnit(props) {
       </div>
       <div className={styles.highlightUnit__imageSection} style={alignImage2}>
 
-          <div className={styles.highlightUnit__imageContainer}>
+          {/* <div className={styles.highlightUnit__imageContainer}> */}
             <Image
               src={image}
               alt="Pond Hero"
@@ -34,7 +34,7 @@ export default function HighlightUnit(props) {
               width={300}
               height={300}
             />
-          </div>
+          {/* </div> */}
       </div>
     </section>
   );
