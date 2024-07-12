@@ -10,7 +10,7 @@ export const infoUnitsData = [
             "Invasive Species Management",
             "Water Quality Monitoring"
         ],
-        image: "/images/pond-temp-1.jpg",
+        image: "/images/pond-lily-surface.jpg",
         imagePlacement: "left",
     },
     {
@@ -46,7 +46,7 @@ export const infoUnitsData = [
         id: "environmental-permits-and-grants",
         title: "Environmental Permits & Grants",
         description: "LBE can confidently handle all environmental permits and grant applications for pond and lake management projects.",
-        image: "/images/pond-temp-4.jpg",
+        image: "/images/pond-blue.jpg",
         imagePlacement: "right"
     },
     {

@@ -9,7 +9,7 @@ export const services = [
     LBE provides a full suite of services from assessments, surveys, and creation of management plans. Our services include thorough water quality monitoring, where we regularly assess parameters such as temperature, pH, dissolved oxygen, and nutrient levels. By keeping a close eye on these indicators, we can identify potential issues early on and take proactive measures to maintain optimal conditions for aquatic life.</p>
       <p>Our team employs a range of best management practices, including aeration, nutrient inactivation, and treatment of aquatic invasive species to promote a balanced ecosystem.</p>
       <p>At LBE, we are committed to creating sustainable and thriving aquatic ecosystems that support diverse wildlife and provide long-term enjoyment for our clients. Trust our experienced professionals to manage your ponds and lakes with the utmost care, expertise, and dedication to environmental stewardship.</p>`,
-    image: "/images/pond-temp-1.jpg",
+    image: "/images/pond-lily-surface.jpg",
   },
   {
     id: "pesticide-application-nuisance-species-management",
@@ -48,7 +48,7 @@ export const services = [
       <p>Based on our findings, we create custom-tailored management plans that incorporate a multi-faceted approach to managing, or where feasible, eradicating invasive species. This may include targeted removal efforts, such as manual harvesting, selective herbicide applications, and restoration of native species.</p>
       <p>In addition to control and eradication measures, our invasive species management plans also include strategies for preventing future invasions. We provide education and guidance on best practices for minimizing the risk of introducing invasive species, such as proper boat cleaning protocols and monitoring of potential entry points.</p>
       <p>Throughout the implementation of our management plans, we work closely with our clients, providing regular progress updates and making adjustments as needed to ensure the best possible outcomes. Our ultimate goal is to restore and maintain the ecological integrity of your aquatic environments, promoting the recovery and resilience of native species and habitats.</p>`,
-    image: "/images/pond-temp-3.jpg",
+    image: "/images/pond-and-trees.jpg.jpg",
   },
   {
     id: "environmental-project-management",
@@ -59,7 +59,7 @@ export const services = [
     longTextRte: `
       <p>At LBE, we offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects. Our experienced team of project managers, biologists, and environmental specialists work closely with you to understand your goals, constraints, and expectations, developing customized solutions that meet your unique needs. We also specialize in the development of Request for Proposals (RFPs) for environmental projects. </p>
       `,
-    image: "/images/pond-temp-4.jpg",
+    image: "/images/pond-blue.jpg",
   },
   {
     id: "biological-plant-surveys",
