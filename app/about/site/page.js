@@ -29,7 +29,6 @@ export default function AboutPage() {
         </Link>{" "}
         and SCSS.
       </p>
-      {/* <div className={styles.aboutSection__listSection}> */}
         <p className={styles.aboutSection__listTitle}>
           Some other sites developed by Glenn McClanan and Rio Create include:
         </p>
@@ -83,7 +82,6 @@ export default function AboutPage() {
             </Link>
           </li>
         </ul>
-      {/* </div> */}
     </section>
   );
 }
