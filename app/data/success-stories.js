@@ -42,9 +42,9 @@ export const successStories = [
 <div class="storyColumn">
 <p class="storyText">The United States Army Corps of Engineers ERDC partnered with LBE for a control trial research project comparing various herbicides on Trapa natans versus Trapa bispinosa. LBE provided environmental permitting and pesticide application.</p>
 <div class="storyImageContainer">
-<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.47.43-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
-<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.02-pm.png?w=1024" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
-<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/09/screen-shot-2023-09-03-at-1.48.31-pm.png?w=2044" alt="screen-shot-2023-09-03-at-1.47.43-pm" class="storyImage">
+<img src="/images/success/usace/usace-comparison-1.jpg" alt="USACE Comparison 1" class="storyImage">
+<img src="/images/success/usace/usace-comparison-2.jpg" alt="USACE Comparison 2" class="storyImage">
+<img src="/images/success/usace/usace-comparison-3.jpg" alt="USACE Comparison 3" class="storyImage">
 
 </div>
 </div>

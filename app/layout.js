@@ -22,16 +22,15 @@ export default function RootLayout({ children }) {
         <meta name="robots" content="noindex, nofollow" />
 
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"></link>
-        {/* <meta name="author" content="Glenn McClanan, Rio Create LLC" /> */}
+        <meta name="author" content="Little Bear Environmental" />
         <meta
           name="keywords"
-          content="lake management,
-          pond management,
-          aquatic ecosystem management,
-          lake and pond maintenance,
-          lake and pond restoration, algae control
-          aquatic weed control, water quality testing
-          New York environmental consulting, New Jersey environmental consulting"
+          content="lake management, pond management, aquatic ecosystem management, 
+          aquatic plants, pesticide application, invasive species control, 
+          pond restoration, algae control, aquatic weed control, water quality testing, 
+          environmental consulting, aeration systems, 
+          sustainable lake management, eco-friendly pond care, 
+          New York, New Jersey, NY, NJ, Westchester County, Long Island, Hudson Valley, North Jersey, Central Jersey"
         />
         <meta name="application-name" content="Little Bear Environmental" />
         <meta name="apple-mobile-web-app-title" content="Little Bear Environmental" />
@@ -41,13 +40,13 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:type" content="website" />
-        {/* <meta property="og:url" content="https://Littlebearenvironmental.ninja" /> */}
+        <meta property="og:url" content="https://Littlebearenvironmental.com" />
         <meta property="og:site_name" content="Little Bear Environmental" />
         <meta property="og:locale" content="en_US" />
-        {/* <meta
+        <meta
           property="og:image"
-          content="https://site-social-images.s3.amazonaws.com/verbing-ogimage.jpg"
-        />` */}
+          content="../public/images/social/pond-og-image.jpg"
+        />`
 
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
