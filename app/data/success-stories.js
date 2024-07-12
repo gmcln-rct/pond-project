@@ -64,8 +64,8 @@ export const successStories = [
       <h3>Project Documents & Reports:</h3>
       <ul>
         <li><a class="storyLink" href="http://dec.ny.gov/docs/lands_forests_pdf/croton5yrplan(1).pdf"> Peconic River Ludwigia Control 5-Year Management Plan</a></li>
-        <li><a  class="storyLink" href="http://dec.ny.gov/docs/lands_forests_pdf/waterprimrosefs.pdf"> Ludwigia peploides Fact Sheet</a></li>
-        <li><a  class="storyLink" href="http://dec.ny.gov/animals/122333.html"> Project Website</a></li>
+        <li><a class="storyLink" href="http://dec.ny.gov/docs/lands_forests_pdf/waterprimrosefs.pdf"> Ludwigia peploides Fact Sheet</a></li>
+        <li><a class="storyLink" href="https://dec.ny.gov/nature/animals-fish-plants/invasive-species/aquatic/control-projects"> Project Website</a></li>
 
         </ul>`,
     image: "/images/success/peconic/ludwigia-peploides.jpeg",
