@@ -55,7 +55,7 @@ export const services = [
     title: "Environmental Project Management & RFPs",
     navText: "Environmental Project Management",
     description:
-      "We have a strong history writitng invasive species management plans and offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects.",
+      "We have a strong history writing invasive species management plans and offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects.",
     longTextRte: `
       <p>At LBE, we offer comprehensive environmental project management services to ensure the successful planning, execution, and completion of your aquatic and terrestrial projects. Our experienced team of project managers, biologists, and environmental specialists work closely with you to understand your goals, constraints, and expectations, developing customized solutions that meet your unique needs. We also specialize in the development of Request for Proposals (RFPs) for environmental projects. </p>
       `,

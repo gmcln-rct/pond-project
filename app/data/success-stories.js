@@ -3,7 +3,7 @@ export const successStories = [
     id: "new-jersey-aquatic-invasive-species-managment",
     title: "New Jersey Aquatic Invasive Species Management Plan",
     description:
-      "Preparing environmental permits and grant applications for pond and lake management projects.",
+      "The New Jersey Aquatic Invasive Species Management Plan is a partnership created to prevent and control invasive species through integrated strategies.",
     longTextRte: `<article>
       <div class="storyWrapper">
       <div class="storyColumn">    
@@ -59,7 +59,7 @@ export const successStories = [
     id: "peconic-river-project",
     title: "Peconic River Ludwigia peploides Control Project",
     description:
-      "Water quality testing is an essential part of environmental management. It helps determine the health of aquatic ecosystems and identify potential threats to the environment.",
+      "LBE participated in a management plan for the control of Ludwigia peploides, a highly invasive aquatic plant in the Peconic River watershed.",
     longTextRte: `Little Bear worked on the team to develop NYSDEC’s 5-Year Peconic River Ludwigia peploides Management Plan. A pilot combination herbicide treatment took place in 2021, followed by full-scale treatment of the aquatic invasive plants floating-primrose willow (Ludwigia peploides) and European frogbit (Hydrocharis morsus-ranae). Project partners include SOLitude Lake Mangement (2021), The Pond and Lake Connection (2022-2024), and Adirondack Research (2022-2026).<br/>
       <h3>Project Documents & Reports:</h3>
       <ul>
