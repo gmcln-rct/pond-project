@@ -88,12 +88,12 @@ export const successStories = [
 
 <p class="textBox -yellow">Shoreline signage will be placed at public access points notifiying of all water use restrictions.</p>
 
-<div class="storyImageContainer"><img class="storyImage" data-attachment-id="2439" data-permalink="https://littlebearenvironmental.com/lake-sebago-hydrilla-control-project/swimming-restriction-map/" data-orig-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png" data-orig-size="1010,1610" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="swimming-restriction-map" data-image-description="" data-image-caption="" data-medium-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188" data-large-file="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=640" width="642" height="1023" src="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642" alt="" class="wp-image-2439" srcset="https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=642 642w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=94 94w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=188 188w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png?w=768 768w, https://littlebearenvironmental.com/wp-content/uploads/2023/06/swimming-restriction-map.png 1010w" sizes="(max-width: 642px) 100vw, 642px"></div>
+<div class="storyImageContainer"><img class="storyImage" src="/images/success/lake-sebago/swimming-restriction-map.png" alt=Lake Sebago Swimming Restrictions"/></div>
 
 <p class="storyText">A single application of a granular formulation of chelated copper (Harpoon) occured in July 2023 to &gt;1 acre of the lake. Product labels are linked below. Both target and non-target species were monitored for impacts throughout the season. </p>
 <h3 class="sectionHeader -border">Product Labels</h3>
 
-<p class="storyText">Product labels can be found <a href="https://littlebearenvironmental.com/nys-registered-pesticide-product-labels-special-local-needs-labels/">here</a></p>
+<p class="storyText">Product labels can be found <a href="../labels/">here</a></p>
 </div>
 
 <div class="storyColumn">
@@ -121,7 +121,7 @@ export const successStories = [
 <p class="storyText">A virtual meeting took place on May 7, 2024. This meeting included a presentation with background on the hydrilla infestation within Lake Sebago and provided details on the success of the 2023 treatment, and was followed by a Q&amp;A session. <a href="https://meetny.webex.com/recordingservice/sites/meetny/recording/816e6e25eea8103ca6be00505681bf78/playback">A recording is available here</a>.</p>
 
 <p class="storyText">A recording of the 2023 introductory meeting can be found here:<br><a href="https://www.youtube.com/watch?v=wVUqWArYlPo" target="_blank" rel="noreferrer noopener">A recording of the meeting is available on YouTube and can be found at this link</a>.</p>
-<img src="https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg" alt="dense-rake-lauren" class="wp-image-2438" srcset="https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=640 640w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=94 94w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=188 188w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg?w=768 768w, https://littlebearenvironmental.com/wp-content/uploads/2023/04/dense-rake-lauren.jpg 1010w" sizes="(max-width: 640px) 100vw, 640px" class="storyImage">
+<img class="storyImage" src="/images/success/lake-sebago/dense-rake-lauren.jpg" alt="dense-rake-lauren" >
 </div>
 </div>
 </div>
