@@ -9,8 +9,6 @@ html {
 }
 
 // START GLOBAL STYLES ********
-
-
 .content-wrapper {
   flex: 1;
   display: flex;
@@ -21,6 +19,30 @@ main {
   flex: 1;
 }
 
+.sectionHeader {
+  width: 100%;
+  margin: 2vmin 0 0 0;
+
+  font-size: 24px;
+  text-align: center;
+
+  .-border {
+    padding: 2vmin 0 0 0;
+    border-top: 1px solid #fff;
+  }
+
+}
+
+.storyLink {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+  // padding: 0 1vmin 0 1vmin;
+  color: $primary-color-grey-dark;
+  // text-decoration: none;
+  
+}
 .storyWrapper {
   display: flex;
   flex-direction: column;
@@ -81,19 +103,7 @@ main {
 
 }
 
-.sectionHeader {
-  width: 100%;
-  margin: 2vmin 0 0 0;
 
-  font-size: 24px;
-  text-align: center;
-
-  .-border {
-    padding: 2vmin 0 0 0;
-    border-top: 1px solid #fff;
-  }
-
-}
 
 .storyImageContainer {
   display: flex;

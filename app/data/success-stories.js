@@ -63,9 +63,9 @@ export const successStories = [
     longTextRte: `Little Bear worked on the team to develop NYSDEC’s 5-Year Peconic River Ludwigia peploides Management Plan. A pilot combination herbicide treatment took place in 2021, followed by full-scale treatment of the aquatic invasive plants floating-primrose willow (Ludwigia peploides) and European frogbit (Hydrocharis morsus-ranae). Project partners include SOLitude Lake Mangement (2021), The Pond and Lake Connection (2022-2024), and Adirondack Research (2022-2026).<br/>
       <h3>Project Documents & Reports:</h3>
       <ul>
-        <li><a href="http://dec.ny.gov/docs/lands_forests_pdf/croton5yrplan(1).pdf"> Peconic River Ludwigia Control 5-Year Management Plan</a></li>
-        <li><a href="http://dec.ny.gov/docs/lands_forests_pdf/waterprimrosefs.pdf"> Ludwigia peploides Fact Sheet</a></li>
-        <li><a href="http://dec.ny.gov/animals/122333.html"> Project Website</a></li>
+        <li><a class="storyLink" href="http://dec.ny.gov/docs/lands_forests_pdf/croton5yrplan(1).pdf"> Peconic River Ludwigia Control 5-Year Management Plan</a></li>
+        <li><a  class="storyLink" href="http://dec.ny.gov/docs/lands_forests_pdf/waterprimrosefs.pdf"> Ludwigia peploides Fact Sheet</a></li>
+        <li><a  class="storyLink" href="http://dec.ny.gov/animals/122333.html"> Project Website</a></li>
 
         </ul>`,
     image: "/images/success/peconic/ludwigia-peploides.jpeg",
