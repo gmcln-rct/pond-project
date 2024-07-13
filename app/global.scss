@@ -1,5 +1,5 @@
-@use "./_variables.scss" as *;
 @use '_reset.scss';
+@use "./_variables.scss" as *;
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
@@ -19,6 +19,8 @@ main {
   flex: 1;
 }
 
+// For inline styles on success and services pages
+
 .sectionHeader {
   width: 100%;
   margin: 2vmin 0 0 0;
@@ -34,14 +36,16 @@ main {
 }
 
 .storyLink {
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: center;
-  // align-items: center;
-  // padding: 0 1vmin 0 1vmin;
-  color: $primary-color-grey-dark;
-  // text-decoration: none;
-  
+  color:  $link-hover-darkest;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+      color: $link-hover-darker;
+      transform: scale(1.5);
+
+      transition: 0.3s ease-in-out;
+  }
 }
 .storyWrapper {
   display: flex;
