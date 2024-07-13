@@ -48,7 +48,7 @@ export const services = [
       <p>Based on our findings, we create custom-tailored management plans that incorporate a multi-faceted approach to managing, or where feasible, eradicating invasive species. This may include targeted removal efforts, such as manual harvesting, selective herbicide applications, and restoration of native species.</p>
       <p>In addition to control and eradication measures, our invasive species management plans also include strategies for preventing future invasions. We provide education and guidance on best practices for minimizing the risk of introducing invasive species, such as proper boat cleaning protocols and monitoring of potential entry points.</p>
       <p>Throughout the implementation of our management plans, we work closely with our clients, providing regular progress updates and making adjustments as needed to ensure the best possible outcomes. Our ultimate goal is to restore and maintain the ecological integrity of your aquatic environments, promoting the recovery and resilience of native species and habitats.</p>`,
-    image: "/images/pond-and-trees.jpg.jpg",
+    image: "/images/pond-and-trees.jpg",
   },
   {
     id: "environmental-project-management",
