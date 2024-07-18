@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 
 export const metadata = {
   title:
-    "Little Bear Environmental | Environmental consultants for New York & New Jersey",
+    "Little Bear Environmental | Environmental Consultants for NY & NJ",
   template: "%s | Little Bear Environmental",
   description:
     "Little Bear Environmental provides a variety of natural resource services for municipalities, non-profit organizations, and private landowners.",
@@ -33,8 +33,7 @@ export default function RootLayout({ children }) {
         <meta name="author" content="Little Bear Environmental" />
         <meta
           name="keywords"
-          content="lake management, pond management, aquatic ecosystem management, 
-          aquatic plants, pesticide application, invasive species control, 
+          content="lake management, pond management, aquatic plants, pesticide application, invasive species control, 
           pond restoration, algae control, aquatic weed control, water quality testing, 
           environmental consulting, aeration systems, 
           sustainable lake management, eco-friendly pond care, 
