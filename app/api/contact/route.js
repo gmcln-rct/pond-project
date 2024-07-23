@@ -59,9 +59,9 @@ export async function POST(request) {
     const logoContent = fs.readFileSync(logoPath).toString('base64');
 
     const mailOptionsToUser = {
-      from: process.env.EMAIL_USER,
+      from: `"LBE Team" <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: 'Thanks for your message - Little Bear Environmental',
+      subject: 'Message Received - Little Bear Environmental',
       html: `
         <p>Dear ${name},</p>
         <p>Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.</p>
@@ -72,14 +72,15 @@ export async function POST(request) {
           <strong>Phone:</strong> ${phone}<br>
           <strong>Message:</strong> ${message}
         </p>
-        <p>Love ya. Mean it.<br>The LBE Team</p>
-        <img src="cid:logo" alt="LBE Logo" style="width: 80%; height: auto;">
+        <p>Best regards,<br>The LBE Team</p>
+        <img src="cid:logo" alt="LBE Logo" style="width: 80%; max-width: 400px; height: auto;">
+        <p style="color: #3b3e38; font-size: 10px; margin-top: 40px;">If you no longer wish to receive emails from us, you can <a href="#">unsubscribe</a> at any time.</p>
       `,
       attachments: [
         {
           filename: 'logo.png',
           path: logoPath,
-          cid: 'logo' // same cid value as in the html img src
+          cid: 'logo', // same cid value as in the html img src
         },
       ],
     };
