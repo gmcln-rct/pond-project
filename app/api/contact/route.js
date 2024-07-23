@@ -72,8 +72,8 @@ export async function POST(request) {
           <strong>Phone:</strong> ${phone}<br>
           <strong>Message:</strong> ${message}
         </p>
-        <p>Best regards,<br>The LBE Team</p>
-        <img src="cid:logo" alt="LBE Logo" style="width: 100px; height: auto;">
+        <p>Love ya. Mean it.<br>The LBE Team</p>
+        <img src="cid:logo" alt="LBE Logo" style="width: 80%; height: auto;">
       `,
       attachments: [
         {
