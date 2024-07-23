@@ -1,7 +1,6 @@
 import nodemailer from 'nodemailer';
 import { NextResponse } from 'next/server';
 
-
 export async function POST(request) {
   if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
     console.error('Missing email configuration');
@@ -42,7 +41,7 @@ export async function POST(request) {
       throw new Error('Email transporter verification failed');
     }
 
-    const mailOptions = {
+    const mailOptionsToOwner = {
       from: process.env.EMAIL_USER,
       to: 'gmcclanan1@gmail.com',
       subject: `LBE Form - New message from ${name}`,
@@ -54,19 +53,44 @@ export async function POST(request) {
       `,
     };
 
-    console.log('Sending email');
-    await transporter.sendMail(mailOptions);
-    console.log('Email sent successfully');
+    const mailOptionsToUser = {
+      from: process.env.EMAIL_USER,
+      to: email,
+      subject: 'Acknowledgment of Your Message',
+      text: `
+        Dear ${name},
+
+        Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.
+
+        Here is a copy of your message:
+        
+        Name: ${name}
+        Email: ${email}
+        Phone: ${phone}
+        Message: ${message}
+
+        Best regards,
+        The LBE Team
+      `,
+    };
+
+    console.log('Sending email to site owner');
+    await transporter.sendMail(mailOptionsToOwner);
+    console.log('Email to site owner sent successfully');
+
+    console.log('Sending acknowledgment email to user');
+    await transporter.sendMail(mailOptionsToUser);
+    console.log('Acknowledgment email to user sent successfully');
 
     return NextResponse.json(
-      { message: 'Email sent successfully' },
-      { 
+      { message: 'Emails sent successfully' },
+      {
         status: 200,
         headers: {
           'Access-Control-Allow-Origin': '*',
           'Access-Control-Allow-Methods': 'POST',
           'Access-Control-Allow-Headers': 'Content-Type',
-        }
+        },
       }
     );
   } catch (error) {
