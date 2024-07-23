@@ -1,5 +1,7 @@
 import nodemailer from 'nodemailer';
 import { NextResponse } from 'next/server';
+import path from 'path';
+import fs from 'fs';
 
 export async function POST(request) {
   if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
@@ -53,25 +55,33 @@ export async function POST(request) {
       `,
     };
 
+    const logoPath = path.join(process.cwd(), 'public/images', 'little-bear-email.png');
+    const logoContent = fs.readFileSync(logoPath).toString('base64');
+
     const mailOptionsToUser = {
       from: process.env.EMAIL_USER,
       to: email,
-      subject: 'Acknowledgment of Your Message',
-      text: `
-        Dear ${name},
-
-        Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.
-
-        Here is a copy of your message:
-        
-        Name: ${name}
-        Email: ${email}
-        Phone: ${phone}
-        Message: ${message}
-
-        Best regards,
-        The LBE Team
+      subject: 'Thanks for your message - Little Bear Environmental',
+      html: `
+        <p>Dear ${name},</p>
+        <p>Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.</p>
+        <p>Here is a copy of your message:</p>
+        <p>
+          <strong>Name:</strong> ${name}<br>
+          <strong>Email:</strong> ${email}<br>
+          <strong>Phone:</strong> ${phone}<br>
+          <strong>Message:</strong> ${message}
+        </p>
+        <p>Best regards,<br>The LBE Team</p>
+        <img src="cid:logo" alt="LBE Logo" style="width: 100px; height: auto;">
       `,
+      attachments: [
+        {
+          filename: 'logo.png',
+          path: logoPath,
+          cid: 'logo' // same cid value as in the html img src
+        },
+      ],
     };
 
     console.log('Sending email to site owner');
