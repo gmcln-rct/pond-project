@@ -73,8 +73,11 @@ export async function POST(request) {
           <strong>Message:</strong> ${message}
         </p>
         <p>Best regards,<br>The LBE Team</p>
-        <img src="cid:logo" alt="LBE Logo" style="width: 80%; max-width: 400px; height: auto;">
-        <p style="color: #3b3e38; font-size: 10px; margin-top: 40px;">If you no longer wish to receive emails from us, you can <a href="#">unsubscribe</a> at any time.</p>
+        <img src="cid:logo" alt="LBE Logo" style="width: 80%; max-width: 250px; height: auto;">
+        <p style="color: #3b3e38; font-size: 10px; margin-top: 40px;">
+          If you no longer wish to receive emails from us, you can 
+          <a href="${process.env.BASE_URL}/api/unsubscribe?email=${encodeURIComponent(email)}">unsubscribe</a> at any time.
+        </p>
       `,
       attachments: [
         {
