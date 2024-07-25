@@ -4,6 +4,8 @@
 import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 
+import styles from './page.module.scss';
+
 export default function UnsubscribePage() {
   const searchParams = useSearchParams();
   const email = searchParams.get('email');
@@ -28,10 +30,10 @@ export default function UnsubscribePage() {
   }
 
   return (
-    <div>
-      <p>Do you want to unsubscribe from any emails from Little Bear?</p>
-      <p>Email: {email}</p>
-      <button onClick={handleConfirm}>Confirm</button>
+    <div className={styles.unsubscribe}>
+      <p className={styles.unsubscribe__content}>Email: {email}</p>
+      <p className={styles.unsubscribe__content}>Do you want to unsubscribe from any emails from Little Bear?</p>
+      <button className={styles.unsubscribe__button} onClick={handleConfirm}>Confirm</button>
     </div>
   );
 }
