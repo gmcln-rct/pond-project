@@ -1,14 +1,16 @@
+'use client';
+
+// app/unsubscribe/page.js
 import { useState } from 'react';
-import { useRouter } from 'next/router';
+import { useSearchParams } from 'next/navigation';
 
-export default function UnsubscribePage() => {
-  const router = useRouter();
-  const { email } = router.query;
-  const [confirmationMessage, setConfirmationMessage] = useState('');
+export default function UnsubscribePage() {
+  const searchParams = useSearchParams();
+  const email = searchParams.get('email');
+  const [confirmed, setConfirmed] = useState(false);
 
-  const handleUnsubscribe = async (event) => {
-    event.preventDefault();
-    const res = await fetch('/api/unsubscribe', {
+  const handleConfirm = async () => {
+    const response = await fetch('/api/unsubscribe', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -16,29 +18,20 @@ export default function UnsubscribePage() => {
       body: JSON.stringify({ email }),
     });
 
-    if (res.ok) {
-      setConfirmationMessage('You have been unsubscribed.');
-    } else {
-      setConfirmationMessage('There was an error. Please try again.');
+    if (response.ok) {
+      setConfirmed(true);
     }
   };
 
+  if (confirmed) {
+    return <p>You have been unsubscribed from our mailing list.</p>;
+  }
+
   return (
     <div>
-      <h1>Unsubscribe</h1>
-      {email ? (
-        <>
-          <p>Do you want to unsubscribe from any emails from Little Bear?</p>
-          <form onSubmit={handleUnsubscribe}>
-            <input type="hidden" name="email" value={email} />
-            <button type="submit">Confirm</button>
-          </form>
-        </>
-      ) : (
-        <p>Email not provided.</p>
-      )}
-      {confirmationMessage && <p>{confirmationMessage}</p>}
+      <p>Do you want to unsubscribe from any emails from Little Bear?</p>
+      <p>Email: {email}</p>
+      <button onClick={handleConfirm}>Confirm</button>
     </div>
   );
-};
-
+}

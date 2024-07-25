@@ -1,6 +1,8 @@
 import nodemailer from 'nodemailer';
 import { NextResponse } from 'next/server';
 
+// UNSUBSCRIBE ENDPOINT
+
 export async function POST(request) {
   if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
     console.error('Missing email configuration');

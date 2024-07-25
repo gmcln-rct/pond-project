@@ -3,6 +3,8 @@ import { NextResponse } from 'next/server';
 import path from 'path';
 import fs from 'fs';
 
+// CONTACT API ENDPOINT
+
 export async function POST(request) {
   if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
     console.error('Missing email configuration');
@@ -76,7 +78,7 @@ export async function POST(request) {
         <img src="cid:logo" alt="LBE Logo" style="width: 80%; max-width: 250px; height: auto;">
         <p style="color: #3b3e38; font-size: 10px; margin-top: 40px;">
           If you no longer wish to receive emails from us, you can 
-          <a href="${process.env.BASE_URL}/api/unsubscribe?email=${encodeURIComponent(email)}">unsubscribe</a> at any time.
+          <a href="${process.env.BASE_URL}/unsubscribe?email=${encodeURIComponent(email)}">unsubscribe</a> at any time.
         </p>
       `,
       attachments: [
