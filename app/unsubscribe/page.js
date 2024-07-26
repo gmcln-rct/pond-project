@@ -1,12 +1,12 @@
 'use client';
 
-import { useState, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import styles from './page.module.scss';
 
 function UnsubscribeContent() {
-  const searchParams = useSearchParams();
-  const email = searchParams.get('email');
+  const router = useRouter();
+  const { email } = router.query;
   const [confirmed, setConfirmed] = useState(false);
 
   const handleConfirm = async () => {
