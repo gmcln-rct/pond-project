@@ -69,22 +69,27 @@ export async function POST(request) {
       to: email,
       subject: "Message Received - Little Bear Environmental",
       html:  `
-      <body style="background-color: #ffffff; font-family: 'Roboto', sans-serif; color: #3b4c68;">
-        <p style="margin: 0 0 15px 0;">Dear ${name},</p>
-        <p style="margin: 0 0 15px 0;">Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.</p>
-        <p style="margin: 0 0 15px 0;">Here is a copy of your message:</p>
-        <p style="margin: 0 0 15px 0;">
-          <strong>Name:</strong> ${name}<br>
-          <strong>Email:</strong> ${email}<br>
-          <strong>Phone:</strong> ${phone}<br>
-          <strong>Message:</strong> ${message}
-        </p>
-        <p style="margin: 0 0 15px 0;">Best regards,<br>The LBE Team</p>
-          <img src="cid:logo" alt="LBE Logo" style="width: 100%; max-width: 400px; height: auto; margin: 0 0 15px 0;">
-        <p style="color: #3b3e38; font-size: 10px; margin-top: 40px;">
-          If you no longer wish to receive emails from us, you can 
-          <a href="${process.env.BASE_URL}/unsubscribe?email=${encodeURIComponent(email)}">unsubscribe</a> at any time.
-        </p>
+      <body style="background-color: #ffffff; font-family: 'Roboto', sans-serif; color: #3b4c68; padding: 20px;">
+      <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 5px;">
+          <p style="margin: 0 0 15px 0;">Dear ${name},</p>
+          <p style="margin: 0 0 15px 0;">Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.</p>
+          <p style="margin: 0 0 15px 0;">Here is a copy of your message:</p>
+          <p style="margin: 0 0 15px 0;">
+          <p style="margin: 0 0 15px 0; background-color: #f9f9f9; padding: 10px; border-left: 4px solid #3b3e38;">
+            <strong>Name:</strong> ${name}<br>
+            <strong>Email:</strong> ${email}<br>
+            <strong>Phone:</strong> ${phone}<br>
+            <strong>Message:</strong> ${message}
+          </p>
+          <p style="margin: 0 0 15px 0;">Best regards,<br>The LBE Team</p>
+          <div style="text-align: center;">
+            <img src="cid:logo" alt="Little Bear Logo" style="display: inline-block; width: auto; max-width: 400px; height: auto; margin: 0 0 15px 0;">
+          </div>
+          <p style="color: #3b3e38; font-size: 10px; margin-top: 40px;">
+            If you no longer wish to receive emails from us, you can 
+            <a href="${process.env.BASE_URL}/unsubscribe?email=${encodeURIComponent(email)}">unsubscribe</a> at any time.
+          </p>
+        </div>
       </body>
       `,
       attachments: [
