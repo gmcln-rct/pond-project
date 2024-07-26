@@ -1,7 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { Suspense } from 'react';
+
 import styles from './page.module.scss';
 
 function UnsubscribeContent() {
