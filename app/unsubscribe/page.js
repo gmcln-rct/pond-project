@@ -1,12 +1,10 @@
 'use client';
 
-// app/unsubscribe/page.js
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
-
 import styles from './page.module.scss';
 
-export default function UnsubscribePage() {
+function UnsubscribeContent() {
   const searchParams = useSearchParams();
   const email = searchParams.get('email');
   const [confirmed, setConfirmed] = useState(false);
@@ -35,5 +33,13 @@ export default function UnsubscribePage() {
       <p className={styles.unsubscribe__content}>Do you want to unsubscribe from any emails from Little Bear?</p>
       <button className={styles.unsubscribe__button} onClick={handleConfirm}>Confirm</button>
     </div>
+  );
+}
+
+export default function UnsubscribePage() {
+  return (
+    <Suspense fallback={<p>Loading...</p>}>
+      <UnsubscribeContent />
+    </Suspense>
   );
 }
