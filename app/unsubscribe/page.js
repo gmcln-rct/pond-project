@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { Suspense } from 'react';
 
@@ -8,10 +8,18 @@ import styles from './page.module.scss';
 
 function UnsubscribeContent() {
   const router = useRouter();
-  const { email } = router.query;
+  const [email, setEmail] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
 
+  useEffect(() => {
+    if (router.query && router.query.email) {
+      setEmail(router.query.email);
+    }
+  }, [router.query]);
+
   const handleConfirm = async () => {
+    if (!email) return;
+
     const response = await fetch('/api/unsubscribe', {
       method: 'POST',
       headers: {
@@ -31,9 +39,15 @@ function UnsubscribeContent() {
 
   return (
     <div className={styles.unsubscribe}>
-      <p className={styles.unsubscribe__content}>Email: {email}</p>
-      <p className={styles.unsubscribe__content}>Do you want to unsubscribe from any emails from Little Bear?</p>
-      <button className={styles.unsubscribe__button} onClick={handleConfirm}>Confirm</button>
+      {email ? (
+        <>
+          <p className={styles.unsubscribe__content}>Email: {email}</p>
+          <p className={styles.unsubscribe__content}>Do you want to unsubscribe from any emails from Little Bear?</p>
+          <button className={styles.unsubscribe__button} onClick={handleConfirm}>Confirm</button>
+        </>
+      ) : (
+        <p>Loading...</p>
+      )}
     </div>
   );
 }
