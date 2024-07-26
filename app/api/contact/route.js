@@ -69,10 +69,6 @@ export async function POST(request) {
       to: email,
       subject: "Message Received - Little Bear Environmental",
       html:  `
-      <!DOCTYPE html>
-      <html>
-      <head>
-      </head>
       <body style="background-color: #f0f0f0; font-family: 'Roboto', sans-serif; color: #3b3e38;">
         <p style="margin: 0 0 15px 0;">Dear \${name},</p>
         <p style="margin: 0 0 15px 0;">Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.</p>
@@ -90,7 +86,6 @@ export async function POST(request) {
           <a href="\${process.env.BASE_URL}/unsubscribe?email=\${encodeURIComponent(email)}">unsubscribe</a> at any time.
         </p>
       </body>
-      </html>
       `,
       attachments: [
         {
