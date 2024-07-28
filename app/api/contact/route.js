@@ -49,11 +49,17 @@ export async function POST(request) {
       from: process.env.EMAIL_USER,
       to: "gmcclanan1@gmail.com",
       subject: `LBE Form - New message from ${name}`,
-      text: `
-        Name: ${name}
-        Email: ${email}
-        Phone: ${phone}
-        Message: ${message}
+      html: `
+            <body style="background-color: #ffffff; font-family: 'Roboto', sans-serif; color: #3b4c68; padding: 20px;">
+      <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 5px;">
+              <p style="margin: 0 0 15px 0; background-color: #f9f9f9; padding: 10px; border-left: 4px solid #3b3e38;">
+                Name: ${name}
+                Email: ${email}
+                Phone: ${phone}
+                Message: ${message}
+              </p>
+             </div>
+      </body>
       `,
     };
 
@@ -68,7 +74,7 @@ export async function POST(request) {
       from: `"LBE Team" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: "Message Received - Little Bear Environmental",
-      html:  `
+      html: `
       <body style="background-color: #ffffff; font-family: 'Roboto', sans-serif; color: #3b4c68; padding: 20px;">
       <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 20px; border-radius: 5px;">
           <p style="margin: 0 0 15px 0;">Dear ${name},</p>
@@ -87,7 +93,11 @@ export async function POST(request) {
           </div>
           <p style="color: #3b3e38; font-size: 10px; margin-top: 40px;">
             If you no longer wish to receive emails from us, you can 
-            <a href="${process.env.BASE_URL}/unsubscribe?email=${encodeURIComponent(email)}">unsubscribe</a> at any time.
+            <a href="${
+              process.env.BASE_URL
+            }/unsubscribe?email=${encodeURIComponent(
+        email
+      )}">unsubscribe</a> at any time.
           </p>
         </div>
       </body>
