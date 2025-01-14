@@ -3,7 +3,7 @@ export const certificationData = [
     title: "Certified Lake Manager",
     description:
       "Nicole White is a Certified Lake Manager by the North American Lake Management Society (NALMS).",
-    subdescription: "Cert # 21-05M3 /n NJ #: 92152B",
+    subdescription: "Cert # 21-05M /n NJ #: 92152B",
     certificationNumbers: ["Cert # 21-05M3"],
     image: "/images/certifications/lakemanager.png",
     imageStyle: "certification",
