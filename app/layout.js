@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="index, follow" />
         <link
           href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet"
@@ -49,13 +49,19 @@ export default function RootLayout({ children }) {
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:type" content="website" />
-        {/* <meta property="og:url" content="https://Littlebearenvironmental.com" /> */}
+        <meta property="og:url" content="https://Littlebearenv.com" />
         <meta property="og:site_name" content="Little Bear Environmental" />
         <meta property="og:locale" content="en_US" />
         <meta
           property="og:image"
-          content="../public/images/social/pond-og-image.jpg"
+          content="https://littlebearenv.com/images/social/pond-og-image.jpg"
         />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metadata.title} />
+        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:image" content="https://littlebearenv.com/images/social/pond-og-image.jpg" />
+
 
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
