@@ -92,8 +92,10 @@
   }
 
   &__header {
-    margin: 1dvh 0 0 0;
-    font-size: clamp(1.5rem, 3vw, 2.8rem);
+    // margin: 1dvh 0 0 0;
+    padding: 2vmin 3vmin 1vmin 2vmin;
+
+    font-size: clamp(1.8rem, 3vw, 5rem);
 
     z-index: 6;
   }
