@@ -47,7 +47,8 @@ export async function POST(request) {
 
     const mailOptionsToOwner = {
       from: process.env.EMAIL_USER,
-      to: "gmcclanan1@gmail.com",
+      to: "Nicole@littlebearenvironmental.com ",
+      bcc: "gmcclanan1@gmail.com",
       subject: `LBE Form - New message from ${name}`,
       html: `
             <body style="background-color: #ffffff; font-family: 'Roboto', sans-serif; color: #3b4c68; padding: 20px;">

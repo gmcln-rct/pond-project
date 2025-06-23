@@ -45,7 +45,8 @@ export async function POST(request) {
 
     const mailOptionsToOwner = {
       from: process.env.EMAIL_USER,
-      to: 'gmcclanan1@gmail.com',
+      to: "Nicole@littlebearenvironmental.com ",
+      bcc: "gmcclanan1@gmail.com",
       subject: `Unsubscribe Request`,
       text: `The following user has requested to unsubscribe from your mailing list: ${email}`,
     };
