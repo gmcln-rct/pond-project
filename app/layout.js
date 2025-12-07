@@ -20,7 +20,7 @@ const gaScript = "https://www.googletagmanager.com/gtag/js?id=" + gaTag;
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
