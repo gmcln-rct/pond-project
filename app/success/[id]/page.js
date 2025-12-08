@@ -1,13 +1,9 @@
 import Image from "next/image";
-import dynamic from "next/dynamic";
 
 import SocialMediaContainer from "../../components/social-media-container";
+import IndividualStoryRTE from "./individual-story-rte-client";
 
 import { successStories } from "../../data/success-stories";
-
-const IndividualStoryRTE = dynamic(() => import("./individual-story-rte"), {
-  ssr: false,
-});
 
 import styles from "./page.module.scss";
 
