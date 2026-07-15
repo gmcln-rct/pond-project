@@ -17,7 +17,7 @@
     "@mui/icons-material": "^5.16.10",
     "@mui/material": "^5.16.10",
     "next": "^16.0.10",
-    "nodemailer": "^8.0.5",
+    "nodemailer": "^9.0.3",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "sass": "^1.70.0"
@@ -25,5 +25,8 @@
   "devDependencies": {
     "eslint": "^9",
     "eslint-config-next": "16.0.7"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
   }
 }
